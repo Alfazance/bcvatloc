@@ -1,0 +1,22 @@
+{
+  "id": "c31bca2d-30bb-43f3-a052-42d1bac6a4da",
+  "name": "UAELoc",
+  "publisher": "Alfazance Consulting",
+  "brief": "UAE Localizations",
+  "description": "VAT Localizations for the UAE Market",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "12.0.0.0",
+  "application": "12.0.0.0",
+  "idRange": {
+    "from": 70140921,
+    "to": 70141920
+  }
+}
