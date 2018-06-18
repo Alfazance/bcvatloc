@@ -8,7 +8,7 @@ pageextension 70141920 CustomerListExt extends "Customer List"
     begin
         //report.Run(Report::"FAF Supplier Transaction");
         //Report.Run(Report::"FAF Customer Transaction");
-        Report.Run(Report::"FAF GL Transaction");
+        //∏Report.Run(Report::"FAF GL Transaction");
         
     end;
 }
