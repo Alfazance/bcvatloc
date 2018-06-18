@@ -14,9 +14,13 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "12.0.0.0",
-  "application": "12.0.0.0",
-  "idRange": {
+  "application": "12.0.0.0",  
+  "idRange": 
+  {
     "from": 70140921,
     "to": 70141920
-  }
+  },
+  "features": [
+    "TranslationFile"
+  ]
 }
