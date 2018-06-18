@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="UAELoc">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table:VAT Group Code - Table:VAT Group Code</note>
+        </trans-unit>
+        <trans-unit id="Table 2132783427 - Field 1663794414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table:VAT Group Code - Field:Group Code</note>
+        </trans-unit>
+        <trans-unit id="Table 2132783427 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table:VAT Group Code - Field:Description</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Code List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page:VAT Group Code List - Page:VAT Group Code List</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Customer Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - Report:FAF Customer Transaction</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:PeriodStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:PeriodEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 878538963" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerName</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:CustomerNamelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 474197226" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerTIN/TRN</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:CustomerTRNlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceDate</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:InvoiceDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:InvoiceNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 3671866840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SuppDataStart</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:SuppDataStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 471845765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SuppDataEnd</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:SuppDataEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 720846694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:Countrylbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LineNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:LineNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProductDescription</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:ProductDescriptionlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 3683288296" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplyValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:SupplyValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:VATValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TaxCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:TaxCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FCYCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:FCYCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1071130175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplyFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:SupplyFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:VATFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1509300695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplyTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:SupplyTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:VATTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionTotalCount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Customer Transaction - GlobalVariable:TransactionTotalCountlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF GL Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - Report:FAF GL Transaction</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 1514742955" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLDataStart</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:GLDataStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 3099367430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionDate</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TransactionDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 2262046754" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AccountID</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:AccountIDlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 4183359992" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AccountName</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:AccountNamelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 1652347548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionDescription</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TransactionDescriptionlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 1976605519" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:Namelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 633976421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionID</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TransactionIDlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 2674596655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceDocumentID</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:SourceDocumentIDlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 767823425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceType</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:SourceTypelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 4281852984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:Debitlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 2187452521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:Creditlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 960122904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:Balancelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 1802982802" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLDataEnd</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:GLDataEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 3054436306" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalDebit</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TotalDebitlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 2840260111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TotalCredit</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TotalCreditlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 2032766545" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionCountTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:TransactionCountTotallbl</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - NamedType 1097777974" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLTCurrency</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF GL Transaction - GlobalVariable:GLTCurrencylbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Supplier Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - Report:FAF Supplier Transaction</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PeriodStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PeriodEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplierName</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:SupplierNamelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplierTIN/TRN</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:SupplierTRNlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceDate</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:InvoiceDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:InvoiceNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurcDataStart</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PurcDataStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurcDataEnd</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PurcDataEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PermitNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PermitNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LineNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:LineNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProductDescription</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:ProductDescriptionlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PurchaseValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:VATValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TaxCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:TaxCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FCYCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:FCYCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PurchaseFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:VATFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:PurchaseTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:VATTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionTotalCount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction - GlobalVariable:TransactionTotalCountlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Supplier Transaction1</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - Report:FAF Supplier Transaction1</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PeriodStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PeriodEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplierName</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:SupplierNamelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SupplierTIN/TRN</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:SupplierTRNlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceDate</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:InvoiceDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvoiceNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:InvoiceNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurcDataStart</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PurcDataStartlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurcDataEnd</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PurcDataEndlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PermitNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PermitNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LineNo</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:LineNolbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProductDescription</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:ProductDescriptionlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PurchaseValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATValue</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:VATValueLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TaxCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:TaxCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FCYCode</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:FCYCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PurchaseFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATFCY</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:VATFCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurchaseTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:PurchaseTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATTotal</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:VATTotalLCYlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TransactionTotalCount</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:FAF Supplier Transaction1 - GlobalVariable:TransactionTotalCountlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - Report:MyRdlReport</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 4270268743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - List</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 4045355928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Posting Group</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Customer_Posting_GroupCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 3726630395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust./Item Disc. Gr.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Customer_Disc_GroupCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 3174556730" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Disc. Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Invoice_Disc_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 2998733123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Group Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Customer_Price_GroupCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 2227652327" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Payment_Terms_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 2604670390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Customer_Currency_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4021238820 - NamedType 2043768468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total (LCY)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Total_LCY_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 4210385371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UAE VAT Localization</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:UAE VAT Localization</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 872395810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name En</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Taxable Person Name En</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 4233780266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name AR</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Taxable Person Name AR</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 897789303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Tax Agency Name</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 3236902307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Number</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Tax Agency Number</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 1855851269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Tax Agent Name</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 1535282956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Approval Number</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:Tax Agent Approval Number</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 3709714800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Version No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:Company Information Ext - Control:FAF Version No.</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3445070746 - Control 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:VAT Posting Setup Page Ext - Control:VAT Group Code</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 872395810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name En</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Taxable Person Name En</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 4233780266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name AR</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Taxable Person Name AR</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 897789303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Tax Agency Name</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 3236902307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Number</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Tax Agency Number</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 1855851269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Name</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Tax Agent Name</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 1535282956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Approval Number</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:Tax Agent Approval Number</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3595798924 - Field 3709714800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Version No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:Company Info Ext - Field:FAF Version No.</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3373402357 - Field 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension:VAT Posting Setup Table Ext - Field:VAT Group Code</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
