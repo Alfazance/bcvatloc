@@ -478,6 +478,26 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Report:MyRdlReport - GlobalVariable:Total_LCY_CaptionLbl</note>
         </trans-unit>
+        <trans-unit id="PageExtension 214128802 - Action 3999489444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Audit File</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:AccManRoleCenterVATLocExt - Action:VAT Audit File</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 214128802 - Action 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Customer Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:AccManRoleCenterVATLocExt - Action:FAF Customer Transaction</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 214128802 - Action 1581037739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Supplier Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:AccManRoleCenterVATLocExt - Action:FAF Supplier Transaction</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 214128802 - Action 972630994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF GL Transaction</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension:AccManRoleCenterVATLocExt - Action:FAF GL Transaction</note>
+        </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 4210385371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Localization</source>
           <note from="Developer" annotates="general" priority="2" />
