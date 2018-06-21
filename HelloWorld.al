@@ -16,6 +16,8 @@ pageextension 70141920 CustomerListExt extends "Customer List"
 
     trigger OnOpenPage();
     begin        
+        page.Run(Page::"UAE VAT Return");
+        
         //report.Run(Report::"FAF Supplier Transaction");
         //Report.Run(Report::"FAF Customer Transaction");
         //Report.Run(Report::"FAF GL Transaction");

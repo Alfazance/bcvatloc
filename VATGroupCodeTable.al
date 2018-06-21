@@ -8,11 +8,14 @@ table 70140921 "VAT Group Code"
         field(1;"Group Code"; Code[10])
         {
             
-            DataClassification = ToBeClassified;
         }
         field(2; Description; Text[50])
         {
-            DataClassification = ToBeClassified;
+            
+        }
+        field(3;"Sequence No."; Integer)
+        {
+            
         }
     }
     
@@ -49,7 +52,7 @@ table 70140921 "VAT Group Code"
     
 }
 
-page 70140922 "VAT Group Code List"
+page 70140921 "VAT Group Code List"
 {
     
     PageType = List;
@@ -63,11 +66,15 @@ page 70140922 "VAT Group Code List"
         {
             repeater(General)
             {
-                field("Group Code"; "Group Code")
+                field(GroupCode; "Group Code")
                 {
                     ApplicationArea = All;
                 }
                 field(Description;Description)
+                {
+                    ApplicationArea = All;
+                }
+                field(SequenceNo ; "Sequence No.")
                 {
                     ApplicationArea = All;
                 }

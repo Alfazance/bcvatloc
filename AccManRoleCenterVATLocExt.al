@@ -9,14 +9,19 @@ pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Rol
         // Add changes to page actions here
         addafter("Intrastat &Journal")
         {
-            group("VAT Audit File")
+            group("UAE VAT Localization Reports")
             {
-                Caption = 'VAT Audit File';
-                
+                Caption = 'UAE VAT Localization Reports';
+                action("UAE VAT Return")
+                {
+                    Caption = 'UAE VAT Return';
+                    RunObject = Page "UAE VAT Return"; 
+                    
+                }
                 action("FAF Customer Transaction")
                 {
-                    
                     Caption = 'FAF Customer Transaction';
+                    ApplicationArea = All;
                     trigger OnAction()
                     var
                         FAFGLTransaction : Report "FAF Customer Transaction";
@@ -26,6 +31,7 @@ pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Rol
                         ExportFileName : Text;
                         Tempblob : REcord TempBlob temporary;
                     begin
+                        Message('Hello');
                         XMLParameter := Report.RunRequestPage(70140922);
                         Tempblob.Blob.CreateInStream(ExportFile);
                         Tempblob.Blob.CreateOutStream(ExportStream);
@@ -35,50 +41,7 @@ pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Rol
                         DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
                     END;    
                 }
-                action("FAF Supplier Transaction")
-                {
-                    
-                    Caption = 'FAF Supplier Transaction';
-                    trigger OnAction()
-                    var
-                        FAFGLTransaction : Report "FAF Supplier Transaction";
-                        ExportStream : OutStream;
-                        XMLParameter : Text;    
-                        ExportFile : InStream;
-                        ExportFileName : Text;
-                        Tempblob : REcord TempBlob temporary;
-                    begin
-                        XMLParameter := Report.RunRequestPage(70140921);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        Report.SaveAs(70140921,XMLParameter, ReportFormat::Excel, ExportStream);                        
-
-                        ExportFileName := 'FAFSupplierTransaction'+XMLParameter+'.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
-                    END;    
-                }
-                action("FAF GL Transaction")
-                {
-                    
-                    Caption = 'FAF GL Transaction';
-                    trigger OnAction()
-                    var
-                        FAFGLTransaction : Report "FAF GL Transaction";
-                        ExportStream : OutStream;
-                        XMLParameter : Text;    
-                        ExportFile : InStream;
-                        ExportFileName : Text;
-                        Tempblob : REcord TempBlob temporary;
-                    begin
-                        XMLParameter := Report.RunRequestPage(70140923);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        Report.SaveAs(70140923,XMLParameter, ReportFormat::Excel, ExportStream);                        
-
-                        ExportFileName := 'FAFGLTransaction'+XMLParameter+'.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
-                    END;    
-                }
+                
             }
         }
     }
