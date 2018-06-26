@@ -1593,356 +1593,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Invoice - NamedType AllowInvDiscCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2471471278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purchase - Order</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - ReportDataItem 2072992664 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard Purchase - Order</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - ReportDataItem Purchase Header - Property RequestFilterHeading</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - Control 3255118903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Archive Document</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Control ArchiveDocument - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - Control 3255118903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies whether to archive the order.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Control ArchiveDocument - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Log Interaction</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Control LogInteraction - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - Control 816368762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to log this interaction.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - Control LogInteraction - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page %1</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Page No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PageLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3915137156" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Amount Specification in </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmountSpecificationLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2134599625" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Local Currency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType LocalCurrentyLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1909269221" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Exchange rate: %1/%2</source>
-          <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate."Relational Exch. Rate Amount", %2 = CurrExchRate."Exchange Rate Amount"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ExchangeRateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2826867220" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType CompanyInfoPhoneNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1454106313" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType CompanyInfoGiroNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1275674192" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType CompanyInfoBankNameCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2438826717" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType CompanyInfoBankAccNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2219219549" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Order No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType OrderNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PageCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2728513993" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType DocumentDateCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3801332884" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unit Price</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType DirectUniCostCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3411081103" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Discount %</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PurchLineLineDiscCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 232398666" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Discount on VAT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATDiscountAmountCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2893846144" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Details</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PaymentDetailsCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 132160432" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vendor No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VendNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 232471621" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ship-to Address</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ShiptoAddressCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2780112871" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PrepmtInvBuDescCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1225323363" size-unit="char" translate="yes" xml:space="preserve">
-          <source>G/L Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PrepmtInvBufGLAccNoCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3013644840" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prepayment Specification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PrepaymentSpecCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 182229247" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prepayment VAT Amount Specification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PrepymtVATAmtSpecCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType AmountCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 634581238" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Discount Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PurchLineInvDiscAmtCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Subtotal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType SubtotalCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1210262078" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT %</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmtLineVATCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 977652710" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmtLineVATAmtCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1396908878" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Amount Specification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmtSpecCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2012124496" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Identifier</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATIdentifierCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1223243188" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Discount Base Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmtLineInvDiscBaseAmtCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3691499681" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VATAmtLineLineAmtCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2096959425" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Base</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VALVATBaseLCYCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1332311937" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prices Including VAT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PricesInclVATtxtLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType TotalCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3169568710" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Terms</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PaymentTermsDescCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 203962742" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Method</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ShipmentMethodDescCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2677110465" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prepmt. Payment Terms</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PrepymtTermsDescCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2862688884" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Home Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType HomePageCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3897674943" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Email</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType EmailIDCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2189117947" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Allow Invoice Discount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType AllowInvoiceDiscCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2623093095" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purchase Order</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType DocumentTitleLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 415620768" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Receive By</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ReceivebyCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1930263167" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Buyer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType BuyerCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 41194798" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemNumberCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3392267841" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemDescriptionCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1497765590" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemQuantityCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 313566497" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unit</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemUnitCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1072087502" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unit Price</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemUnitPriceCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 3269490021" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemLineAmountCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 611284396" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prices Including VAT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PricesIncludingVATCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 198682506" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unit</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ItemUnitOfMeasureCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2566983481" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ToCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 361562039" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vendor ID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType VendorIDCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 75049271" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Confirm To</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ConfirmToCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1517777218" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PURCHASE ORDER</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PurchOrderCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 4270456244" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purchase Order Number:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PurchOrderNumCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 147899814" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purchase Order Date:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType PurchOrderDateCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1729335317" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Ident. Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType TaxIdentTypeCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1349122805" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total Price</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType TotalPriceCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1170285572" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Discount:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType InvDiscCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 514421613" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Hello</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType GreetingLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 2771379227" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sincerely</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType ClosingLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1908025102" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The purchase order is attached to this message.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType BodyLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2471471278 - NamedType 1095348740" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Order Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Purchase - Order - NamedType OrderDateLbl</note>
-        </trans-unit>
         <trans-unit id="Report 1238332826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase - Quote</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4072,6 +3722,201 @@
           <source>Price per</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Sales - Invoice - NamedType PricePerLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service - Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - ReportDataItem 3471029625 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Service Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - ReportDataItem Service Cr.Memo Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Control 2578066365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many copies of the document to print.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Control NoOfCopies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Control 316520822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Internal Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Control ShowInternalInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - Control 316520822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the printed report to show information that is only for internal use.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - Control ShowInternalInfo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Applies to %1 %2)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service TAX Credit Memo %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2815097987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount on VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType PaymentDiscountonVATCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3659909257" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType UnitPriceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1084293183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Return Receipt Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType PostedReceiptDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2400723337" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disc. %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType ServiceCrMemoLineLineDiscountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2826867220" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoPhoneNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2150512197" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoFaxNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2343386794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoVATRegistrationNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1454106313" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoGiroNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1275674192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoBankNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1739113461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType CompanyInfoBankAccountNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2385141200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType ServiceCrMemoHeaderNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3710768331" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType ServiceCrMemoHeaderPostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 973567044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType HeaderDimensionsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3855081014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType ReturnReceiptCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3701122699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType LineDimensionsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3365690297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Clause</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATClausesCap</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1688458226" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountLineVATCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1303359398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATBaseCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 2136800112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountLineVATAmnCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 3405969474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountSpecificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 880741055" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountLineVATIdentifierCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1001084936" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Base Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountLineInvDiscBaseAmtCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1589094687" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType VATAmountLineLineAmntCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 232471621" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType ShiptoAddressCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 136391345 - NamedType 250968736" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAVVATLoc Service Cr Memo - NamedType InvDiscountAmountCaptionLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 214128802 - Action 955384232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Localization Reports</source>

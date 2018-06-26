@@ -1,26 +1,59 @@
-report 70140942 "UAEVATLoc Service - Invoice"
+report 70140943 "UAVVATLoc Service Cr Memo"
 {
     // version NAVW112.00
 
     DefaultLayout = RDLC;
-    RDLCLayout = './UAEVATLoc Service - Invoice.rdl';
-    Caption = 'Service - Invoice';
+    RDLCLayout = './UAVVATLoc Service Cr Memo.rdl';
+    Caption = 'Service - Credit Memo';
     Permissions = TableData "Sales Shipment Buffer"=rimd;
 
     dataset
     {
-        dataitem("Service Invoice Header";"Service Invoice Header")
+        dataitem("Service Cr.Memo Header";"Service Cr.Memo Header")
         {
             DataItemTableView = SORTING("No.");
             RequestFilterFields = "No.","Customer No.","No. Printed";
-            RequestFilterHeading = 'Posted Service Invoice';
-            column(No_ServiceInvHeader;"No.")
+            RequestFilterHeading = 'Posted Service Credit Memo';
+            column(VATAmtLineVATAmtText;VATAmountLine.VATAmountText)
+            {
+            }
+            column(TotalAmountInclVAT;TotalAmountInclVAT)
+            {
+            }
+            column(TotalInclVATText;TotalInclVATText)
+            {
+            }
+            column(TotalExclVATText;TotalExclVATText)
+            {
+            }
+            column(TotalInvDiscAmount;TotalInvDiscAmount)
+            {
+            }
+            column(TotalAmount;TotalAmount)
+            {
+            }
+            column(TotalText;TotalText)
+            {
+            }
+            column(SubtotalCaption;SubtotalCaptionLbl)
+            {
+            }
+            column(PaymentDiscountonVATCaption;PaymentDiscountonVATCaptionLbl)
+            {
+            }
+            column(UnitPriceCaption;UnitPriceCaptionLbl)
+            {
+            }
+            column(AmountCaption;AmountCaptionLbl)
+            {
+            }
+            column(PostedReceiptDateCaption;PostedReceiptDateCaptionLbl)
+            {
+            }
+            column(ServiceCrMemoLineLineDiscountCaption;ServiceCrMemoLineLineDiscountCaptionLbl)
             {
             }
             column(InvDiscountAmountCaption;InvDiscountAmountCaptionLbl)
-            {
-            }
-            column(DisplayAdditionalFeeNote;DisplayAdditionalFeeNote)
             {
             }
             dataitem(CopyLoop;"Integer")
@@ -29,16 +62,16 @@ report 70140942 "UAEVATLoc Service - Invoice"
                 dataitem(PageLoop;"Integer")
                 {
                     DataItemTableView = SORTING(Number) WHERE(Number=CONST(1));
-                    column(CompanyInfo2Picture;CompanyInfo2.Picture)
+                    column(CompanyInfoPicture;CompanyInfo.Picture)
                     {
                     }
                     column(CompanyInfo1Picture;CompanyInfo1.Picture)
                     {
                     }
-                    column(CompanyInfoPicture;CompanyInfo3.Picture)
+                    column(CompanyInfo2Picture;CompanyInfo2.Picture)
                     {
                     }
-                    column(ReportTitleCopyText;STRSUBSTNO(Text004,CopyText))
+                    column(ReportTitleCopyText;STRSUBSTNO(Text005,CopyText))
                     {
                     }
                     column(CustAddr1;CustAddr[1])
@@ -89,22 +122,19 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     column(CompanyInfoBankAccountNo;CompanyInfo."Bank Account No.")
                     {
                     }
-                    column(BillToCustNo_ServInvHeader;"Service Invoice Header"."Bill-to Customer No.")
+                    column(BillToCustNo_ServiceCrMemoHeader;"Service Cr.Memo Header"."Bill-to Customer No.")
                     {
                     }
-                    column(BillToCustNo_ServInvHeaderCaption;"Service Invoice Header".FIELDCAPTION("Bill-to Customer No."))
-                    {
-                    }
-                    column(PostingDate_ServInvHeader;FORMAT("Service Invoice Header"."Posting Date"))
+                    column(PostingDate_ServiceCrMemoHeader;FORMAT("Service Cr.Memo Header"."Posting Date"))
                     {
                     }
                     column(VATNoText;VATNoText)
                     {
                     }
-                    column(VATRegNo_ServInvHeader;"Service Invoice Header"."VAT Registration No.")
+                    column(VATRegNo_ServiceCrMemoHeader;"Service Cr.Memo Header"."VAT Registration No.")
                     {
                     }
-                    column(DueDate_ServInvHeader;FORMAT("Service Invoice Header"."Due Date"))
+                    column(No1_ServiceCrMemoHeader;"Service Cr.Memo Header"."No.")
                     {
                     }
                     column(SalesPersonText;SalesPersonText)
@@ -113,19 +143,13 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     column(SalesPurchPersonName;SalesPurchPerson.Name)
                     {
                     }
-                    column(No1_ServiceInvHeader;"Service Invoice Header"."No.")
+                    column(AppliedToText;AppliedToText)
                     {
                     }
                     column(ReferenceText;ReferenceText)
                     {
                     }
-                    column(YorRef_ServInvHeader;"Service Invoice Header"."Your Reference")
-                    {
-                    }
-                    column(OrderNoText;OrderNoText)
-                    {
-                    }
-                    column(OrderNo_ServInvHeader;"Service Invoice Header"."Order No.")
+                    column(YourRef_ServiceCrMemoHeader;"Service Cr.Memo Header"."Your Reference")
                     {
                     }
                     column(CustAddr7;CustAddr[7])
@@ -140,22 +164,19 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     column(CompanyAddr6;CompanyAddr[6])
                     {
                     }
-                    column(DocDate_ServInvHeader;FORMAT("Service Invoice Header"."Document Date",0,4))
+                    column(DocDate_ServiceCrMemoHeader;FORMAT("Service Cr.Memo Header"."Document Date",0,4))
                     {
                     }
-                    column(PricesInclVAT_ServInvHeader;"Service Invoice Header"."Prices Including VAT")
+                    column(PricesInclVAT_ServiceCrMemoHeader;"Service Cr.Memo Header"."Prices Including VAT")
                     {
                     }
-                    column(PricesInclVAT_ServInvHeaderCaption;"Service Invoice Header".FIELDCAPTION("Prices Including VAT"))
-                    {
-                    }
-                    column(PageCaption;STRSUBSTNO(Text005,''))
+                    column(PageCaption;STRSUBSTNO(Text006,''))
                     {
                     }
                     column(OutputNo;OutputNo)
                     {
                     }
-                    column(PricesInclVAT1_ServInvHeader;FORMAT("Service Invoice Header"."Prices Including VAT"))
+                    column(PricesInclVAT1_ServiceCrMemoHeader;FORMAT("Service Cr.Memo Header"."Prices Including VAT"))
                     {
                     }
                     column(CompanyInfoPhoneNoCaption;CompanyInfoPhoneNoCaptionLbl)
@@ -176,16 +197,16 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     column(CompanyInfoBankAccountNoCaption;CompanyInfoBankAccountNoCaptionLbl)
                     {
                     }
-                    column(AmountCaption;AmountCaptionLbl)
+                    column(ServiceCrMemoHeaderNoCaption;ServiceCrMemoHeaderNoCaptionLbl)
                     {
                     }
-                    column(ServiceInvoiceHeaderDueDateCaption;ServiceInvoiceHeaderDueDateCaptionLbl)
+                    column(ServiceCrMemoHeaderPostingDateCaption;ServiceCrMemoHeaderPostingDateCaptionLbl)
                     {
                     }
-                    column(InvoiceNoCaption;InvoiceNoCaptionLbl)
+                    column(BillToCustNo_ServiceCrMemoHeaderCaption;"Service Cr.Memo Header".FIELDCAPTION("Bill-to Customer No."))
                     {
                     }
-                    column(ServiceInvoiceHeaderPostingDateCaption;ServiceInvoiceHeaderPostingDateCaptionLbl)
+                    column(PricesInclVAT_ServiceCrMemoHeaderCaption;"Service Cr.Memo Header".FIELDCAPTION("Prices Including VAT"))
                     {
                     }
                     //UAE VAT Localization Start -->
@@ -198,10 +219,16 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     column(IsFCY;IsFCY)
                     {
                     }
+                    column(VATAmountLineVATCaption;VATAmountLineVATCaptionLbl)
+                    {
+                    }
+                    column(VATAmountLineVATAmnCaption;VATAmountLineVATAmnCaptionLbl)
+                    {
+                    }
                     //UAE VAT Localization Stop <--
                     dataitem(DimensionLoop1;"Integer")
                     {
-                        DataItemLinkReference = "Service Invoice Header";
+                        DataItemLinkReference = "Service Cr.Memo Header";
                         DataItemTableView = SORTING(Number);
                         column(DimText;DimText)
                         {
@@ -222,153 +249,118 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         begin
                             if not ShowInternalInfo then
                               CurrReport.BREAK;
-                            FindDimTxt("Service Invoice Header"."Dimension Set ID");
+                            FindDimTxt("Service Cr.Memo Header"."Dimension Set ID");
                             SETRANGE(Number,1,DimTxtArrLength);
                         end;
                     }
-                    dataitem("Service Invoice Line";"Service Invoice Line")
+                    dataitem("Service Cr.Memo Line";"Service Cr.Memo Line")
                     {
                         DataItemLink = "Document No."=FIELD("No.");
-                        DataItemLinkReference = "Service Invoice Header";
+                        DataItemLinkReference = "Service Cr.Memo Header";
                         DataItemTableView = SORTING("Document No.","Line No.");
                         column(TypeInt;TypeInt)
                         {
                         }
-                        column(BaseDisc_ServInvHeader;"Service Invoice Header"."VAT Base Discount %")
+                        column(LineNo_ServCrMemoLine;"Line No.")
+                        {
+                        }
+                        column(VAtBaseDisc_ServiceCrMemoHeader;"Service Cr.Memo Header"."VAT Base Discount %")
                         {
                         }
                         column(TotalLineAmount;TotalLineAmount)
                         {
                         }
-                        column(TotalAmount;TotalAmount)
-                        {
-                        }
-                        column(TotalAmountInclVAT;TotalAmountInclVAT)
-                        {
-                        }
-                        column(TotalInvDiscAmount;TotalInvDiscAmount)
-                        {
-                        }
-                        column(LineNo_ServInvLine;"Line No.")
-                        {
-                        }
-                        column(LineAmt_ServInvLine;"Line Amount")
+                        column(LineAmt_ServCrMemoLine;"Line Amount")
                         {
                             AutoFormatExpression = GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(Description_ServInvLine;Description)
+                        column(Desc_ServCrMemoLine;Description)
                         {
                         }
-                        column(No_ServInvLine;"No.")
+                        column(No_ServCrMemoLine;"No.")
                         {
                         }
-                        column(Quantity_ServInvLine;Quantity)
+                        column(Quantity_ServCrMemoLine;Quantity)
                         {
                         }
-                        column(UOM_ServInvLine;"Unit of Measure")
+                        column(UOM_ServCrMemoLine;"Unit of Measure")
                         {
                         }
-                        column(No_ServInvLineCaption;FIELDCAPTION("No."))
-                        {
-                        }
-                        column(Description_ServInvLineCaption;FIELDCAPTION(Description))
-                        {
-                        }
-                        column(Quantity_ServInvLineCaption;FIELDCAPTION(Quantity))
-                        {
-                        }
-                        column(UOM_ServInvLineCaption;FIELDCAPTION("Unit of Measure"))
-                        {
-                        }
-                        column(UnitPrice_ServInvLine;"Unit Price")
+                        column(UnitPrice_ServCrMemoLine;"Unit Price")
                         {
                             AutoFormatExpression = GetCurrencyCode;
                             AutoFormatType = 2;
                         }
-                        column(LineDisc_ServInvLine;"Line Discount %")
+                        column(LineDisc_ServCrMemoLine;"Line Discount %")
                         {
                         }
-                        column(VATIdentifier_ServInvLine;"VAT Identifier")
+                        column(VATIdentifier_ServCrMemoLine;"VAT Identifier")
                         {
                         }
-                        column(VATIdentifier_ServInvLineCaption;FIELDCAPTION("VAT Identifier"))
+                        column(PostedRcptDate;FORMAT(PostedReceiptDate))
                         {
                         }
-                        column(PostedShipmentDate;FORMAT(PostedShipmentDate))
+                        column(Amt_ServCrMemoLine;Amount)
                         {
+                            AutoFormatExpression = GetCurrencyCode;
+                            AutoFormatType = 1;
                         }
                         column(InvDiscountAmount;-"Inv. Discount Amount")
                         {
                             AutoFormatExpression = GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(TotalText;TotalText)
-                        {
-                        }
-                        column(Amount_ServInvLine;Amount)
+                        column(AmtInclVAT_ServCrMemoLine;"Amount Including VAT")
                         {
                             AutoFormatExpression = GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(AmtInclVATAmount;"Amount Including VAT" - Amount)
+                        column(AmtInclVATAmt;"Amount Including VAT" - Amount)
                         {
                             AutoFormatExpression = GetCurrencyCode;
                             AutoFormatType = 1;
                         }
-                        column(AmtInclVAT_ServInvLine;"Amount Including VAT")
+                        column(LineAmtInvDiscAmtInclVAT;-("Line Amount" - "Inv. Discount Amount" - "Amount Including VAT"))
                         {
-                            AutoFormatExpression = GetCurrencyCode;
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(VATAmtLineVATAmtText;VATAmountLine.VATAmountText)
+                        column(Desc_ServCrMemoLineCaption;FIELDCAPTION(Description))
                         {
                         }
-                        column(TotalExclVATText;TotalExclVATText)
+                        column(No_ServCrMemoLineCaption;FIELDCAPTION("No."))
                         {
                         }
-                        column(TotalInclVATText;TotalInclVATText)
+                        column(Quantity_ServCrMemoLineCaption;FIELDCAPTION(Quantity))
                         {
                         }
-                        column(LineAmtInvDiscAmtAmtInclVAT;-("Line Amount" - "Inv. Discount Amount" - "Amount Including VAT"))
-                        {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
-                            AutoFormatType = 1;
-                        }
-                        column(UnitPriceCaption;UnitPriceCaptionLbl)
+                        column(UOM_ServCrMemoLineCaption;FIELDCAPTION("Unit of Measure"))
                         {
                         }
-                        column(ServiceInvoiceLineLineDiscountCaption;ServiceInvoiceLineLineDiscountCaptionLbl)
-                        {
-                        }
-                        column(PostedShipmentDateCaption;PostedShipmentDateCaptionLbl)
-                        {
-                        }
-                        column(SubtotalCaption;SubtotalCaptionLbl)
-                        {
-                        }
-                        column(LineAmountInvDiscountAmountAmountIncludingVATCaption;LineAmountInvDiscountAmountAmountIncludingVATCaptionLbl)
+                        column(VATIdentifier_ServCrMemoLineCaption;FIELDCAPTION("VAT Identifier"))
                         {
                         }
                         //UAE VAT Localization Start -->
                         column(VAT__;"VAT %")
                         {
+
                         }
-                        Column(VATAmount_ServiceLine; "Amount Including VAT" - "Line Amount" + "Inv. Discount Amount")
+                        column(VATAmount_ServCrMemoLine; "Amount Including VAT" - "Line Amount" + "Inv. Discount Amount")
                         {
                         }
                         //UAE VAT Localization Stop <--
                         dataitem("Service Shipment Buffer";"Integer")
                         {
                             DataItemTableView = SORTING(Number);
-                            column(ServShptBufferPostingDate;FORMAT(ServiceShipmentBuffer."Posting Date"))
+                            column(ServShptBuffPostingDate;FORMAT(ServiceShipmentBuffer."Posting Date"))
                             {
                             }
-                            column(ServShptBufferQuantity;ServiceShipmentBuffer.Quantity)
+                            column(ServShptBuffQty;ServiceShipmentBuffer.Quantity)
                             {
                                 DecimalPlaces = 0:5;
                             }
-                            column(ShipmentCaption;ShipmentCaptionLbl)
+                            column(ReturnReceiptCaption;ReturnReceiptCaptionLbl)
                             {
                             }
 
@@ -382,9 +374,6 @@ report 70140942 "UAEVATLoc Service - Invoice"
 
                             trigger OnPreDataItem()
                             begin
-                                ServiceShipmentBuffer.SETRANGE("Document No.","Service Invoice Line"."Document No.");
-                                ServiceShipmentBuffer.SETRANGE("Line No.","Service Invoice Line"."Line No.");
-
                                 SETRANGE(Number,1,ServiceShipmentBuffer.COUNT);
                             end;
                         }
@@ -400,10 +389,7 @@ report 70140942 "UAEVATLoc Service - Invoice"
 
                             trigger OnAfterGetRecord()
                             begin
-                                if Number <= DimTxtArrLength then
-                                  DimText := DimTxtArr[Number]
-                                else
-                                  DimText := FORMAT("Service Invoice Line".Type) + ' ' + AccNo;
+                                DimText := DimTxtArr[Number];
                             end;
 
                             trigger OnPreDataItem()
@@ -411,25 +397,20 @@ report 70140942 "UAEVATLoc Service - Invoice"
                                 if not ShowInternalInfo then
                                   CurrReport.BREAK;
 
-                                FindDimTxt("Service Invoice Line"."Dimension Set ID");
-                                if IsServiceContractLine then
-                                  SETRANGE(Number,1,DimTxtArrLength + 1)
-                                else
-                                  SETRANGE(Number,1,DimTxtArrLength);
+                                FindDimTxt("Service Cr.Memo Line"."Dimension Set ID");
+                                SETRANGE(Number,1,DimTxtArrLength);
                             end;
                         }
 
                         trigger OnAfterGetRecord()
                         begin
-                            PostedShipmentDate := 0D;
+                            ServiceShipmentBuffer.DELETEALL;
+                            PostedReceiptDate := 0D;
                             if Quantity <> 0 then
-                              PostedShipmentDate := FindPostedShipmentDate;
+                              PostedReceiptDate := FindPostedShipmentDate;
 
-                            IsServiceContractLine := (Type = Type::"G/L Account") and ("Service Item No." <> '') and ("Contract No." <> '');
-                            if IsServiceContractLine then begin
-                              AccNo := "No.";
-                              "No." := "Service Item No.";
-                            end;
+                            if (Type = Type::"G/L Account") and not ShowInternalInfo then
+                              "No." := '';
 
                             VATAmountLine.INIT;
                             VATAmountLine."VAT Identifier" := "VAT Identifier";
@@ -445,10 +426,10 @@ report 70140942 "UAEVATLoc Service - Invoice"
                             VATAmountLine."VAT Clause Code" := "VAT Clause Code";
                             VATAmountLine.InsertLine;
 
-                            TotalLineAmount += "Line Amount";
                             TotalAmount += Amount;
                             TotalAmountInclVAT += "Amount Including VAT";
                             TotalInvDiscAmount += "Inv. Discount Amount";
+                            TotalLineAmount += "Line Amount";
                             TypeInt := Type;
                         end;
 
@@ -464,12 +445,12 @@ report 70140942 "UAEVATLoc Service - Invoice"
                             if not MoreLines then
                               CurrReport.BREAK;
                             SETRANGE("Line No.",0,"Line No.");
-                            CurrReport.CREATETOTALS("Line Amount",Amount,"Amount Including VAT","Inv. Discount Amount");
+                            CurrReport.CREATETOTALS(Amount,"Amount Including VAT","Inv. Discount Amount");
 
-                            TotalLineAmount := 0;
                             TotalAmount := 0;
                             TotalAmountInclVAT := 0;
                             TotalInvDiscAmount := 0;
+                            TotalLineAmount := 0;
                         end;
                     }
                     dataitem(VATCounter;"Integer")
@@ -477,43 +458,37 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         DataItemTableView = SORTING(Number);
                         column(VATAmtLineVATBase;VATAmountLine."VAT Base")
                         {
-                            AutoFormatExpression = "Service Invoice Line".GetCurrencyCode;
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(VATAmtLineVATAmount;VATAmountLine."VAT Amount")
+                        column(VATAmtLineVATAmt;VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(VATAmtLineLineAmount;VATAmountLine."Line Amount")
+                        column(VATAmtLineLineAmt;VATAmountLine."Line Amount")
                         {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATAmtLineInvDiscBaseAmt;VATAmountLine."Inv. Disc. Base Amount")
                         {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(VATAmtLineInvDiscAmount;VATAmountLine."Invoice Discount Amount")
+                        column(VATAmtLineInvoiceDisctAmt;VATAmountLine."Invoice Discount Amount")
                         {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
-                        column(VATAmountLineVAT;VATAmountLine."VAT %")
+                        column(VATAmtLineVAT;VATAmountLine."VAT %")
                         {
                             DecimalPlaces = 0:5;
                         }
                         column(VATAmtLineVATIdentifier;VATAmountLine."VAT Identifier")
                         {
                         }
-                        column(VATAmountLineVATCaption;VATAmountLineVATCaptionLbl)
-                        {
-                        }
-                        column(VATAmountLineVATBaseControl108Caption;VATAmountLineVATBaseControl108CaptionLbl)
-                        {
-                        }
-                        column(VATAmountLineVATAmountControl109Caption;VATAmountLineVATAmountControl109CaptionLbl)
+                        column(VATBaseCaption;VATBaseCaptionLbl)
                         {
                         }
                         column(VATAmountSpecificationCaption;VATAmountSpecificationCaptionLbl)
@@ -522,13 +497,10 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         column(VATAmountLineVATIdentifierCaption;VATAmountLineVATIdentifierCaptionLbl)
                         {
                         }
-                        column(VATAmountLineInvDiscBaseAmountControl141Caption;VATAmountLineInvDiscBaseAmountControl141CaptionLbl)
+                        column(VATAmountLineInvDiscBaseAmtCaption;VATAmountLineInvDiscBaseAmtCaptionLbl)
                         {
                         }
-                        column(VATAmountLineLineAmountControl140Caption;VATAmountLineLineAmountControl140CaptionLbl)
-                        {
-                        }
-                        column(VATAmountLineVATBaseControl116Caption;VATAmountLineVATBaseControl116CaptionLbl)
+                        column(VATAmountLineLineAmntCaption;VATAmountLineLineAmntCaptionLbl)
                         {
                         }
 
@@ -564,7 +536,7 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         }
                         column(VATClauseAmount;VATAmountLine."VAT Amount")
                         {
-                            AutoFormatExpression = "Service Invoice Header"."Currency Code";
+                            AutoFormatExpression = "Service Cr.Memo Header"."Currency Code";
                             AutoFormatType = 1;
                         }
                         column(VATClausesCaption;VATClausesCap)
@@ -573,7 +545,10 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         column(VATClauseVATIdentifierCaption;VATAmountLineVATIdentifierCaptionLbl)
                         {
                         }
-                        column(VATClauseVATAmtCaption;VATAmountLineVATAmountControl109CaptionLbl)
+                        column(VATClauseVATAmtCaption;VATAmountLineVATAmnCaptionLbl)
+                        {
+                        }
+                        column(TotalCaption;TotalCaptionLbl)
                         {
                         }
 
@@ -582,7 +557,7 @@ report 70140942 "UAEVATLoc Service - Invoice"
                             VATAmountLine.GetLine(Number);
                             if not VATClause.GET(VATAmountLine."VAT Clause Code") then
                               CurrReport.SKIP;
-                            VATClause.TranslateDescription("Service Invoice Header"."Language Code");
+                            VATClause.TranslateDescription("Service Cr.Memo Header"."Language Code");
                         end;
 
                         trigger OnPreDataItem()
@@ -595,20 +570,11 @@ report 70140942 "UAEVATLoc Service - Invoice"
                     dataitem(Total;"Integer")
                     {
                         DataItemTableView = SORTING(Number) WHERE(Number=CONST(1));
-                        column(PaymentTermsDescription;PaymentTerms.Description)
-                        {
-                        }
-                        column(PaymentTermsDescriptionCaption;PaymentTermsDescriptionCaptionLbl)
-                        {
-                        }
                     }
                     dataitem(Total2;"Integer")
                     {
                         DataItemTableView = SORTING(Number) WHERE(Number=CONST(1));
-                        column(CustNo_ServInvHeader;"Service Invoice Header"."Customer No.")
-                        {
-                        }
-                        column(CustNo_ServInvHeaderCaption;"Service Invoice Header".FIELDCAPTION("Customer No."))
+                        column(Cust_ServCrMemoHeader;"Service Cr.Memo Header"."Customer No.")
                         {
                         }
                         column(ShipToAddr1;ShipToAddr[1])
@@ -638,6 +604,9 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         column(ShiptoAddressCaption;ShiptoAddressCaptionLbl)
                         {
                         }
+                        column(Cust_ServCrMemoHeaderCaption;"Service Cr.Memo Header".FIELDCAPTION("Customer No."))
+                        {
+                        }
 
                         trigger OnPreDataItem()
                         begin
@@ -645,47 +614,26 @@ report 70140942 "UAEVATLoc Service - Invoice"
                               CurrReport.BREAK;
                         end;
                     }
-                    dataitem(LineFee;"Integer")
-                    {
-                        DataItemTableView = SORTING(Number) ORDER(Ascending) WHERE(Number=FILTER(1..));
-                        column(LineFeeCaptionLbl;TempLineFeeNoteOnReportHist.ReportText)
-                        {
-                        }
-
-                        trigger OnAfterGetRecord()
-                        begin
-                            if not DisplayAdditionalFeeNote then
-                              CurrReport.BREAK;
-                            if Number = 1 then begin
-                              if not TempLineFeeNoteOnReportHist.FINDSET then
-                                CurrReport.BREAK
-                            end else
-                              if TempLineFeeNoteOnReportHist.NEXT = 0 then
-                                CurrReport.BREAK;
-                        end;
-                    }
                 }
 
                 trigger OnAfterGetRecord()
                 begin
+                    CurrReport.PAGENO := 1;
                     if Number > 1 then begin
-                      CopyText := FormatDocument.GetCOPYText;
+                      CopyText := Text004;
                       OutputNo += 1;
                     end;
-                    CurrReport.PAGENO := 1;
                 end;
 
                 trigger OnPostDataItem()
                 begin
                     if not CurrReport.PREVIEW then
-                      CODEUNIT.RUN(CODEUNIT::"Service Inv.-Printed","Service Invoice Header");
+                      CODEUNIT.RUN(CODEUNIT::"Service Cr. Memo-Printed","Service Cr.Memo Header");
                 end;
 
                 trigger OnPreDataItem()
                 begin
-                    NoOfLoops := ABS(NoOfCopies) + Cust."Invoice Copies" + 1;
-                    if NoOfLoops <= 0 then
-                      NoOfLoops := 1;
+                    NoOfLoops := ABS(NoOfCopies) + 1;
                     CopyText := '';
                     SETRANGE(Number,1,NoOfLoops);
                     OutputNo := 1;
@@ -696,13 +644,8 @@ report 70140942 "UAEVATLoc Service - Invoice"
             begin
                 CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
 
-                FormatAddressFields("Service Invoice Header");
-                FormatDocumentFields("Service Invoice Header");
-
-                if not Cust.GET("Bill-to Customer No.") then
-                  CLEAR(Cust);
-
-                GetLineFeeNoteOnReportHist("No.");
+                FormatAddressFields("Service Cr.Memo Header");
+                FormatDocumentFields("Service Cr.Memo Header");
                 //UAE VAT Localization Start -->
                 IsFCY := FALSE;
                 IF (GLSetup."LCY Code" <> "Currency Code") AND ("Currency Code" <> '') THEN 
@@ -739,12 +682,6 @@ report 70140942 "UAEVATLoc Service - Invoice"
                         Caption = 'Show Internal Information';
                         ToolTip = 'Specifies if you want the printed report to show information that is only for internal use.';
                     }
-                    field(DisplayAdditionalFeeNote;DisplayAdditionalFeeNote)
-                    {
-                        ApplicationArea = Service;
-                        Caption = 'Show Additional Fee Note';
-                        ToolTip = 'Specifies if you want notes about additional fees to be shown on the document.';
-                    }
                 }
             }
         }
@@ -763,91 +700,104 @@ report 70140942 "UAEVATLoc Service - Invoice"
         GLSetup.GET;
         CompanyInfo.GET;
         ServiceSetup.GET;
-        FormatDocument.SetLogoPosition(ServiceSetup."Logo Position on Documents",CompanyInfo1,CompanyInfo2,CompanyInfo3);
+
+        case ServiceSetup."Logo Position on Documents" of
+          ServiceSetup."Logo Position on Documents"::"No Logo":
+            ;
+          ServiceSetup."Logo Position on Documents"::Left:
+            CompanyInfo.CALCFIELDS(Picture);
+          ServiceSetup."Logo Position on Documents"::Center:
+            begin
+              CompanyInfo1.GET;
+              CompanyInfo1.CALCFIELDS(Picture);
+            end;
+          ServiceSetup."Logo Position on Documents"::Right:
+            begin
+              CompanyInfo2.GET;
+              CompanyInfo2.CALCFIELDS(Picture);
+            end;
+        end;
     end;
 
     var
-        Text004: Label 'Service TAX Invoice %1';
-        Text005: Label 'Page %1';
+        Text003: Label '(Applies to %1 %2)';
+        Text004: Label 'COPY';
+        //UAE VAT Localization Start -->
+        //Text005: Label 'Service - Credit Memo %1';
+        Text005: Label 'Service TAX Credit Memo %1';
+
+        //UAE VAT Localization Stop <--
+        Text006: Label 'Page %1';
         GLSetup: Record "General Ledger Setup";
-        PaymentTerms: Record "Payment Terms";
         SalesPurchPerson: Record "Salesperson/Purchaser";
         CompanyInfo: Record "Company Information";
         CompanyInfo1: Record "Company Information";
         CompanyInfo2: Record "Company Information";
-        CompanyInfo3: Record "Company Information";
         ServiceSetup: Record "Service Mgt. Setup";
-        Cust: Record Customer;
-        DimSetEntry: Record "Dimension Set Entry";
         VATAmountLine: Record "VAT Amount Line" temporary;
         VATClause: Record "VAT Clause";
-        RespCenter: Record "Responsibility Center";
+        DimSetEntry: Record "Dimension Set Entry";
         Language: Record Language;
         ServiceShipmentBuffer: Record "Service Shipment Buffer" temporary;
-        TempLineFeeNoteOnReportHist: Record "Line Fee Note on Report Hist." temporary;
+        RespCenter: Record "Responsibility Center";
         FormatAddr: Codeunit "Format Address";
         FormatDocument: Codeunit "Format Document";
-        PostedShipmentDate: Date;
         CustAddr: array [8] of Text[50];
         ShipToAddr: array [8] of Text[50];
         CompanyAddr: array [8] of Text[50];
-        OrderNoText: Text[80];
         SalesPersonText: Text[30];
         VATNoText: Text[80];
         ReferenceText: Text[80];
+        AppliedToText: Text;
         TotalText: Text[50];
         TotalExclVATText: Text[50];
         TotalInclVATText: Text[50];
         MoreLines: Boolean;
         NoOfCopies: Integer;
         NoOfLoops: Integer;
-        CopyText: Text[30];
-        ShowShippingAddr: Boolean;
-        NextEntryNo: Integer;
-        FirstValueEntryNo: Integer;
         OutputNo: Integer;
         TypeInt: Integer;
+        CopyText: Text[30];
+        ShowShippingAddr: Boolean;
         DimText: Text[120];
         ShowInternalInfo: Boolean;
-        TotalLineAmount: Decimal;
+        FirstValueEntryNo: Integer;
+        PostedReceiptDate: Date;
+        NextEntryNo: Integer;
         TotalAmount: Decimal;
         TotalAmountInclVAT: Decimal;
         TotalInvDiscAmount: Decimal;
+        TotalLineAmount: Decimal;
         DimTxtArrLength: Integer;
         DimTxtArr: array [500] of Text[50];
-        IsServiceContractLine: Boolean;
-        AccNo: Code[20];
+        SubtotalCaptionLbl: Label 'Subtotal';
+        PaymentDiscountonVATCaptionLbl: Label 'Payment Discount on VAT';
+        UnitPriceCaptionLbl: Label 'Unit Price';
+        AmountCaptionLbl: Label 'Amount';
+        PostedReceiptDateCaptionLbl: Label 'Posted Return Receipt Date';
+        ServiceCrMemoLineLineDiscountCaptionLbl: Label 'Disc. %';
         CompanyInfoPhoneNoCaptionLbl: Label 'Phone No.';
         CompanyInfoFaxNoCaptionLbl: Label 'Fax No.';
         CompanyInfoVATRegistrationNoCaptionLbl: Label 'VAT Reg. No.';
         CompanyInfoGiroNoCaptionLbl: Label 'Giro No.';
         CompanyInfoBankNameCaptionLbl: Label 'Bank';
         CompanyInfoBankAccountNoCaptionLbl: Label 'Account No.';
-        AmountCaptionLbl: Label 'Amount';
-        ServiceInvoiceHeaderDueDateCaptionLbl: Label 'Due Date';
-        InvoiceNoCaptionLbl: Label 'Invoice No.';
-        ServiceInvoiceHeaderPostingDateCaptionLbl: Label 'Posting Date';
+        ServiceCrMemoHeaderNoCaptionLbl: Label 'Credit Memo No.';
+        ServiceCrMemoHeaderPostingDateCaptionLbl: Label 'Posting Date';
         HeaderDimensionsCaptionLbl: Label 'Header Dimensions';
-        UnitPriceCaptionLbl: Label 'Unit Price';
-        ServiceInvoiceLineLineDiscountCaptionLbl: Label 'Disc. %';
-        PostedShipmentDateCaptionLbl: Label 'Posted Shipment Date';
-        SubtotalCaptionLbl: Label 'Subtotal';
-        LineAmountInvDiscountAmountAmountIncludingVATCaptionLbl: Label 'Payment Discount on VAT';
-        ShipmentCaptionLbl: Label 'Shipment';
+        ReturnReceiptCaptionLbl: Label 'Return Receipt';
         LineDimensionsCaptionLbl: Label 'Line Dimensions';
         VATClausesCap: Label 'VAT Clause';
         VATAmountLineVATCaptionLbl: Label 'VAT %';
-        VATAmountLineVATBaseControl108CaptionLbl: Label 'VAT Base';
-        VATAmountLineVATAmountControl109CaptionLbl: Label 'VAT Amount';
+        VATBaseCaptionLbl: Label 'VAT Base';
+        VATAmountLineVATAmnCaptionLbl: Label 'VAT Amount';
         VATAmountSpecificationCaptionLbl: Label 'VAT Amount Specification';
         VATAmountLineVATIdentifierCaptionLbl: Label 'VAT Identifier';
-        VATAmountLineInvDiscBaseAmountControl141CaptionLbl: Label 'Inv. Disc. Base Amount';
-        VATAmountLineLineAmountControl140CaptionLbl: Label 'Line Amount';
-        VATAmountLineVATBaseControl116CaptionLbl: Label 'Total';
-        PaymentTermsDescriptionCaptionLbl: Label 'Payment Terms';
+        VATAmountLineInvDiscBaseAmtCaptionLbl: Label 'Inv. Disc. Base Amount';
+        VATAmountLineLineAmntCaptionLbl: Label 'Line Amount';
+        TotalCaptionLbl: Label 'Total';
         ShiptoAddressCaptionLbl: Label 'Ship-to Address';
         InvDiscountAmountCaptionLbl: Label 'Invoice Discount Amount';
-        DisplayAdditionalFeeNote: Boolean;
         //UAE VAT Localization Start -->
         CurrencyFactor : Decimal;
         IsFCY : Boolean;
@@ -855,152 +805,87 @@ report 70140942 "UAEVATLoc Service - Invoice"
 
     procedure FindPostedShipmentDate(): Date
     var
-        ServiceShipmentHeader: Record "Service Shipment Header";
         ServiceShipmentBuffer2: Record "Service Shipment Buffer" temporary;
     begin
         NextEntryNo := 1;
-        if "Service Invoice Line"."Shipment No." <> '' then
-          if ServiceShipmentHeader.GET("Service Invoice Line"."Shipment No.") then
-            exit(ServiceShipmentHeader."Posting Date");
 
-        if "Service Invoice Header"."Order No." = '' then
-          exit("Service Invoice Header"."Posting Date");
-
-        case "Service Invoice Line".Type of
-          "Service Invoice Line".Type::Item:
-            GenerateBufferFromValueEntry("Service Invoice Line");
-          "Service Invoice Line".Type::"G/L Account","Service Invoice Line".Type::Resource,
-          "Service Invoice Line".Type::Cost:
-            GenerateBufferFromShipment("Service Invoice Line");
-          "Service Invoice Line".Type::" ":
+        case "Service Cr.Memo Line".Type of
+          "Service Cr.Memo Line".Type::Item:
+            GenerateBufferFromValueEntry("Service Cr.Memo Line");
+          "Service Cr.Memo Line".Type::" ":
             exit(0D);
         end;
 
         ServiceShipmentBuffer.RESET;
-        ServiceShipmentBuffer.SETRANGE("Document No.","Service Invoice Line"."Document No.");
-        ServiceShipmentBuffer.SETRANGE("Line No." ,"Service Invoice Line"."Line No.");
+        ServiceShipmentBuffer.SETRANGE("Document No.","Service Cr.Memo Line"."Document No.");
+        ServiceShipmentBuffer.SETRANGE("Line No." ,"Service Cr.Memo Line"."Line No.");
+
         if ServiceShipmentBuffer.FIND('-') then begin
           ServiceShipmentBuffer2 := ServiceShipmentBuffer;
           if ServiceShipmentBuffer.NEXT = 0 then begin
-            ServiceShipmentBuffer.GET(
-              ServiceShipmentBuffer2."Document No.",ServiceShipmentBuffer2."Line No.",ServiceShipmentBuffer2."Entry No.");
+            ServiceShipmentBuffer.GET(ServiceShipmentBuffer2."Document No.",ServiceShipmentBuffer2."Line No.",ServiceShipmentBuffer2.
+              "Entry No.");
             ServiceShipmentBuffer.DELETE;
             exit(ServiceShipmentBuffer2."Posting Date");
-          end ;
+          end;
           ServiceShipmentBuffer.CALCSUMS(Quantity);
-          if ServiceShipmentBuffer.Quantity <> "Service Invoice Line".Quantity then begin
+          if ServiceShipmentBuffer.Quantity <> "Service Cr.Memo Line".Quantity then begin
             ServiceShipmentBuffer.DELETEALL;
-            exit("Service Invoice Header"."Posting Date");
+            exit("Service Cr.Memo Header"."Posting Date");
           end;
         end else
-          exit("Service Invoice Header"."Posting Date");
+          exit("Service Cr.Memo Header"."Posting Date");
     end;
 
-    procedure GenerateBufferFromValueEntry(ServiceInvoiceLine2: Record "Service Invoice Line")
+    procedure GenerateBufferFromValueEntry(ServiceCrMemoLine2: Record "Service Cr.Memo Line")
     var
         ValueEntry: Record "Value Entry";
         ItemLedgerEntry: Record "Item Ledger Entry";
         TotalQuantity: Decimal;
         Quantity: Decimal;
     begin
-        TotalQuantity := ServiceInvoiceLine2."Quantity (Base)";
+        TotalQuantity := ServiceCrMemoLine2."Quantity (Base)";
         ValueEntry.SETCURRENTKEY("Document No.");
-        ValueEntry.SETRANGE("Document No.",ServiceInvoiceLine2."Document No.");
-        ValueEntry.SETRANGE("Posting Date","Service Invoice Header"."Posting Date");
+        ValueEntry.SETRANGE("Document No.",ServiceCrMemoLine2."Document No.");
+        ValueEntry.SETRANGE("Posting Date","Service Cr.Memo Header"."Posting Date");
         ValueEntry.SETRANGE("Item Charge No.",'');
         ValueEntry.SETFILTER("Entry No.",'%1..',FirstValueEntryNo);
         if ValueEntry.FIND('-') then
           repeat
             if ItemLedgerEntry.GET(ValueEntry."Item Ledger Entry No.") then begin
-              if ServiceInvoiceLine2."Qty. per Unit of Measure" <> 0 then
-                Quantity := ValueEntry."Invoiced Quantity" / ServiceInvoiceLine2."Qty. per Unit of Measure"
+              if ServiceCrMemoLine2."Qty. per Unit of Measure" <> 0 then
+                Quantity := ValueEntry."Invoiced Quantity" / ServiceCrMemoLine2."Qty. per Unit of Measure"
               else
                 Quantity := ValueEntry."Invoiced Quantity";
               AddBufferEntry(
-                ServiceInvoiceLine2,
+                ServiceCrMemoLine2,
                 -Quantity,
                 ItemLedgerEntry."Posting Date");
-              TotalQuantity := TotalQuantity + ValueEntry."Invoiced Quantity";
+              TotalQuantity := TotalQuantity - ValueEntry."Invoiced Quantity";
             end;
             FirstValueEntryNo := ValueEntry."Entry No." + 1;
           until (ValueEntry.NEXT = 0) or (TotalQuantity = 0);
     end;
 
-    procedure GenerateBufferFromShipment(ServiceInvoiceLine: Record "Service Invoice Line")
-    var
-        ServiceInvoiceHeader: Record "Service Invoice Header";
-        ServiceInvoiceLine2: Record "Service Invoice Line";
-        ServiceShipmentHeader: Record "Service Shipment Header";
-        ServiceShipmentLine: Record "Service Shipment Line";
-        TotalQuantity: Decimal;
-        Quantity: Decimal;
+    procedure AddBufferEntry(ServiceCrMemoLine: Record "Service Cr.Memo Line";QtyOnShipment: Decimal;PostingDate: Date)
     begin
-        TotalQuantity := 0;
-        ServiceInvoiceHeader.SETCURRENTKEY("Order No.");
-        ServiceInvoiceHeader.SETFILTER("No.",'..%1',"Service Invoice Header"."No.");
-        ServiceInvoiceHeader.SETRANGE("Order No.","Service Invoice Header"."Order No.");
-        if ServiceInvoiceHeader.FIND('-') then
-          repeat
-            ServiceInvoiceLine2.SETRANGE("Document No.",ServiceInvoiceHeader."No.");
-            ServiceInvoiceLine2.SETRANGE("Line No.",ServiceInvoiceLine."Line No.");
-            ServiceInvoiceLine2.SETRANGE(Type,ServiceInvoiceLine.Type);
-            ServiceInvoiceLine2.SETRANGE("No.",ServiceInvoiceLine."No.");
-            ServiceInvoiceLine2.SETRANGE("Unit of Measure Code",ServiceInvoiceLine."Unit of Measure Code");
-            if ServiceInvoiceLine2.FIND('-') then
-              repeat
-                TotalQuantity := TotalQuantity + ServiceInvoiceLine2.Quantity;
-              until ServiceInvoiceLine2.NEXT = 0;
-          until ServiceInvoiceHeader.NEXT = 0;
-
-        ServiceShipmentLine.SETCURRENTKEY("Order No.","Order Line No.");
-        ServiceShipmentLine.SETRANGE("Order No.","Service Invoice Header"."Order No.");
-        ServiceShipmentLine.SETRANGE("Order Line No.",ServiceInvoiceLine."Line No.");
-        ServiceShipmentLine.SETRANGE("Line No.",ServiceInvoiceLine."Line No.");
-        ServiceShipmentLine.SETRANGE(Type,ServiceInvoiceLine.Type);
-        ServiceShipmentLine.SETRANGE("No.",ServiceInvoiceLine."No.");
-        ServiceShipmentLine.SETRANGE("Unit of Measure Code",ServiceInvoiceLine."Unit of Measure Code");
-        ServiceShipmentLine.SETFILTER(Quantity,'<>%1',0);
-
-        if ServiceShipmentLine.FIND('-') then
-          repeat
-            if ABS(ServiceShipmentLine.Quantity) <= ABS(TotalQuantity - ServiceInvoiceLine.Quantity) then
-              TotalQuantity := TotalQuantity - ServiceShipmentLine.Quantity
-            else begin
-              if ABS(ServiceShipmentLine.Quantity) > ABS(TotalQuantity) then
-                ServiceShipmentLine.Quantity := TotalQuantity;
-              Quantity :=
-                ServiceShipmentLine.Quantity - (TotalQuantity - ServiceInvoiceLine.Quantity);
-
-              TotalQuantity := TotalQuantity - ServiceShipmentLine.Quantity;
-              ServiceInvoiceLine.Quantity := ServiceInvoiceLine.Quantity - Quantity;
-
-              if ServiceShipmentHeader.GET(ServiceShipmentLine."Document No.") then
-                AddBufferEntry(
-                  ServiceInvoiceLine,
-                  Quantity,
-                  ServiceShipmentHeader."Posting Date");
-            end;
-          until (ServiceShipmentLine.NEXT = 0) or (TotalQuantity = 0);
-    end;
-
-    procedure AddBufferEntry(ServiceInvoiceLine: Record "Service Invoice Line";QtyOnShipment: Decimal;PostingDate: Date)
-    begin
-        ServiceShipmentBuffer.SETRANGE("Document No.",ServiceInvoiceLine."Document No.");
-        ServiceShipmentBuffer.SETRANGE("Line No.",ServiceInvoiceLine."Line No.");
+        ServiceShipmentBuffer.SETRANGE("Document No.",ServiceCrMemoLine."Document No.");
+        ServiceShipmentBuffer.SETRANGE("Line No.",ServiceCrMemoLine."Line No.");
         ServiceShipmentBuffer.SETRANGE("Posting Date",PostingDate);
         if ServiceShipmentBuffer.FIND('-') then begin
-          ServiceShipmentBuffer.Quantity := ServiceShipmentBuffer.Quantity + QtyOnShipment;
+          ServiceShipmentBuffer.Quantity := ServiceShipmentBuffer.Quantity - QtyOnShipment;
           ServiceShipmentBuffer.MODIFY;
           exit;
         end;
 
         with ServiceShipmentBuffer do begin
-          "Document No." := ServiceInvoiceLine."Document No.";
-          "Line No." := ServiceInvoiceLine."Line No.";
+          INIT;
+          "Document No." := ServiceCrMemoLine."Document No.";
+          "Line No." := ServiceCrMemoLine."Line No.";
           "Entry No." := NextEntryNo;
-          Type := ServiceInvoiceLine.Type;
-          "No." := ServiceInvoiceLine."No.";
-          Quantity := QtyOnShipment;
+          Type := ServiceCrMemoLine.Type;
+          "No." := ServiceCrMemoLine."No.";
+          Quantity := -QtyOnShipment;
           "Posting Date" := PostingDate;
           INSERT;
           NextEntryNo := NextEntryNo + 1
@@ -1035,57 +920,29 @@ report 70140942 "UAEVATLoc Service - Invoice"
         until DimSetEntry.NEXT = 0;
     end;
 
-    local procedure GetLineFeeNoteOnReportHist(SalesInvoiceHeaderNo: Code[20])
-    var
-        LineFeeNoteOnReportHist: Record "Line Fee Note on Report Hist.";
-        CustLedgerEntry: Record "Cust. Ledger Entry";
-        Customer: Record Customer;
+    procedure InitializeRequest(NewShowInternalInfo: Boolean)
     begin
-        TempLineFeeNoteOnReportHist.DELETEALL;
-        CustLedgerEntry.SETRANGE("Document Type",CustLedgerEntry."Document Type"::Invoice);
-        CustLedgerEntry.SETRANGE("Document No.",SalesInvoiceHeaderNo);
-        if not CustLedgerEntry.FINDFIRST then
-          exit;
-
-        if not Customer.GET("Service Invoice Header"."Bill-to Customer No.") then
-          exit;
-
-        LineFeeNoteOnReportHist.SETRANGE("Cust. Ledger Entry No",CustLedgerEntry."Entry No.");
-        LineFeeNoteOnReportHist.SETRANGE("Language Code",Customer."Language Code");
-        if LineFeeNoteOnReportHist.FINDSET then begin
-          repeat
-            TempLineFeeNoteOnReportHist.INIT;
-            TempLineFeeNoteOnReportHist.COPY(LineFeeNoteOnReportHist);
-            TempLineFeeNoteOnReportHist.INSERT;
-          until LineFeeNoteOnReportHist.NEXT = 0;
-        end else begin
-          LineFeeNoteOnReportHist.SETRANGE("Language Code",Language.GetUserLanguage);
-          if LineFeeNoteOnReportHist.FINDSET then
-            repeat
-              TempLineFeeNoteOnReportHist.INIT;
-              TempLineFeeNoteOnReportHist.COPY(LineFeeNoteOnReportHist);
-              TempLineFeeNoteOnReportHist.INSERT;
-            until LineFeeNoteOnReportHist.NEXT = 0;
-        end;
+        ShowInternalInfo := NewShowInternalInfo;
     end;
 
-    local procedure FormatAddressFields(var ServiceInvoiceHeader: Record "Service Invoice Header")
+    local procedure FormatAddressFields(var ServiceCrMemoHeader: Record "Service Cr.Memo Header")
     begin
-        FormatAddr.GetCompanyAddr(ServiceInvoiceHeader."Responsibility Center",RespCenter,CompanyInfo,CompanyAddr);
-        FormatAddr.ServiceInvBillTo(CustAddr,ServiceInvoiceHeader);
-        ShowShippingAddr := FormatAddr.ServiceInvShipTo(ShipToAddr,CustAddr,ServiceInvoiceHeader);
+        FormatAddr.GetCompanyAddr(ServiceCrMemoHeader."Responsibility Center",RespCenter,CompanyInfo,CompanyAddr);
+        FormatAddr.ServiceCrMemoBillTo(CustAddr,ServiceCrMemoHeader);
+        ShowShippingAddr := FormatAddr.ServiceCrMemoShipTo(ShipToAddr,CustAddr,ServiceCrMemoHeader);
     end;
 
-    local procedure FormatDocumentFields(ServiceInvoiceHeader: Record "Service Invoice Header")
+    local procedure FormatDocumentFields(ServiceCrMemoHeader: Record "Service Cr.Memo Header")
     begin
-        with ServiceInvoiceHeader do begin
+        with ServiceCrMemoHeader do begin
           FormatDocument.SetTotalLabels("Currency Code",TotalText,TotalInclVATText,TotalExclVATText);
           FormatDocument.SetSalesPerson(SalesPurchPerson,"Salesperson Code",SalesPersonText);
-          FormatDocument.SetPaymentTerms(PaymentTerms,"Payment Terms Code","Language Code");
 
-          OrderNoText := FormatDocument.SetText("Order No." <> '',FIELDCAPTION("Order No."));
           ReferenceText := FormatDocument.SetText("Your Reference" <> '',FIELDCAPTION("Your Reference"));
           VATNoText := FormatDocument.SetText("VAT Registration No." <> '',FIELDCAPTION("VAT Registration No."));
+          AppliedToText :=
+            FormatDocument.SetText(
+              "Applies-to Doc. No." <> '',FORMAT(STRSUBSTNO(Text003,FORMAT("Applies-to Doc. Type"),"Applies-to Doc. No.")));
         end;
     end;
 }

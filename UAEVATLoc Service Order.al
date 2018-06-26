@@ -443,7 +443,7 @@ report 70140941 "UAEVATLoc Service Order"
                         column(VAT__;"VAT %")
                         {
                         }
-                        column(VATAmount;"Amount Including VAT"-"Line Amount"-"Inv. Discount Amount")
+                        column(VATAmount;"Amount Including VAT" - "Line Amount" + "Inv. Discount Amount")
                         {
                         }
                         //UAE VAT Localization Start <--

@@ -1084,6 +1084,7 @@ Cstr(Fields!EMailCaption.Value)
                                               <PaddingRight>5pt</PaddingRight>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell>
@@ -5034,7 +5035,7 @@ Cstr(Fields!EMailCaption.Value)
                                 </Filter>
                               </Filters>
                               <Top>0.0263cm</Top>
-                              <Height>12.72341cm</Height>
+                              <Height>12.72343cm</Height>
                               <Width>18.17881cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style />

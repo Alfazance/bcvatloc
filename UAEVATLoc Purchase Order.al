@@ -80,9 +80,9 @@ report 70140939 "UAEVATLoc Purchase Order"
                     column(ReportTitleCopyText;STRSUBSTNO(Text004,CopyText))
                     {
                     }
-                    column(CurrRepPageNo;STRSUBSTNO(Text005,FORMAT(CurrReport.PAGENO)))
+                    /*column(CurrRepPageNo;STRSUBSTNO(Text005,FORMAT(CurrReport.PAGENO)))
                     {
-                    }
+                    }*/
                     column(CompanyAddr1;CompanyAddr[1])
                     {
                     }
@@ -227,6 +227,18 @@ report 70140939 "UAEVATLoc Purchase Order"
                     column(PricesInclVAT_PurchHeaderCaption;"Purchase Header".FIELDCAPTION("Prices Including VAT"))
                     {
                     }
+                    //UAE VAT Localization Start -->
+                    column(CurrencyFactor;CurrencyFactor)
+                    {
+                    }
+                    column(LCYCode;GLSetup."LCY Code")
+                    {
+                    }
+                    column(IsFCY;IsFCY)
+                    {
+                    }
+                    //UAE VAT Localization Stop <--
+
                     dataitem(DimensionLoop1;"Integer")
                     {
                         DataItemLinkReference = "Purchase Header";
@@ -412,6 +424,14 @@ report 70140939 "UAEVATLoc Purchase Order"
                         column(VATIdentifier_PurchLineCaption;"Purchase Line".FIELDCAPTION("VAT Identifier"))
                         {
                         }
+                        //UAE VAT Localization Start -->
+                        column(VATPerc;"Purchase Line"."VAT %")
+                        {
+                        }
+                        column(VATAmount_PurchLine; "Purchase Line"."Amount Including VAT" - "Purchase Line"."Line Amount" + "Purchase Line"."Inv. Discount Amount")
+                        {
+                        }
+                        //UAE VAT Localization Stop <--
                         dataitem(DimensionLoop2;"Integer")
                         {
                             DataItemTableView = SORTING(Number) WHERE(Number=FILTER(1..));
@@ -933,6 +953,15 @@ report 70140939 "UAEVATLoc Purchase Order"
                       "Purchaser Code",'',"Posting Description",'');
                   end;
                 end;
+                //UAE VAT Localization Start -->
+                IsFCY := FALSE;
+                IF (GLSetup."LCY Code" <> "Currency Code") AND ("Currency Code" <> '') THEN 
+                    IsFCY := True;
+                IF IsFCY THEN 
+                    CurrencyFactor := "Currency Factor"
+                ELSE
+                    CurrencyFactor := 1;
+                //UAE VAT Localization Stop <--
             end;
         }
     }
@@ -1134,6 +1163,10 @@ report 70140939 "UAEVATLoc Purchase Order"
         EmailIDCaptionLbl: Label 'Email';
         AllowInvoiceDiscCaptionLbl: Label 'Allow Invoice Discount';
         PrepmtLoopLineNo: Integer;
+        //UAE VAT Localization Start -->
+        CurrencyFactor : Decimal;
+        IsFCY : Boolean;
+        //UAE VAT Localization Start <--
 
     procedure InitializeRequest(NewNoOfCopies: Integer;NewShowInternalInfo: Boolean;NewArchiveDocument: Boolean;NewLogInteraction: Boolean)
     begin
