@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 page 70140922 "UAE VAT Return"
 {
     
@@ -9,18 +8,10 @@ page 70140922 "UAE VAT Return"
     UsageCategory = Tasks;
     ApplicationArea = All;
 
-=======
-/*page Id PageName
-{
-    PageType = Card;
-    SourceTable = TableName;
-    
->>>>>>> 002c012206910cac42d886ad205c7957010b5dd1
     layout
     {
         area(content)
         {
-<<<<<<< HEAD
             field("Start Date"; StartDate)
             {
                 Caption = 'Start Date';
@@ -465,15 +456,6 @@ page 70140922 "UAE VAT Return"
                     }    
                 }    
             }        
-=======
-            group(GroupName)
-            {
-                field(Name; NameSource)
-                {
-                    
-                }
-            }
->>>>>>> 002c012206910cac42d886ad205c7957010b5dd1
         }
     }
     
@@ -481,7 +463,6 @@ page 70140922 "UAE VAT Return"
     {
         area(processing)
         {
-<<<<<<< HEAD
             action(Calculate)
             {
                 Caption = 'Calculate';
@@ -749,18 +730,3 @@ page 70140922 "UAE VAT Return"
         TotalVATAmount : ARRAY[5] of Decimal ;
         TotalAdjustment : ARRAY[5] of Decimal ;
 }       
-=======
-            action(ActionName)
-            {
-                trigger OnAction()
-                begin
-                    
-                end;
-            }
-        }
-    }
-    
-    var
-        myInt: Integer;
-}*/
->>>>>>> 002c012206910cac42d886ad205c7957010b5dd1
