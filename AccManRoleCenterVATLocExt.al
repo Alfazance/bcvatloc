@@ -15,9 +15,8 @@ pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Rol
                 action("UAE VAT Return")
                 {
                     Caption = 'UAE VAT Return';
-                    RunObject = Page "UAE VAT Return"; 
-                    
-                }                
+                    RunObject = Page "UAE VAT Return";
+                } 
             }
         }
     }

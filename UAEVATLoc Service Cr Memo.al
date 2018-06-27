@@ -1,9 +1,9 @@
-report 70140943 "UAVVATLoc Service Cr Memo"
+report 70140943 "UAEVATLoc Service Cr Memo"
 {
     // version NAVW112.00
 
     DefaultLayout = RDLC;
-    RDLCLayout = './UAVVATLoc Service Cr Memo.rdl';
+    RDLCLayout = './UAEVATLoc Service Cr Memo.rdl';
     Caption = 'Service - Credit Memo';
     Permissions = TableData "Sales Shipment Buffer"=rimd;
 
