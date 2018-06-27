@@ -598,15 +598,17 @@ page 70140922 "UAE VAT Return"
                     XMLParameter : Text;    
                     ExportFile : InStream;
                     ExportFileName : Text;
-                    Tempblob : REcord TempBlob temporary;
+                    Tempblob : Record TempBlob temporary;
                 begin
                     XMLParameter := Report.RunRequestPage(70140922);
-                    Tempblob.Blob.CreateInStream(ExportFile);
-                    Tempblob.Blob.CreateOutStream(ExportStream);
-                    Report.SaveAs(70140922,XMLParameter, ReportFormat::Excel, ExportStream);                        
+                    If(XMLParameter <> '') then begin
+                        Tempblob.Blob.CreateInStream(ExportFile);
+                        Tempblob.Blob.CreateOutStream(ExportStream);
+                        Report.SaveAs(70140922,XMLParameter, ReportFormat::Excel, ExportStream);                        
 
-                    ExportFileName := 'FAFCustomerTransaction'+XMLParameter+'.xls';
-                    DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;
+                        ExportFileName := 'FAFCustomerTransaction.xls';
+                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;
+                    end;
                 END;    
             }
             action("FAF Supplier Transaction")
@@ -625,12 +627,14 @@ page 70140922 "UAE VAT Return"
                         Tempblob : REcord TempBlob temporary;
                     begin
                         XMLParameter := Report.RunRequestPage(70140921);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        Report.SaveAs(70140921,XMLParameter, ReportFormat::Excel, ExportStream);                        
+                        If(XMLParameter <> '') then begin
+                            Tempblob.Blob.CreateInStream(ExportFile);
+                            Tempblob.Blob.CreateOutStream(ExportStream);
+                            Report.SaveAs(70140921,XMLParameter, ReportFormat::Excel, ExportStream);                        
 
-                        ExportFileName := 'FAFSupplierTransaction'+XMLParameter+'.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                            ExportFileName := 'FAFSupplierTransaction.xls';
+                            DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                        end;
                     END;    
                 }
                 action("FAF GL Transaction")
@@ -649,13 +653,13 @@ page 70140922 "UAE VAT Return"
                         Tempblob : Record TempBlob temporary;
                     begin
                         XMLParameter := FAFGLTransaction.RunRequestPage();
-                        //XMLParameter := Report.RunRequestPage(70140923);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);
-                        //Report.SaveAs(70140923,XMLParameter, ReportFormat::Excel, ExportStream);                        
-                        ExportFileName := 'FAFGLTransaction.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                        If(XMLParameter <> '') then begin                            
+                            Tempblob.Blob.CreateInStream(ExportFile);
+                            Tempblob.Blob.CreateOutStream(ExportStream);
+                            FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);                                           
+                            ExportFileName := 'FAFGLTransaction.xls';
+                            DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                        end;
                     END;    
                 }
         }
