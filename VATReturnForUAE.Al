@@ -15,10 +15,12 @@ page 70140922 "UAE VAT Return"
             field("Start Date"; StartDate)
             {
                 Caption = 'Start Date';
+                ToolTip = 'Start date of VAT return period';
             }
             field("End Date"; EndDate)
             {
                 Caption = 'End Date';
+                ToolTip = 'Closing date of VAT return period';
             }
             group(OutputGroup)
             {
