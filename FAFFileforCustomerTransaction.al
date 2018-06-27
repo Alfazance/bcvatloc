@@ -263,9 +263,13 @@ report 70140922 "FAF Customer Transaction"
                 {
                     Field("Period Start"; PeriodStart)
                     {
+                        Caption = 'Period Start';
+                        ToolTip = 'Starting date of VAT return filing period';
                     }
                     field("Period End"; PeriodEnd)
                     {
+                        Caption = 'Period End';
+                        ToolTip = 'Ending date of VAT return filing period';
                     }
                 }
             }

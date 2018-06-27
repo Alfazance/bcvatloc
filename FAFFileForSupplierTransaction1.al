@@ -345,9 +345,13 @@ report 70140924 "FAF Supplier Transaction1"
                 {
                     Field("Period Start"; PeriodStart)
                     {
+                        Caption = 'Period Start';
+                        ToolTip = 'Starting date of VAT return filing period';
                     }
                     field("Period End"; PeriodEnd)
                     {
+                        Caption = 'Period End';
+                        ToolTip = 'Ending date of VAT return filing period';
                     }
                 }
             }

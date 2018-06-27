@@ -69,14 +69,21 @@ page 70140921 "VAT Group Code List"
                 field(GroupCode; "Group Code")
                 {
                     ApplicationArea = All;
+                    Caption = 'Group Code';
+                    ToolTip = 'Group Code for VAT State wise';
                 }
                 field(Description;Description)
                 {
                     ApplicationArea = All;
+                    Caption = 'Description';
+                    ToolTip = 'Description of VAT group';
                 }
                 field(SequenceNo ; "Sequence No.")
                 {
                     ApplicationArea = All;
+                    Caption = 'Sequence No.';
+                    ToolTip = 'Sequence No. for VAT return report control';
+                    Visible = false;
                 }
             }
         }

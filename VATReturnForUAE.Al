@@ -36,16 +36,16 @@ page 70140922 "UAE VAT Return"
                             grid("11")
                             {
                                 GridLayout = Rows;
-                                field(Amount; Amount[1])
+                                field(Amount; ABS(Amount[1]))
                                 {
                                     Caption = 'Amount';
                                     
                                 }
-                                field(VATAmount; VATAmount[1])
+                                field(VATAmount; ABS(VATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment;Adjustment[1])
+                                field(Adjustment; ABS(Adjustment[1]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -57,15 +57,15 @@ page 70140922 "UAE VAT Return"
                             grid("12")
                             {
                                 GridLayout = Rows;
-                                field(Amount2; Amount[2])
+                                field(Amount2; ABS(Amount[2]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount2; VATAmount[2])
+                                field(VATAmount2; ABS(VATAmount[2]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment2;Adjustment[2])
+                                field(Adjustment2; ABS(Adjustment[2]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -77,15 +77,15 @@ page 70140922 "UAE VAT Return"
                             grid("13")
                             {
                                 GridLayout = Rows;
-                                field(Amount3; Amount[3])
+                                field(Amount3; ABS(Amount[3]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount3; VATAmount[3])
+                                field(VATAmount3; ABS(VATAmount[3]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment3;Adjustment[3])
+                                field(Adjustment3; ABS(Adjustment[3]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -97,15 +97,15 @@ page 70140922 "UAE VAT Return"
                             grid("14")
                             {
                                 GridLayout = Rows;
-                                field(Amount4; Amount[4])
+                                field(Amount4; ABS(Amount[4]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount4; VATAmount[4])
+                                field(VATAmount4; ABS(VATAmount[4]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment4;Adjustment[4])
+                                field(Adjustment4; ABS(Adjustment[4]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -117,15 +117,15 @@ page 70140922 "UAE VAT Return"
                             grid("15")
                             {
                                 GridLayout = Rows;
-                                field(Amount5; Amount[5])
+                                field(Amount5; ABS(Amount[5]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount5; VATAmount[5])
+                                field(VATAmount5; ABS(VATAmount[5]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment5;Adjustment[5])
+                                field(Adjustment5; ABS(Adjustment[5]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -137,15 +137,15 @@ page 70140922 "UAE VAT Return"
                             grid("16")
                             {
                                 GridLayout = Rows;
-                                field(Amount6; Amount[6])
+                                field(Amount6; ABS(Amount[6]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount6; VATAmount[6])
+                                field(VATAmount6; ABS(VATAmount[6]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment6;Adjustment[6])
+                                field(Adjustment6; ABS(Adjustment[6]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -157,15 +157,15 @@ page 70140922 "UAE VAT Return"
                             grid("17")
                             {
                                 GridLayout = Rows;
-                                field(Amount7; Amount[7])
+                                field(Amount7; ABS(Amount[7]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount7; VATAmount[7])
+                                field(VATAmount7; ABS(VATAmount[7]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment7;Adjustment[7])
+                                field(Adjustment7; ABS(Adjustment[7]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -177,15 +177,15 @@ page 70140922 "UAE VAT Return"
                             grid("18")
                             {
                                 GridLayout = Rows;
-                                field(Amount8; Amount[8])
+                                field(Amount8; ABS(Amount[8]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount8; VATAmount[8])
+                                field(VATAmount8; ABS(VATAmount[8]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment8;Adjustment[8])
+                                field(Adjustment8; ABS(Adjustment[8]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -197,15 +197,15 @@ page 70140922 "UAE VAT Return"
                             grid("19")
                             {
                                 GridLayout = Rows;
-                                field(Amount9; Amount[9])
+                                field(Amount9; ABS(Amount[9]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount9; VATAmount[9])
+                                field(VATAmount9; ABS(VATAmount[9]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment9;Adjustment[9])
+                                field(Adjustment9; ABS(Adjustment[9]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -217,15 +217,15 @@ page 70140922 "UAE VAT Return"
                             grid("110")
                             {
                                 GridLayout = Rows;
-                                field(Amount10; Amount[10])
+                                field(Amount10; ABS(Amount[10]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount10; VATAmount[10])
+                                field(VATAmount10; ABS(VATAmount[10]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment10;Adjustment[10])
+                                field(Adjustment10; ABS(Adjustment[10]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -237,15 +237,15 @@ page 70140922 "UAE VAT Return"
                             grid("111")
                             {
                                 GridLayout = Rows;
-                                field(Amount11; Amount[11])
+                                field(Amount11; ABS(Amount[11]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount11; VATAmount[11])
+                                field(VATAmount11; ABS(VATAmount[11]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment11;Adjustment[11])
+                                field(Adjustment11; ABS(Adjustment[11]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -257,15 +257,15 @@ page 70140922 "UAE VAT Return"
                             grid("112")
                             {
                                 GridLayout = Rows;
-                                field(Amount12; Amount[12])
+                                field(Amount12; ABS(Amount[12]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount12; VATAmount[12])
+                                field(VATAmount12; ABS(VATAmount[12]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment12;Adjustment[12])
+                                field(Adjustment12; ABS(Adjustment[12]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -277,15 +277,15 @@ page 70140922 "UAE VAT Return"
                             grid("113")
                             {
                                 GridLayout = Rows;
-                                field(Amount13; Amount[13])
+                                field(Amount13; ABS(Amount[13]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount13; VATAmount[13])
+                                field(VATAmount13; ABS(VATAmount[13]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment13;Adjustment[13])
+                                field(Adjustment13; ABS(Adjustment[13]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -297,15 +297,15 @@ page 70140922 "UAE VAT Return"
                             grid("114")
                             {
                                 GridLayout = Rows;
-                                field(Amount14; Amount[14])
+                                field(Amount14; ABS(Amount[14]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount14; VATAmount[14])
+                                field(VATAmount14; ABS(VATAmount[14]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment14;Adjustment[14])
+                                field(Adjustment14; ABS(Adjustment[14]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -399,15 +399,15 @@ page 70140922 "UAE VAT Return"
                             grid("31")
                             {
                                 GridLayout = Rows;
-                                field(TotalAmount1;TotalAmount[1])
+                                field(TotalAmount1;ABS(TotalAmount[1]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(TotalVATAmount1;TotalVATAmount[1])
+                                field(TotalVATAmount1;ABS(TotalVATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(TotalAdjustment1;TotalAdjustment[1])
+                                field(TotalAdjustment1;ABS(TotalAdjustment[1]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -466,6 +466,7 @@ page 70140922 "UAE VAT Return"
             action(Calculate)
             {
                 Caption = 'Calculate';
+                ToolTip = 'Click to calculate the VAT return values';
                 Promoted = TRUE;
                 PromotedIsBig = true;
                 Image = Calculate;
@@ -587,55 +588,61 @@ page 70140922 "UAE VAT Return"
             action("FAF Customer Transaction")
             {
                 Caption = 'FAF Customer Transaction';
+                ToolTip = 'FAF audit file for Customer Transaction';
                 Promoted = TRUE;
                 PromotedIsBig = true;
                 Image = ExportFile;
                 
                 trigger OnAction()
                 var 
-                    FAFGLTransaction : Report "FAF Customer Transaction";
+                    FAFCustomerTransaction : Report "FAF Customer Transaction";
                     ExportStream : OutStream;
                     XMLParameter : Text;    
                     ExportFile : InStream;
                     ExportFileName : Text;
                     Tempblob : REcord TempBlob temporary;
                 begin
-                    XMLParameter := Report.RunRequestPage(70140922);
-                    Tempblob.Blob.CreateInStream(ExportFile);
-                    Tempblob.Blob.CreateOutStream(ExportStream);
-                    Report.SaveAs(70140922,XMLParameter, ReportFormat::Excel, ExportStream);                        
-
-                    ExportFileName := 'FAFCustomerTransaction'+XMLParameter+'.xls';
-                    DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;
+                    XMLParameter := FAFCustomerTransaction.RunRequestPage();
+                    IF XMLParameter <> '' THEN begin
+                        Tempblob.Blob.CreateInStream(ExportFile);
+                        Tempblob.Blob.CreateOutStream(ExportStream);
+                        FAFCustomerTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);                        
+                        ExportFileName := 'FAFCustomerTransaction.xls';
+                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;
+                    End;    
                 END;    
             }
             action("FAF Supplier Transaction")
                 {
                     Caption = 'FAF Supplier Transaction';
+                    ToolTip = 'FAF audit file for supplier transaction';
                     Promoted = TRUE;
                     PromotedIsBig = true;
                     Image = ExportFile;
                     trigger OnAction()
                     var
-                        FAFGLTransaction : Report "FAF Supplier Transaction";
+                        FAFSupplierTransaction : Report "FAF Supplier Transaction";
                         ExportStream : OutStream;
                         XMLParameter : Text;    
                         ExportFile : InStream;
                         ExportFileName : Text;
                         Tempblob : REcord TempBlob temporary;
                     begin
-                        XMLParameter := Report.RunRequestPage(70140921);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        Report.SaveAs(70140921,XMLParameter, ReportFormat::Excel, ExportStream);                        
-
-                        ExportFileName := 'FAFSupplierTransaction'+XMLParameter+'.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                                                
+                        XMLParameter := FAFSupplierTransaction.RunRequestPage();
+                        IF XMLParameter <> '' THEN BEGIN
+                            Tempblob.Blob.CreateInStream(ExportFile);
+                            Tempblob.Blob.CreateOutStream(ExportStream);
+                            FAFSupplierTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);                        
+                            ExportFileName := 'FAFSupplierTransaction.xls';
+                            DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName);
+                        END;    
                     END;    
                 }
                 action("FAF GL Transaction")
                 {
                     Caption = 'FAF GL Transaction';
+                    ToolTip = 'FAF audit file for general ledger transactions';
                     Promoted = TRUE;
                     PromotedIsBig = true;
                     Image = ExportFile;
@@ -649,13 +656,13 @@ page 70140922 "UAE VAT Return"
                         Tempblob : Record TempBlob temporary;
                     begin
                         XMLParameter := FAFGLTransaction.RunRequestPage();
-                        //XMLParameter := Report.RunRequestPage(70140923);
-                        Tempblob.Blob.CreateInStream(ExportFile);
-                        Tempblob.Blob.CreateOutStream(ExportStream);
-                        FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);
-                        //Report.SaveAs(70140923,XMLParameter, ReportFormat::Excel, ExportStream);                        
-                        ExportFileName := 'FAFGLTransaction.xls';
-                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                        IF XMLParameter <> '' THEN BEGIN
+                            Tempblob.Blob.CreateInStream(ExportFile);
+                            Tempblob.Blob.CreateOutStream(ExportStream);
+                            FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);
+                            ExportFileName := 'FAFGLTransaction.xls';
+                            DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                        END;    
                     END;    
                 }
         }

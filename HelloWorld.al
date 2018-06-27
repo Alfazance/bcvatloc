@@ -21,7 +21,7 @@ pageextension 70141920 CustomerListExt extends "Customer List"
         //Report.Run(Report::"UAEVATLoc Sales - Order Conf");
         //Report.Run(Report::"UAEVATLoc Sales - Invoice");
         //Report.Run(Report::"UAEVATLoc Return Order Conf");
-        Report.Run(Report::"UAVVATLoc Service Cr Memo");
+        //Report.Run(Report::"UAVVATLoc Service Cr Memo");
         //report.Run(Report::"FAF Supplier Transaction");
         //Report.Run(Report::"FAF Customer Transaction");
         //Report.Run(Report::"FAF GL Transaction");

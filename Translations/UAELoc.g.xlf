@@ -28,6 +28,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 3286576318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control GroupCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 3286576318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Code for VAT State wise</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control GroupCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description of VAT group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 2063862266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control SequenceNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2254778861 - Control 2063862266 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence No. for VAT return report control</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control SequenceNo - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 346359708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Return</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -38,10 +68,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Start Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 346359708 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start date of VAT return period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Start Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 346359708 - Control 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>End Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 346359708 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Closing date of VAT return period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control End Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 346359708 - Control 3256133692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT on Sales and All other Outputs</source>
@@ -463,25 +503,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action Calculate - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 346359708 - Action 1592581304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click to calculate the VAT return values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action Calculate - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 346359708 - Action 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Customer Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Customer Transaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 346359708 - Action 3164871307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF audit file for Customer Transaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Customer Transaction - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 346359708 - Action 1581037739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Supplier Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Supplier Transaction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 346359708 - Action 1581037739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF audit file for supplier transaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Supplier Transaction - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 346359708 - Action 972630994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF GL Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF GL Transaction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 346359708 - Action 972630994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF audit file for general ledger transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF GL Transaction - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Customer Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period End - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3164871307 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period End - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3164871307 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
@@ -588,6 +668,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 972630994 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period End - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 972630994 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period End - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 972630994 - NamedType 1514742955" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLDataStart</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -677,6 +777,26 @@
           <source>FAF Supplier Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period End - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581037739 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period End - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 1581037739 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
@@ -782,6 +902,26 @@
           <source>FAF Supplier Transaction1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period End - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1444711012 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date of VAT return filing period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period End - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 1444711012 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
@@ -3928,10 +4068,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action UAE VAT Return - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 214128802 - Action 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FAF Customer Transaction</source>
+        <trans-unit id="PageExtension 214128802 - Action 346359708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT return report for submitting VAT to FTA</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action FAF Customer Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action UAE VAT Return - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 4210385371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Localization</source>
@@ -3943,40 +4083,80 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name En - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 872395810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the taxable person in English</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name En - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 4233780266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taxable Person Name AR</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name AR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 4233780266 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the taxable person in Arabic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name AR - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 897789303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agency Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 897789303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the Tax Agency in case the filing is done by a Tax Agency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Name - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 3236902307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agency Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 3236902307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of the Tax Agency in case the filing is done by a Tax Agency(TAN)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Number - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 1855851269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agent Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 1855851269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the Tax Agent in case the filing is done by a Tax Agent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Name - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 1535282956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agent Approval Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Approval Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 1535282956 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Approval Number(TAAN)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Approval Number - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 156412750 - Control 3709714800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Version No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control FAF Version No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 156412750 - Control 3709714800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FTA Audit File (FAF) version number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control FAF Version No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3445070746 - Control 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Posting Setup Page Ext - Control VAT Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3445070746 - Control 2132783427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Code is mandatory for UAE VAT Return report. Select the appropriate emirates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Posting Setup Page Ext - Control VAT Group Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3595798924 - Field 872395810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taxable Person Name En</source>
