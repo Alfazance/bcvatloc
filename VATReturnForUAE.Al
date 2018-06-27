@@ -1,0 +1,730 @@
+page 70140922 "UAE VAT Return"
+{
+    
+    PageType =  Card;
+    //SourceTable = Integer;
+    Caption = 'UAE VAT Return';
+    //SourceTableView = sorting(Number) order(ascending) Where(Number = const(1));
+    UsageCategory = Tasks;
+    ApplicationArea = All;
+
+    layout
+    {
+        area(content)
+        {
+            field("Start Date"; StartDate)
+            {
+                Caption = 'Start Date';
+            }
+            field("End Date"; EndDate)
+            {
+                Caption = 'End Date';
+            }
+            group(OutputGroup)
+            {
+                Caption = 'VAT on Sales and All other Outputs';
+                grid(Grid10)
+                {
+                    GridLayout = Rows ;
+                    Group(OutPut)
+                    {
+                        Group(SRSAbuDabhi)
+                        {
+                            Caption = 'Standard Rated Supplies in AbuDabhi*';
+                            grid("11")
+                            {
+                                GridLayout = Rows;
+                                field(Amount; Amount[1])
+                                {
+                                    Caption = 'Amount';
+                                    
+                                }
+                                field(VATAmount; VATAmount[1])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment;Adjustment[1])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }    
+                        Group(SRSDubai)
+                        {
+                            Caption = 'Standard Rated Supplies in Dubai*';
+                            grid("12")
+                            {
+                                GridLayout = Rows;
+                                field(Amount2; Amount[2])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount2; VATAmount[2])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment2;Adjustment[2])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(SRSSharjah)
+                        {
+                            Caption = 'Standard Rated Supplies in Sharjah*';
+                            grid("13")
+                            {
+                                GridLayout = Rows;
+                                field(Amount3; Amount[3])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount3; VATAmount[3])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment3;Adjustment[3])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(SRSAjman)
+                        {
+                            Caption = 'Standard Rated Supplies in Ajman*';
+                            grid("14")
+                            {
+                                GridLayout = Rows;
+                                field(Amount4; Amount[4])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount4; VATAmount[4])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment4;Adjustment[4])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(SRSUmmAlQuwain)
+                        {
+                            Caption = 'Standard Rated Supplies in UmmAlQuwain*';
+                            grid("15")
+                            {
+                                GridLayout = Rows;
+                                field(Amount5; Amount[5])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount5; VATAmount[5])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment5;Adjustment[5])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(SRSRasAlKhaimah)
+                        {
+                            Caption = 'Standard Rated Supplies in RasAlKhaimah*';
+                            grid("16")
+                            {
+                                GridLayout = Rows;
+                                field(Amount6; Amount[6])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount6; VATAmount[6])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment6;Adjustment[6])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(SRSFujairah)
+                        {
+                            Caption = 'Standard Rated Supplies in Fujairah*';
+                            grid("17")
+                            {
+                                GridLayout = Rows;
+                                field(Amount7; Amount[7])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount7; VATAmount[7])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment7;Adjustment[7])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(TAXRefunds)
+                        {
+                            Caption = 'Tax Refunds provided to Tourists under the Tax Refunds for Tourists Scheme';
+                            grid("18")
+                            {
+                                GridLayout = Rows;
+                                field(Amount8; Amount[8])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount8; VATAmount[8])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment8;Adjustment[8])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(ReverseCharge)
+                        {
+                            Caption = 'Supplies subject to the reverse charge provisions';
+                            grid("19")
+                            {
+                                GridLayout = Rows;
+                                field(Amount9; Amount[9])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount9; VATAmount[9])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment9;Adjustment[9])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(ZeroRated)
+                        {
+                            Caption = 'Zero-rated supplies';
+                            grid("110")
+                            {
+                                GridLayout = Rows;
+                                field(Amount10; Amount[10])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount10; VATAmount[10])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment10;Adjustment[10])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(Exemptsupplies)
+                        {
+                            Caption = 'Exempt supplies';
+                            grid("111")
+                            {
+                                GridLayout = Rows;
+                                field(Amount11; Amount[11])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount11; VATAmount[11])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment11;Adjustment[11])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(GoodsImportedUAE)
+                        {
+                            Caption = 'Goods imported into the UAE';
+                            grid("112")
+                            {
+                                GridLayout = Rows;
+                                field(Amount12; Amount[12])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount12; VATAmount[12])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment12;Adjustment[12])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(AdjustmentGoodsImportedUAE)
+                        {
+                            Caption = 'Adjustments to goods imported into the UAE';
+                            grid("113")
+                            {
+                                GridLayout = Rows;
+                                field(Amount13; Amount[13])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount13; VATAmount[13])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment13;Adjustment[13])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                        Group(Totals)
+                        {
+                            Caption = 'Totals';
+                            grid("114")
+                            {
+                                GridLayout = Rows;
+                                field(Amount14; Amount[14])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(VATAmount14; VATAmount[14])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(Adjustment14;Adjustment[14])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }    
+                        }
+                    }    
+                }    
+            }
+            group("InputGroup")
+            {
+                Caption = 'VAT on Expenses and all other Inputs';
+                grid(Grid20)
+                {
+                    GridLayout = Rows ;
+                    group(Input)
+                    {
+                        group("StandardRatedExp")
+                        {
+                            Caption = 'Standard rated expenses';
+                            grid("1")
+                            {
+                                GridLayout = Rows;
+                                field(InputAmount1;InputAmount[1])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(InputVATAmount1;InputVATAmount[1])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(InputAdjustment1;Adjustment[1])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }
+                        }
+                        group("ReverseChargeExpense")
+                        {
+                            Caption = 'Supplies subject to the reverse charge provisions';
+                            grid("2")
+                            {
+                                GridLayout = Rows;
+                                field(InputAmount2;InputAmount[2])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(InputVATAmount2;InputVATAmount[2])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(InputAdjustment2;InputAdjustment[2])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }
+                        }
+                        group(InputTotal)
+                        {
+                            Caption = 'Totals';
+                            grid("3")
+                            {
+                                GridLayout = Rows;    
+                                field(InputAmount3;InputAmount[3])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(InputVATAmount3;InputVATAmount[3])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(InputAdjustment3;InputAdjustment[3])
+                                {
+                                    Caption = 'Adjustment';
+                                }    
+                            }
+                        }
+                    }    
+                }    
+            }
+            group(NetTotalDue)
+            {
+                Caption = 'Net Total Due';
+                grid(Grid30)
+                {
+                    GridLayout = Rows ;
+                    group(NetTotal)
+                    {
+                        group(OutputDue)
+                        {
+                            Caption = 'Total value of due tax for the period';
+                            grid("31")
+                            {
+                                GridLayout = Rows;
+                                field(TotalAmount1;TotalAmount[1])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(TotalVATAmount1;TotalVATAmount[1])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(TotalAdjustment1;TotalAdjustment[1])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }
+                        }
+                        group(InputDue)
+                        {
+                            Caption = 'Total value of recoverable tax for the period';
+                            grid("32")
+                            {
+                                GridLayout = Rows;
+                                field(TotalAmount2;TotalAmount[2])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(TotalVATAmount2;TotalVATAmount[2])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(TotalAdjustment2;TotalAdjustment[2])
+                                {
+                                    Caption = 'Adjustment';
+                                }
+                            }
+                        }
+                        group(NetDue)
+                        {
+                            Caption = 'Payable tax for the period';
+                            grid("33")
+                            {
+                                GridLayout = Rows;    
+                                field(TotalAmount3;TotalAmount[3])
+                                {
+                                    Caption = 'Amount';
+                                }
+                                field(TotalVATAmount3;TotalVATAmount[3])
+                                {
+                                    Caption = 'VAT Amount';
+                                }
+                                field(TotalAdjustment3;TotalAdjustment[3])
+                                {
+                                    Caption = 'Adjustment';
+                                }    
+                            }
+                        }
+                    }    
+                }    
+            }        
+        }
+    }
+    
+    actions
+    {
+        area(processing)
+        {
+            action(Calculate)
+            {
+                Caption = 'Calculate';
+                Promoted = TRUE;
+                PromotedIsBig = true;
+                Image = Calculate;
+                trigger OnAction()
+                var 
+                    VATPostingSetup : Record "VAT Posting Setup";
+                    Type_G : Option  ,Purchase,Sale,Settlement;
+                    i : Integer;
+                    VATReturnGroupCode : Record "VAT Group Code";
+                    VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax";
+                begin
+                    CLEAR(Amount);
+                    CLEAR(Amount);
+                    CLEAR(VATAmount);
+                    CLEAR(Adjustment);
+                    CLEAR(InputAmount);
+                    CLEAR(InputAdjustment);
+                    CLEAR(InputVATAmount);
+                    CLEAR(TotalAdjustment);
+                    CLEAR(TotalAmount);
+                    CLEAR(TotalVATAmount);
+                    //------------------------------------**Sale**---------------------
+                    i := 0;
+                    //1A Calculation
+                    i := 1; 
+                    CalculateVATAmounts(Type_G::Sale,i,'AUH','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1b Calculation
+                    i := 2; 
+                    CalculateVATAmounts(Type_G::Sale,i,'DXB','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1c Calculation
+                    i := 3; 
+                    CalculateVATAmounts(Type_G::Sale,i,'SHJ','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1d Calculation
+                    i := 4; 
+                    CalculateVATAmounts(Type_G::Sale,i,'AJM','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1e Calculation
+                    i := 5; 
+                    CalculateVATAmounts(Type_G::Sale,i,'UAQ','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1f Calculation
+                    i := 6; 
+                    CalculateVATAmounts(Type_G::Sale,i,'RAK','SR');  
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //1g Calculation
+                    i := 7; 
+                    CalculateVATAmounts(Type_G::Sale,i,'FUJ','SR');
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    i := 8;   //TAX Refunds Tourist
+                    i := 9;   //Reverse Charge Provision VAT
+                    i := 10;  //ZeroRated
+                    CalculateVATAmounts(Type_G::Sale,i,'','ZR'); 
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    i := 11;  //Exempted
+                    CalculateVATAmounts(Type_G::Sale,i,'','');  
+                    Amount[14] += Amount[i];
+                    VATAmount[14] += VATAmount[i];
+                    Adjustment[14] += Adjustment[i];
+                    //----------------------**Purchase**-----------------------------\\
+
+                    i := 1; //Standard Rated
+                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Normal VAT");
+                    /*InputAdjustment[3] += InputAdjustment[i];
+                    InputAmount[3] += InputAmount[i];
+                    InputVATAmount[3] += InputVATAmount[i];
+                    */
+                    // For Full VAT
+                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Full VAT");
+                    InputAdjustment[3] += InputAdjustment[i];
+                    InputAmount[3] += InputAmount[i];
+                    InputVATAmount[3] += InputVATAmount[i];
+
+                    i := 2; //Reverse Charge             
+                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Reverse Charge VAT");
+                    //VAT total - Reverse charge removed  
+                    /*
+                    InputAdjustment[3] += InputAdjustment[i];
+                    InputAmount[3] += InputAmount[i];
+                    InputVATAmount[3] += InputVATAmount[i];
+                    */
+                    //----------------------------------------**Total**----------------------//
+                    i := 1;
+                    TotalAdjustment[i] := Adjustment[14];
+                    TotalAmount[i] := Amount[14];
+                    TotalVATAmount[i] := VATAmount[14];
+
+                    i := 2;
+                    TotalAdjustment[i] := InputAdjustment[3];
+                    TotalAmount[i] := InputAmount[3];
+                    TotalVATAmount[i] := InputVATAmount[3];
+
+                    i := 3;
+                    TotalAdjustment[i] := InputAdjustment[3] + Adjustment[14];
+                    TotalAmount[i] := InputAmount[3] + Amount[14];
+                    TotalVATAmount[i] := InputVATAmount[3] + VATAmount[14];
+    
+                    MESSAGE('Vat values has been updated');
+                end;
+            }
+            action("FAF Customer Transaction")
+            {
+                Caption = 'FAF Customer Transaction';
+                Promoted = TRUE;
+                PromotedIsBig = true;
+                Image = ExportFile;
+                
+                trigger OnAction()
+                var 
+                    FAFGLTransaction : Report "FAF Customer Transaction";
+                    ExportStream : OutStream;
+                    XMLParameter : Text;    
+                    ExportFile : InStream;
+                    ExportFileName : Text;
+                    Tempblob : REcord TempBlob temporary;
+                begin
+                    XMLParameter := Report.RunRequestPage(70140922);
+                    Tempblob.Blob.CreateInStream(ExportFile);
+                    Tempblob.Blob.CreateOutStream(ExportStream);
+                    Report.SaveAs(70140922,XMLParameter, ReportFormat::Excel, ExportStream);                        
+
+                    ExportFileName := 'FAFCustomerTransaction'+XMLParameter+'.xls';
+                    DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;
+                END;    
+            }
+            action("FAF Supplier Transaction")
+                {
+                    Caption = 'FAF Supplier Transaction';
+                    Promoted = TRUE;
+                    PromotedIsBig = true;
+                    Image = ExportFile;
+                    trigger OnAction()
+                    var
+                        FAFGLTransaction : Report "FAF Supplier Transaction";
+                        ExportStream : OutStream;
+                        XMLParameter : Text;    
+                        ExportFile : InStream;
+                        ExportFileName : Text;
+                        Tempblob : REcord TempBlob temporary;
+                    begin
+                        XMLParameter := Report.RunRequestPage(70140921);
+                        Tempblob.Blob.CreateInStream(ExportFile);
+                        Tempblob.Blob.CreateOutStream(ExportStream);
+                        Report.SaveAs(70140921,XMLParameter, ReportFormat::Excel, ExportStream);                        
+
+                        ExportFileName := 'FAFSupplierTransaction'+XMLParameter+'.xls';
+                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                    END;    
+                }
+                action("FAF GL Transaction")
+                {
+                    Caption = 'FAF GL Transaction';
+                    Promoted = TRUE;
+                    PromotedIsBig = true;
+                    Image = ExportFile;
+                    trigger OnAction()
+                    var
+                        FAFGLTransaction : Report "FAF GL Transaction";
+                        ExportStream : OutStream;
+                        XMLParameter : Text;    
+                        ExportFile : InStream;
+                        ExportFileName : Text;
+                        Tempblob : Record TempBlob temporary;
+                    begin
+                        XMLParameter := FAFGLTransaction.RunRequestPage();
+                        //XMLParameter := Report.RunRequestPage(70140923);
+                        Tempblob.Blob.CreateInStream(ExportFile);
+                        Tempblob.Blob.CreateOutStream(ExportStream);
+                        FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);
+                        //Report.SaveAs(70140923,XMLParameter, ReportFormat::Excel, ExportStream);                        
+                        ExportFileName := 'FAFGLTransaction.xls';
+                        DOWNLOADFROMSTREAM(ExportFile,'Export','','All Files (*.*)|*.*',ExportFileName) ;        
+                    END;    
+                }
+        }
+    }
+    local procedure CalculateVATAmounts(Type_L : Option  ,Purchase,Sale,Settlement; i : integer; VATReturnGroupCode : Code[10]; VATIdentifire : Code[10])
+    var
+        VATEntry : Record "VAT Entry";
+        VATPostingSetup_L : Record "VAT Posting Setup";   
+    begin
+        VATPostingSetup_L.RESET;
+        IF VATIdentifire <> '' THEN
+        VATPostingSetup_L.SETRANGE("VAT Identifier",VATIdentifire)
+        ELSE
+        VATPostingSetup_L.SETRANGE("VAT Prod. Posting Group",'VAT_EXEMPT');
+        IF VATReturnGroupCode <> '' THEN  
+        VATPostingSetup_L.SETRANGE("VAT Group Code",VATReturnGroupCode);
+        VATPostingSetup_L.SETRANGE("VAT Calculation Type",VATPostingSetup_L."VAT Calculation Type"::"Normal VAT");
+        IF VATIdentifire = 'ZR' THEN
+        VATPostingSetup_L.SETFILTER("VAT Prod. Posting Group",'<>%1','VAT_EXEMPT');
+        IF VATPostingSetup_L.FINDSET THEN REPEAT
+        VATEntry.RESET;
+        VATEntry.SETCURRENTKEY(Type,Closed,"VAT Bus. Posting Group","VAT Prod. Posting Group","Posting Date");
+        VATEntry.SETRANGE(Type,Type_L);
+        VATEntry.SETRANGE(Closed,FALSE);
+        VATEntry.SETRANGE("VAT Bus. Posting Group",VATPostingSetup_L."VAT Bus. Posting Group");
+        VATEntry.SETRANGE("VAT Prod. Posting Group",VATPostingSetup_L."VAT Prod. Posting Group");
+        VATEntry.SETRANGE("Posting Date",StartDate,EndDate);
+        VATEntry.CALCSUMS(Base,Amount);
+        Amount[i] += VATEntry.Base;
+        VATAmount[i] += VATEntry.Amount;
+        UNTIL VATPostingSetup_L.NEXT = 0;
+    end;
+    local procedure CalculateVATAmountsInput(Type_L : Option  ,Purchase,Sale,Settlement; i : integer; VATReturnGroupCode : Code[10]; VATIdentifire : Code[10]; VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax")
+    var
+        VATEntry : Record "VAT Entry";
+        VATPostingSetup_L : Record "VAT Posting Setup";
+    begin
+        VATPostingSetup_L.RESET;
+        IF VATIdentifire <> '' THEN
+        VATPostingSetup_L.SETRANGE("VAT Identifier",VATIdentifire)
+        ELSE
+        VATPostingSetup_L.SETRANGE("VAT Prod. Posting Group",'VAT_EXEMPT');
+        IF VATReturnGroupCode <> '' THEN  
+        VATPostingSetup_L.SETRANGE( "VAT Group Code" ,VATReturnGroupCode);
+        VATPostingSetup_L.SETRANGE("VAT Calculation Type",VATCalculationType);
+        IF VATIdentifire = 'ZR' THEN
+        VATPostingSetup_L.SETFILTER("VAT Prod. Posting Group",'<>%1','VAT_EXEMPT');
+        IF VATPostingSetup_L.FINDSET THEN REPEAT
+        VATEntry.RESET;
+        VATEntry.SETCURRENTKEY(Type,Closed,"VAT Bus. Posting Group","VAT Prod. Posting Group","Posting Date");
+        VATEntry.SETRANGE(Type,Type_L);
+        VATEntry.SETRANGE(Closed,FALSE);
+        VATEntry.SETRANGE("VAT Bus. Posting Group",VATPostingSetup_L."VAT Bus. Posting Group");
+        VATEntry.SETRANGE("VAT Prod. Posting Group",VATPostingSetup_L."VAT Prod. Posting Group");
+        VATEntry.SETRANGE("Posting Date",StartDate,EndDate);
+        VATEntry.CALCSUMS(Base,Amount);
+        InputAmount[i] += VATEntry.Base;
+        InputVATAmount[i] += VATEntry.Amount;
+        UNTIL VATPostingSetup_L.NEXT = 0;
+    end;
+    var
+        myInt: Text[50];
+        StartDate : Date ;
+        EndDate :  Date ;
+        Amount: Array[15] of Decimal ;
+        VATAmount : ARRAY[15] of Decimal ;
+        Adjustment : ARRAY[15] of Decimal ;
+        InputAmount: Array[5] of Decimal ;
+        InputVATAmount : ARRAY[5] of Decimal ;
+        InputAdjustment : ARRAY[5] of Decimal ;
+        TotalAmount: Array[5] of Decimal ;
+        TotalVATAmount : ARRAY[5] of Decimal ;
+        TotalAdjustment : ARRAY[5] of Decimal ;
+}       
