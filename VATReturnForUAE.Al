@@ -16,11 +16,13 @@ page 70140922 "UAE VAT Return"
             {
                 Caption = 'Start Date';
                 ToolTip = 'Start date of VAT return period';
+                Width = 10;
             }
             field("End Date"; EndDate)
             {
                 Caption = 'End Date';
                 ToolTip = 'Closing date of VAT return period';
+                Width = 5;
             }
             group(OutputGroup)
             {
@@ -478,6 +480,10 @@ page 70140922 "UAE VAT Return"
                     VATReturnGroupCode : Record "VAT Group Code";
                     VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax";
                 begin
+                    IF (StartDate = 0D) or (EndDate = 0D) THEN 
+                        Error('Start Date and End Date cannot be empty');
+                    IF StartDate < EndDate THEN
+                        Error('Start Date cannot be less then End Date');
                     CLEAR(Amount);
                     CLEAR(Amount);
                     CLEAR(VATAmount);
@@ -582,7 +588,7 @@ page 70140922 "UAE VAT Return"
                     TotalAmount[i] := InputAmount[3] + Amount[14];
                     TotalVATAmount[i] := InputVATAmount[3] + VATAmount[14];
     
-                    MESSAGE('Vat values has been updated');
+                    MESSAGE('Vat values have been updated');
                 end;
             }
             action("FAF Customer Transaction")
