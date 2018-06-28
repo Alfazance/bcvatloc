@@ -12,303 +12,304 @@ page 70140922 "UAE VAT Return"
     {
         area(content)
         {
-            field("Start Date"; StartDate)
+            field(UAEStartDate; StartDate)
             {
                 Caption = 'Start Date';
                 ToolTip = 'Start date of VAT return period';
                 Width = 10;
             }
-            field("End Date"; EndDate)
+            field(UAEEndDate; EndDate)
             {
                 Caption = 'End Date';
                 ToolTip = 'Closing date of VAT return period';
                 Width = 5;
             }
-            group(OutputGroup)
+            group(UAEOutputGroup)
             {
                 Caption = 'VAT on Sales and All other Outputs';
                 grid(Grid10)
                 {
                     GridLayout = Rows ;
-                    Group(OutPut)
+                    Group(UAEOutPut)
                     {
+                        Caption = 'Output';
                         Editable = false;
-                        Group(SRSAbuDabhi)
+                        Group(UAESRSAbuDabhi)
                         {
                             Caption = 'Standard Rated Supplies in Abu-Dhabi*';
                             grid("11")
                             {
                                 GridLayout = Rows;
-                                field(Amount; ABS(Amount[1]))
+                                field(UAEAmount; ABS(Amount[1]))
                                 {
                                     Caption = 'Amount';
                                     
                                 }
-                                field(VATAmount; ABS(VATAmount[1]))
+                                field(UAEVATAmount; ABS(VATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment; ABS(Adjustment[1]))
+                                field(UAEAdjustment; ABS(Adjustment[1]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }    
-                        Group(SRSDubai)
+                        Group(UAESRSDubai)
                         {
                             Caption = 'Standard Rated Supplies in Dubai*';
                             grid("12")
                             {
                                 GridLayout = Rows;
-                                field(Amount2; ABS(Amount[2]))
+                                field(UAEAmount2; ABS(Amount[2]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount2; ABS(VATAmount[2]))
+                                field(UAEVATAmount2; ABS(VATAmount[2]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment2; ABS(Adjustment[2]))
+                                field(UAEAdjustment2; ABS(Adjustment[2]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(SRSSharjah)
+                        Group(UAESRSSharjah)
                         {
                             Caption = 'Standard Rated Supplies in Sharjah*';
                             grid("13")
                             {
                                 GridLayout = Rows;
-                                field(Amount3; ABS(Amount[3]))
+                                field(UAEAmount3; ABS(Amount[3]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount3; ABS(VATAmount[3]))
+                                field(UAEVATAmount3; ABS(VATAmount[3]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment3; ABS(Adjustment[3]))
+                                field(UAEAdjustment3; ABS(Adjustment[3]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(SRSAjman)
+                        Group(UAESRSAjman)
                         {
                             Caption = 'Standard Rated Supplies in Ajman*';
                             grid("14")
                             {
                                 GridLayout = Rows;
-                                field(Amount4; ABS(Amount[4]))
+                                field(UAEAmount4; ABS(Amount[4]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount4; ABS(VATAmount[4]))
+                                field(UAEVATAmount4; ABS(VATAmount[4]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment4; ABS(Adjustment[4]))
+                                field(UAEAdjustment4; ABS(Adjustment[4]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(SRSUmmAlQuwain)
+                        Group(UAESRSUmmAlQuwain)
                         {
                             Caption = 'Standard Rated Supplies in UmmAlQuwain*';
                             grid("15")
                             {
                                 GridLayout = Rows;
-                                field(Amount5; ABS(Amount[5]))
+                                field(UAEAmount5; ABS(Amount[5]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount5; ABS(VATAmount[5]))
+                                field(UAEVATAmount5; ABS(VATAmount[5]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment5; ABS(Adjustment[5]))
+                                field(UAEAdjustment5; ABS(Adjustment[5]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(SRSRasAlKhaimah)
+                        Group(UAESRSRasAlKhaimah)
                         {
                             Caption = 'Standard Rated Supplies in RasAlKhaimah*';
                             grid("16")
                             {
                                 GridLayout = Rows;
-                                field(Amount6; ABS(Amount[6]))
+                                field(UAEAmount6; ABS(Amount[6]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount6; ABS(VATAmount[6]))
+                                field(UAEVATAmount6; ABS(VATAmount[6]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment6; ABS(Adjustment[6]))
+                                field(UAEAdjustment6; ABS(Adjustment[6]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(SRSFujairah)
+                        Group(UAESRSFujairah)
                         {
                             Caption = 'Standard Rated Supplies in Fujairah*';
                             grid("17")
                             {
                                 GridLayout = Rows;
-                                field(Amount7; ABS(Amount[7]))
+                                field(UAEAmount7; ABS(Amount[7]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount7; ABS(VATAmount[7]))
+                                field(UAEVATAmount7; ABS(VATAmount[7]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment7; ABS(Adjustment[7]))
+                                field(UAEAdjustment7; ABS(Adjustment[7]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(TAXRefunds)
+                        Group(UAETAXRefunds)
                         {
                             Caption = 'Tax Refunds provided to Tourists under the Tax Refunds for Tourists Scheme';
                             grid("18")
                             {
                                 GridLayout = Rows;
-                                field(Amount8; ABS(Amount[8]))
+                                field(UAEAmount8; ABS(Amount[8]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount8; ABS(VATAmount[8]))
+                                field(UAEVATAmount8; ABS(VATAmount[8]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment8; ABS(Adjustment[8]))
+                                field(UAEAdjustment8; ABS(Adjustment[8]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(ReverseCharge)
+                        Group(UAEReverseCharge)
                         {
                             Caption = 'Supplies subject to the reverse charge provisions';
                             grid("19")
                             {
                                 GridLayout = Rows;
-                                field(Amount9; ABS(Amount[9]))
+                                field(UAEAmount9; ABS(Amount[9]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount9; ABS(VATAmount[9]))
+                                field(UAEVATAmount9; ABS(VATAmount[9]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment9; ABS(Adjustment[9]))
+                                field(UAEAdjustment9; ABS(Adjustment[9]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(ZeroRated)
+                        Group(UAEZeroRated)
                         {
                             Caption = 'Zero-rated supplies';
                             grid("110")
                             {
                                 GridLayout = Rows;
-                                field(Amount10; ABS(Amount[10]))
+                                field(UAEAmount10; ABS(Amount[10]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount10; ABS(VATAmount[10]))
+                                field(UAEVATAmount10; ABS(VATAmount[10]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment10; ABS(Adjustment[10]))
+                                field(UAEAdjustment10; ABS(Adjustment[10]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(Exemptsupplies)
+                        Group(UAEExemptsupplies)
                         {
                             Caption = 'Exempt supplies';
                             grid("111")
                             {
                                 GridLayout = Rows;
-                                field(Amount11; ABS(Amount[11]))
+                                field(UAEAmount11; ABS(Amount[11]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount11; ABS(VATAmount[11]))
+                                field(UAEVATAmount11; ABS(VATAmount[11]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment11; ABS(Adjustment[11]))
+                                field(UAEAdjustment11; ABS(Adjustment[11]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(GoodsImportedUAE)
+                        Group(UAEGoodsImportedUAE)
                         {
                             Caption = 'Goods imported into the UAE';
                             grid("112")
                             {
                                 GridLayout = Rows;
-                                field(Amount12; ABS(Amount[12]))
+                                field(UAEAmount12; ABS(Amount[12]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount12; ABS(VATAmount[12]))
+                                field(UAEVATAmount12; ABS(VATAmount[12]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment12; ABS(Adjustment[12]))
+                                field(UAEAdjustment12; ABS(Adjustment[12]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(AdjustmentGoodsImportedUAE)
+                        Group(UAEAdjustmentGoodsImportedUAE)
                         {
                             Caption = 'Adjustments to goods imported into the UAE';
                             grid("113")
                             {
                                 GridLayout = Rows;
-                                field(Amount13; ABS(Amount[13]))
+                                field(UAEAmount13; ABS(Amount[13]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount13; ABS(VATAmount[13]))
+                                field(UAEVATAmount13; ABS(VATAmount[13]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment13; ABS(Adjustment[13]))
+                                field(UAEAdjustment13; ABS(Adjustment[13]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }    
                         }
-                        Group(Totals)
+                        Group(UAETotals)
                         {
                             Caption = 'Totals';
                             grid("114")
                             {
                                 GridLayout = Rows;
-                                field(Amount14; ABS(Amount[14]))
+                                field(UAEAmount14; ABS(Amount[14]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(VATAmount14; ABS(VATAmount[14]))
+                                field(UAEVATAmount14; ABS(VATAmount[14]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(Adjustment14; ABS(Adjustment[14]))
+                                field(UAEAdjustment14; ABS(Adjustment[14]))
                                 {
                                     Caption = 'Adjustment';
                                 }
@@ -317,70 +318,71 @@ page 70140922 "UAE VAT Return"
                     }    
                 }    
             }
-            group("InputGroup")
+            group(UAEInputGroup)
             {
                 Caption = 'VAT on Expenses and all other Inputs';
                 grid(Grid20)
                 {
                     GridLayout = Rows ;
-                    group(Input)
+                    group(UAEInput)
                     {
+                        Caption = 'Input';
                         Editable = false;
-                        group("StandardRatedExp")
+                        group(UAEStandardRatedExp)
                         {
                             Caption = 'Standard rated expenses';
                             grid("1")
                             {
                                 GridLayout = Rows;
-                                field(InputAmount1;InputAmount[1])
+                                field(UAEInputAmount1;InputAmount[1])
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(InputVATAmount1;InputVATAmount[1])
+                                field(UAEInputVATAmount1;InputVATAmount[1])
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(InputAdjustment1;Adjustment[1])
+                                field(UAEInputAdjustment1;Adjustment[1])
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }
                         }
-                        group("ReverseChargeExpense")
+                        group(UAEReverseChargeExpense)
                         {
                             Caption = 'Supplies subject to the reverse charge provisions';
                             grid("2")
                             {
                                 GridLayout = Rows;
-                                field(InputAmount2;InputAmount[2])
+                                field(UAEInputAmount2;InputAmount[2])
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(InputVATAmount2;InputVATAmount[2])
+                                field(UAEInputVATAmount2;InputVATAmount[2])
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(InputAdjustment2;InputAdjustment[2])
+                                field(UAEInputAdjustment2;InputAdjustment[2])
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }
                         }
-                        group(InputTotal)
+                        group(UAEInputTotal)
                         {
                             Caption = 'Totals';
                             grid("3")
                             {
                                 GridLayout = Rows;    
-                                field(InputAmount3;InputAmount[3])
+                                field(UAEInputAmount3;InputAmount[3])
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(InputVATAmount3;InputVATAmount[3])
+                                field(UAEInputVATAmount3;InputVATAmount[3])
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(InputAdjustment3;InputAdjustment[3])
+                                field(UAEInputAdjustment3;InputAdjustment[3])
                                 {
                                     Caption = 'Adjustment';
                                 }    
@@ -389,70 +391,70 @@ page 70140922 "UAE VAT Return"
                     }    
                 }    
             }
-            group(NetTotalDue)
+            group(UAENetTotalDue)
             {
                 Caption = 'Net Total Due';
                 grid(Grid30)
                 {
                     GridLayout = Rows ;
-                    group(NetTotal)
+                    group(UAENetTotal)
                     {
                         Editable = false;
-                        group(OutputDue)
+                        group(UAEOutputDue)
                         {
                             Caption = 'Total value of due tax for the period';
                             grid("31")
                             {
                                 GridLayout = Rows;
-                                field(TotalAmount1;ABS(TotalAmount[1]))
+                                field(UAETotalAmount1;ABS(TotalAmount[1]))
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(TotalVATAmount1;ABS(TotalVATAmount[1]))
+                                field(UAETotalVATAmount1;ABS(TotalVATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(TotalAdjustment1;ABS(TotalAdjustment[1]))
+                                field(UAETotalAdjustment1;ABS(TotalAdjustment[1]))
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }
                         }
-                        group(InputDue)
+                        group(UAEInputDue)
                         {
                             Caption = 'Total value of recoverable tax for the period';
                             grid("32")
                             {
                                 GridLayout = Rows;
-                                field(TotalAmount2;TotalAmount[2])
+                                field(UAETotalAmount2;TotalAmount[2])
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(TotalVATAmount2;TotalVATAmount[2])
+                                field(UAETotalVATAmount2;TotalVATAmount[2])
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(TotalAdjustment2;TotalAdjustment[2])
+                                field(UAETotalAdjustment2;TotalAdjustment[2])
                                 {
                                     Caption = 'Adjustment';
                                 }
                             }
                         }
-                        group(NetDue)
+                        group(UAENetDue)
                         {
                             Caption = 'Payable tax for the period';
                             grid("33")
                             {
                                 GridLayout = Rows;    
-                                field(TotalAmount3;TotalAmount[3])
+                                field(UAETotalAmount3;TotalAmount[3])
                                 {
                                     Caption = 'Amount';
                                 }
-                                field(TotalVATAmount3;TotalVATAmount[3])
+                                field(UAETotalVATAmount3;TotalVATAmount[3])
                                 {
                                     Caption = 'VAT Amount';
                                 }
-                                field(TotalAdjustment3;TotalAdjustment[3])
+                                field(UAETotalAdjustment3;TotalAdjustment[3])
                                 {
                                     Caption = 'Adjustment';
                                 }    
@@ -468,7 +470,7 @@ page 70140922 "UAE VAT Return"
     {
         area(processing)
         {
-            action(Calculate)
+            action("UAE Calculate")
             {
                 Caption = 'Calculate';
                 ToolTip = 'Click to calculate the VAT return values';
@@ -594,7 +596,7 @@ page 70140922 "UAE VAT Return"
                     MESSAGE('Vat values have been updated');
                 end;
             }
-            action("FAF Customer Transaction")
+            action("UAE FAF Customer Transaction")
             {
                 Caption = 'FAF Customer Transaction';
                 ToolTip = 'FAF audit file for Customer Transaction';
@@ -604,7 +606,7 @@ page 70140922 "UAE VAT Return"
                 
                 trigger OnAction()
                 var 
-                    FAFCustomerTransaction : Report "FAF Customer Transaction";
+                    FAFCustomerTransaction : Report "UAE FAF Customer Transaction";
                     ExportStream : OutStream;
                     XMLParameter : Text;    
                     ExportFile : InStream;
@@ -621,7 +623,7 @@ page 70140922 "UAE VAT Return"
                     End;    
                 END;    
             }
-            action("FAF Supplier Transaction")
+            action("UAE FAF Supplier Transaction")
                 {
                     Caption = 'FAF Supplier Transaction';
                     ToolTip = 'FAF audit file for supplier transaction';
@@ -630,7 +632,7 @@ page 70140922 "UAE VAT Return"
                     Image = ExportFile;
                     trigger OnAction()
                     var
-                        FAFSupplierTransaction : Report "FAF Supplier Transaction";
+                        FAFSupplierTransaction : Report "UAE FAF Supplier Transaction";
                         ExportStream : OutStream;
                         XMLParameter : Text;    
                         ExportFile : InStream;
@@ -648,7 +650,7 @@ page 70140922 "UAE VAT Return"
                         END;    
                     END;    
                 }
-                action("FAF GL Transaction")
+                action("UAE FAF GL Transaction")
                 {
                     Caption = 'FAF GL Transaction';
                     ToolTip = 'FAF audit file for general ledger transactions';
@@ -657,7 +659,7 @@ page 70140922 "UAE VAT Return"
                     Image = ExportFile;
                     trigger OnAction()
                     var
-                        FAFGLTransaction : Report "FAF GL Transaction";
+                        FAFGLTransaction : Report "UAE FAF GL Transaction";
                         ExportStream : OutStream;
                         XMLParameter : Text;    
                         ExportFile : InStream;
@@ -687,7 +689,7 @@ page 70140922 "UAE VAT Return"
         ELSE
         VATPostingSetup_L.SETRANGE("VAT Prod. Posting Group",'VAT_EXEMPT');
         IF VATReturnGroupCode <> '' THEN  
-        VATPostingSetup_L.SETRANGE("VAT Group Code",VATReturnGroupCode);
+        VATPostingSetup_L.SETRANGE("UAE VAT Group Code",VATReturnGroupCode);
         VATPostingSetup_L.SETRANGE("VAT Calculation Type",VATPostingSetup_L."VAT Calculation Type"::"Normal VAT");
         IF VATIdentifire = 'ZR' THEN
         VATPostingSetup_L.SETFILTER("VAT Prod. Posting Group",'<>%1','VAT_EXEMPT');
@@ -715,7 +717,7 @@ page 70140922 "UAE VAT Return"
         ELSE
         VATPostingSetup_L.SETRANGE("VAT Prod. Posting Group",'VAT_EXEMPT');
         IF VATReturnGroupCode <> '' THEN  
-        VATPostingSetup_L.SETRANGE( "VAT Group Code" ,VATReturnGroupCode);
+        VATPostingSetup_L.SETRANGE( "UAE VAT Group Code" ,VATReturnGroupCode);
         VATPostingSetup_L.SETRANGE("VAT Calculation Type",VATCalculationType);
         IF VATIdentifire = 'ZR' THEN
         VATPostingSetup_L.SETFILTER("VAT Prod. Posting Group",'<>%1','VAT_EXEMPT');

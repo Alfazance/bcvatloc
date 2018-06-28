@@ -1,5 +1,6 @@
-pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Role Center"
+pageextension 70140923 UAEAccManRoleCenterVATLocExt extends "Accounting Manager Role Center"
 {
+    Caption = 'UAE VAT Account Manager Role Center';
     layout
     {
         // Add changes to page layout here
@@ -16,7 +17,7 @@ pageextension 70140923 AccManRoleCenterVATLocExt extends "Accounting Manager Rol
                 {
                     Caption = 'UAE VAT Return';
                     ToolTip = 'VAT return report for submitting VAT to FTA';
-                    RunObject = Page "UAE VAT Return"; 
+                    RunObject = Page "UAE VAT Return";
                     
                 }
             }
