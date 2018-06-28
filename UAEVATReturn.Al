@@ -482,7 +482,7 @@ page 70140922 "UAE VAT Return"
                     VATPostingSetup : Record "VAT Posting Setup";
                     Type_G : Option  ,Purchase,Sale,Settlement;
                     i : Integer;
-                    VATReturnGroupCode : Record "VAT Group Code";
+                    VATReturnGroupCode : Record "UAE VAT Group Code";
                     VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax";
                 begin
                     IF (StartDate = 0D) or (EndDate = 0D) THEN 
