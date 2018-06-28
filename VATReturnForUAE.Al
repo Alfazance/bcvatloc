@@ -609,7 +609,7 @@ page 70140922 "UAE VAT Return"
                     XMLParameter : Text;    
                     ExportFile : InStream;
                     ExportFileName : Text;
-                    Tempblob : REcord TempBlob temporary;
+                    Tempblob : Record TempBlob temporary;
                 begin
                     XMLParameter := FAFCustomerTransaction.RunRequestPage();
                     IF XMLParameter <> '' THEN begin
