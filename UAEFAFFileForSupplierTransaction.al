@@ -1,69 +1,68 @@
-report 70140922 "FAF Customer Transaction"
+report 70140921 "UAE FAF Supplier Transaction"
 {
-    Caption = 'FAF Customer Transaction';
-    DefaultLayout = RDLC;
-    RDLCLayout = 'FAFFileForCustomerTransaction.rdl';
+    Caption = 'FAF Supplier Transaction';
+    RDLCLayout = 'UAEFAFFileForSuplierTransaction.rdl';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     dataset
     {
-        dataitem("Sales Invoice Line";"Sales Invoice Line")
+        dataitem("Purch. Inv. Line";"Purch. Inv. Line")
         {
             column(LCYCode_GLSetup;GLSetup."LCY Code")
             {
             }
-            column(SuppDataStart; SuppDataStartlbl)
+            column(PurchDataStart; PurcDataStartlbl)
             {
             }
-            column(SuppDataEnd; SuppDataEndlbl)
+            column(PurchDataEnd; PurcDataEndlbl)
             {
             }
-            column(CustomerName; CustomerRec.Name)
+            column(SupplierName; VendorRec.Name)
             {
             }
-            column(CustomerNamelbl; CustomerNamelbl)
+            column(SupplierNamelbl; SupplierNamelbl)
             {
             }
-            column(CustomerTRN; CustomerRec."VAT Registration No.")
+            column(SupplierTRN; VendorRec."VAT Registration No.")
             {
             }
-            column(CustomerTRNlbl; CustomerTRNlbl)
+            column(SupplierTRNlbl; SupplierTRNlbl)
             {
             }
-            column(InvoiceDate; "Sales Invoice Line"."Posting Date")
+            column(InvoiceDate; "Purch. Inv. Line"."Posting Date")
             {
             }
             column(InvoiceDatelbl; invoiceDatelbl)
             {
             }
-            column(InvoiceNo; "Sales Invoice Line"."Document No.")
+            column(InvoiceNo; "Purch. Inv. Line"."Document No.")
             {
             }
             column(InvoiceNolbl; InvoiceNolbl)
             {
             }
-            column(CountryCode;CountryCode)
+            column(PermitNo;PermitNo)
             {
             }
-            column(Countrylbl;Countrylbl)
+            column(PermitNolbl;PermitNolbl)
             {
             }
-            column(LineNo_SalesInvLine; "Sales Invoice Line"."Line No.")
+            column(LineNo_PurchInvLine; "Purch. Inv. Line"."Line No.")
             {
             }
             column(LineNolbl;LineNolbl)
             {
             }
-            column(Description_SalesInvLine; "Sales Invoice Line".Description+"Sales Invoice Line"."Description 2")
+            column(Description_PurchInvLine; "Purch. Inv. Line".Description+"Purch. Inv. Line"."Description 2")
             {
             }
             column(ProductDescriptionlbl;ProductDescriptionlbl)
             {
             }
-            column(SupplyValueLCY;SupplyValueLCY)
+            column(PurchaseValueLCY;PurchaseValueLCY)
             {
             }
-            column(SupplyValueLCYlbl;SupplyValueLCYlbl)
+            column(PurchaseValueLCYlbl;PurchaseValueLCYlbl)
             {
             }
             column(VATValueLCY;VATValueLCY)
@@ -84,10 +83,10 @@ report 70140922 "FAF Customer Transaction"
             column(FCYCodelbl;FCYCodelbl)
             {
             }
-            column(SupplyFCY;SupplyFCY)
+            column(PurchaseFCY;PurchaseFCY)
             {
             }
-            column(SupplyFCYlbl;SupplyFCYlbl)
+            column(PurchaseFCYlbl;PurchaseFCYlbl)
             {
             }
             column(VATFCY;VATFCY)
@@ -96,10 +95,10 @@ report 70140922 "FAF Customer Transaction"
             Column(VATFCYlbl;VATFCYlbl)
             {
             }
-            column(SupplyTotalLCYlbl;SupplyTotalLCYlbl)
+            column(PurchaseTotalLCYlbl;PurchaseTotalLCYlbl)
             {
             }
-            column(SupplyTotalLCY;SupplyTotalLCY)
+            column(PurchaseTotalLCY;PurchaseTotalLCY)
             {
             }
             column(VATTotalLCY;VATTotalLCY)
@@ -116,73 +115,72 @@ report 70140922 "FAF Customer Transaction"
             }
             trigger OnPreDataItem();
             begin
-                "Sales Invoice Line".SetCurrentKey("Posting Date","Document No.");
-                "Sales Invoice Line".SetRange("Posting Date", PeriodStart, PeriodEnd);
+                "Purch. Inv. Line".SetCurrentKey("Posting Date","Document No.");
+                "Purch. Inv. Line".SetRange("Posting Date", PeriodStart, PeriodEnd);
                 
                 TransactionTotalCount := 0;
-                SupplyTotalLCY:= 0;
+                PurchaseTotalLCY:= 0;
                 VATTotalLCY := 0;
             end;
 
             trigger OnAfterGetRecord();
             begin
-                
-                IF customerRec.Get("Sales Invoice Line"."Sell-to Customer No.") THEN BEGIN
-                    GetHeader("Sales Invoice Line"."Document No.");    
-                    TAXCode := "Sales Invoice Line"."VAT Identifier";    
-                    IF SalesInvHeader."Currency Code" = '' THEN 
+                IF VendorRec.Get("Purch. Inv. Line"."Pay-to Vendor No.") then begin
+                    GetHeader("Purch. Inv. Line"."Document No.");    
+                    TAXCode := "Purch. Inv. Line"."VAT Identifier";    
+                    IF PurchInvHeader."Currency Code" = '' THEN 
                         FCYCode := GLSetup."LCY Code"
                     ELSE        
-                        FCYCode := SalesInvHeader."Currency Code";
+                        FCYCode := PurchInvHeader."Currency Code";
 
                     IF FCYCode = GLSetup."LCY Code" THEN 
                         CurrencyFactor := 1
                     ELSE    
-                        CurrencyFactor := SalesInvHeader."Currency Factor";
+                        CurrencyFactor := PurchInvHeader."Currency Factor";
                     IF FCYCode <> GLSetup."LCY Code" THEN BEGIN
-                        SupplyValueLCY := "Sales Invoice Line"."VAT Base Amount"/CurrencyFactor;
-                        VATValueLCY := ("Sales Invoice Line"."Amount Including VAT"-"Sales Invoice Line"."VAT Base Amount")/CurrencyFactor;
-                        SupplyFCY := "Sales Invoice Line"."VAT Base Amount";
-                        VATFCY := ("Sales Invoice Line"."Amount Including VAT"-"Sales Invoice Line"."VAT Base Amount");     
+                        PurchaseValueLCY := "Purch. Inv. Line"."VAT Base Amount"/CurrencyFactor;
+                        VATValueLCY := ("Purch. Inv. Line"."Amount Including VAT"-"Purch. Inv. Line"."VAT Base Amount")/CurrencyFactor;
+                        PurchaseFCY := "Purch. Inv. Line"."VAT Base Amount";
+                        VATFCY := ("Purch. Inv. Line"."Amount Including VAT"-"Purch. Inv. Line"."VAT Base Amount");     
                     END ELSE BEGIN
-                        SupplyValueLCY := "Sales Invoice Line"."VAT Base Amount";
-                        VATValueLCY := ("Sales Invoice Line"."Amount Including VAT"-"Sales Invoice Line"."VAT Base Amount");
-                        SupplyFCY := 0.00;
+                        PurchaseValueLCY := "Purch. Inv. Line"."VAT Base Amount";
+                        VATValueLCY := ("Purch. Inv. Line"."Amount Including VAT"-"Purch. Inv. Line"."VAT Base Amount");
+                        PurchaseFCY := 0.00;
                         VATFCY := 0.00;             
                     END;
-                    SupplyTotalLCY += SupplyValueLCY;
+                    PurchaseTotalLCY += PurchaseValueLCY;
                     VATTotalLCY += VATValueLCY;
                     TransactionTotalCount += 1;
-                END;        
+                END;    
             end;
         }
         
 
-        dataitem("Sales Cr.Memo Line"; "Sales Cr.Memo Line")
+        dataitem("Purch. Cr. Memo Line"; "Purch. Cr. Memo Line")
         {
             
-            column(CrCustomerName; CustomerRec.Name)
+            column(CrSupplierName; VendorRec.Name)
             {
             }
-            column(CrCustomerTRN; CustomerRec."VAT Registration No.")
+            column(CrSupplierTRN; VendorRec."VAT Registration No.")
             {
             }
-            column(CrInvoiceDate; "Sales Cr.Memo Line"."Posting Date")
+            column(CrInvoiceDate; "Purch. Cr. Memo Line"."Posting Date")
             {
             }
-            column(CrInvoiceNo; "Sales Cr.Memo Line"."Document No.")
+            column(CrInvoiceNo; "Purch. Cr. Memo Line"."Document No.")
             {
             }
-            column(CrCountryCode; CountryCode)
+            column(CrPermitNo; PermitNo)
             {
             }
-            column(CrLineNo_SalesCrMemoLine; "Sales Cr.Memo Line"."Line No.")
+            column(CrLineNo_PurchCrMemoLine; "Purch. Cr. Memo Line"."Line No.")
             {
             }
-            column(CrDescription_SalesCrMemoLine; "Sales Cr.Memo Line".Description+"Sales Cr.Memo Line"."Description 2")
+            column(CrDescription_PurchCrMemoLine; "Purch. Cr. Memo Line".Description+"Purch. Cr. Memo Line"."Description 2")
             {
             }
-            column(CrSupplyValueLCY;-SupplyValueLCY)
+            column(CrPurchaseValueLCY;-PurchaseValueLCY)
             {
             }
             column(CrVATValueLCY;-VATValueLCY)
@@ -194,13 +192,13 @@ report 70140922 "FAF Customer Transaction"
             column(CrFCYCode;FCYCode)
             {
             }
-            column(CrSupplyFCY;-SupplyFCY)
+            column(CrPurchaseFCY;-PurchaseFCY)
             {
             }
             column(CrVATFCY;-VATFCY)
             {
             }
-            column(CrSupplyTotalLCY;SupplyTotalLCY)
+            column(CrPurchaseTotalLCY;PurchaseTotalLCY)
             {
             }
             column(CrVATTotalLCY;VATTotalLCY)
@@ -211,39 +209,40 @@ report 70140922 "FAF Customer Transaction"
             }
             trigger OnPreDataItem();
             begin
-                "Sales Cr.Memo Line".SetCurrentKey("Posting Date","Document No.");
-                "Sales Cr.Memo Line".SetRange("Posting Date", PeriodStart, PeriodEnd);
-                /*CrSupplyTotalLCY := 0;
+                "Purch. Cr. Memo Line".SetCurrentKey("Posting Date","Document No.");
+                "Purch. Cr. Memo Line".SetRange("Posting Date", PeriodStart, PeriodEnd);
+                /*CrPurchaseTotalLCY := 0;
                 CrVATTotalLCY := 0;
                 CrTransactionTotalCount := 0;*/
             end;
 
             trigger OnAfterGetRecord();
             begin
-                IF CustomerRec.Get("Sales Cr.Memo Line"."Sell-to Customer No.") THEN begin
-                    SalesCrMemoHeader.Get("Sales Cr.Memo Line"."Document No.");    
-                    TAXCode := "Sales Cr.Memo Line"."VAT Identifier";
-                    IF SalesCrMemoHeader."Currency Code" = '' THEN 
+                
+                IF VendorRec.Get("Purch. Cr. Memo Line"."Pay-to Vendor No.") THEN BEGIN
+                    PurchCrMemoHeader.Get("Purch. Cr. Memo Line"."Document No.");    
+                    TAXCode := "Purch. Cr. Memo Line"."VAT Identifier";
+                    IF PurchCrMemoHeader."Currency Code" = '' THEN 
                         FCYCode := GLSetup."LCY Code"
                     ELSE        
-                        FCYCode := SalesCrMemoHeader."Currency Code";
+                        FCYCode := PurchCrMemoHeader."Currency Code";
 
                     IF FCYCode = GLSetup."LCY Code" THEN 
                         CurrencyFactor := 1
                     ELSE    
-                        CurrencyFactor := SalesCrMemoHeader."Currency Factor";
+                        CurrencyFactor := PurchCrMemoHeader."Currency Factor";
                     IF FCYCode <> GLSetup."LCY Code" THEN BEGIN
-                        SupplyValueLCY := "Sales Cr.Memo Line"."VAT Base Amount"/CurrencyFactor;
-                        VATValueLCY := ("Sales Cr.Memo Line"."Amount Including VAT"-"Sales Cr.Memo Line"."VAT Base Amount")/CurrencyFactor;
-                        SupplyFCY := "Sales Cr.Memo Line"."VAT Base Amount";
-                        VATFCY := ("Sales Cr.Memo Line"."Amount Including VAT"-"Sales Cr.Memo Line"."VAT Base Amount");     
+                        PurchaseValueLCY := "Purch. Cr. Memo Line"."VAT Base Amount"/CurrencyFactor;
+                        VATValueLCY := ("Purch. Cr. Memo Line"."Amount Including VAT"-"Purch. Cr. Memo Line"."VAT Base Amount")/CurrencyFactor;
+                        PurchaseFCY := "Purch. Cr. Memo Line"."VAT Base Amount";
+                        VATFCY := ("Purch. Cr. Memo Line"."Amount Including VAT"-"Purch. Cr. Memo Line"."VAT Base Amount");     
                     END ELSE BEGIN
-                        SupplyValueLCY := "Sales Cr.Memo Line"."VAT Base Amount";
-                        VATValueLCY := ("Sales Cr.Memo Line"."Amount Including VAT"-"Sales Cr.Memo Line"."VAT Base Amount");
-                        SupplyFCY := 0.00;
+                        PurchaseValueLCY := "Purch. Cr. Memo Line"."VAT Base Amount";
+                        VATValueLCY := ("Purch. Cr. Memo Line"."Amount Including VAT"-"Purch. Cr. Memo Line"."VAT Base Amount");
+                        PurchaseFCY := 0.00;
                         VATFCY := 0.00;             
                     END;
-                    SupplyTotalLCY -= SupplyValueLCY;
+                    PurchaseTotalLCY -= PurchaseValueLCY;
                     VATTotalLCY -= VATValueLCY;
                     TransactionTotalCount += 1;
                 END;        
@@ -308,7 +307,7 @@ report 70140922 "FAF Customer Transaction"
     end;
     local procedure GetHeader(DocNo: Code[20])
     begin
-       SalesInvHeader.GET(DocNo);
+       PurchInvHeader.GET(DocNo);
     end;
 
 
@@ -317,37 +316,37 @@ report 70140922 "FAF Customer Transaction"
         PeriodEnd: Date;
         PeriodStartlbl: Label 'Period Start';
         PeriodEndlbl: Label 'Period End';
-        CustomerNamelbl: Label 'CustomerName';
-        CustomerTRNlbl: Label 'CustomerTIN/TRN';
+        SupplierNamelbl: Label 'SupplierName';
+        SupplierTRNlbl: Label 'SupplierTIN/TRN';
         InvoiceDatelbl: Label 'InvoiceDate';
         InvoiceNolbl: Label 'InvoiceNo';
-        CustomerRec : Record Customer;
-        SuppDataStartlbl: Label 'SuppDataStart';
-        SuppDataEndlbl: Label 'SuppDataEnd';
-        Countrylbl :Label 'Country'; 
+        VendorRec: Record Vendor;
+        PurcDataStartlbl: Label 'PurcDataStart';
+        PurcDataEndlbl: Label 'PurcDataEnd';
+        PermitNolbl :Label 'PermitNo'; 
         LineNolbl :Label 'LineNo'; 
         ProductDescriptionlbl :Label 'ProductDescription';
-        SupplyValueLCYlbl :Label 'SupplyValue'; 
+        PurchaseValueLCYlbl :Label 'PurchaseValue'; 
         VATValueLCYlbl :Label 'VATValue'; 
         TaxCodelbl :Label 'TaxCode'; 
         FCYCodelbl :Label 'FCYCode'; 
-        SupplyFCYlbl :Label 'SupplyFCY'; 
+        PurchaseFCYlbl :Label 'PurchaseFCY'; 
         VATFCYlbl :Label 'VATFCY'; 
-        CountryCode : Text[50];
+        PermitNo : Text[20];
         VATValueLCY : Decimal;
-        SupplyValueLCY : Decimal;
+        PurchaseValueLCY : Decimal;
         TAXCode : Code[5];
         FCYCode : Code[3];
-        SupplyFCY : Decimal;
+        PurchaseFCY : Decimal;
         VATFCY : Decimal;
-        SalesInvHeader : Record "Sales Invoice Header";
+        PurchInvHeader : Record "Purch. Inv. Header";
         CurrencyFactor : Decimal;
         GLSetup : Record "General Ledger Setup";
-        SupplyTotalLCYlbl : Label 'SupplyTotal';
+        PurchaseTotalLCYlbl : Label 'PurchaseTotal';
         VATTotalLCYlbl : Label 'VATTotal';
         TransactionTotalCountlbl : Label 'TransactionTotalCount';
-        SupplyTotalLCY : Decimal;
+        PurchaseTotalLCY : Decimal;
         VATTotalLCY : Decimal;
         TransactionTotalCount : Integer;
-        SalesCrMemoHeader : Record "Sales Cr.Memo Header";
+        PurchCrMemoHeader : Record "Purch. Cr. Memo Hdr.";
 }       

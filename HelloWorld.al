@@ -5,7 +5,7 @@
 pageextension 70141920 CustomerListExt extends "Customer List"
 {
     var
-    FAFGLTransaction : Report "FAF GL Transaction";
+    FAFGLTransaction : Report "UAE FAF GL Transaction";
     
     ExportStream : OutStream;
     XMLParameter : Text;    

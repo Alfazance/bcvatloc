@@ -63,965 +63,975 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 94463735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Start Date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEStartDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 94463735 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start date of VAT return period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Start Date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEStartDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 961125566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>End Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control End Date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEEndDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 961125566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Closing date of VAT return period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control End Date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEEndDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3256133692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2973755611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT on Sales and All other Outputs</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control OutputGroup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEOutputGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 826434150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1062722842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEOutPut - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 346359708 - Control 2128679397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in Abu-Dhabi*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSAbuDabhi - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSAbuDabhi - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3489410655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2892191201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 810697282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1211660521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1887797378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3308245139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1929393468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in Dubai*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSDubai - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSDubai - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 172016130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 86381473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2537771599 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1346968152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2322628759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 225976984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 51660523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1581871876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in Sharjah*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSSharjah - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSSharjah - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3829286809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 724078090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3175468216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 709271535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2960325376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3883247663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3866485293 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2372267158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in Ajman*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSAjman - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSAjman - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1447409364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1361774707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount4 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount4 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2068984005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 878180558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount4 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount4 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1853841165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 4052156686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment4 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment4 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 845416265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2812813554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in UmmAlQuwain*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSUmmAlQuwain - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSUmmAlQuwain - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 809712747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1999471324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount5 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount5 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2706680622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 240483941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount5 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount5 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2491537782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3414460069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment5 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment5 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 31353412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 4048788643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in RasAlKhaimah*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSRasAlKhaimah - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSRasAlKhaimah - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2722802598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2637167941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount6 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount6 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 793590771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3897754620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount6 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount6 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 578447931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2776763452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment6 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment6 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2371899364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1512019187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Rated Supplies in Fujairah*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control SRSFujairah - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAESRSFujairah - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2085105981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3274864558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount7 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount7 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1431287388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3260058003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount7 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount7 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1216144548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2139066835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment7 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment7 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2422113524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2836365099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Refunds provided to Tourists under the Tax Refunds for Tourists Scheme</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TAXRefunds - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETAXRefunds - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2384984552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3912561175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount8 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount8 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 324803177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3428967026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount8 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount8 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2791416353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2307975858 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment8 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment8 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3995443990 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 845736597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supplies subject to the reverse charge provisions</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control ReverseCharge - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEReverseCharge - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1747287935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 255290496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount9 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount9 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 962499794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2791270409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount9 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount9 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3429112970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1670279241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment9 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment9 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3623896040 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1048659271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Zero-rated supplies</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control ZeroRated - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEZeroRated - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 922564535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 77205168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount10 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount10 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3044185010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2682219329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount10 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount10 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1196003866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 848842113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment10 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment10 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 62832992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 913180247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exempt supplies</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Exemptsupplies - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEExemptsupplies - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1560261152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3734475847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount11 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount11 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2406488393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3319915946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount11 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount11 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 558307249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1486538730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment11 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment11 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 4005267423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1488711480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Goods imported into the UAE</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control GoodsImportedUAE - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEGoodsImportedUAE - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2197957769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1352598402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount12 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount12 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1768791776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1406826095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount12 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount12 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 4215577928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3868416175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment12 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment12 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 4123802190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 4071485573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustments to goods imported into the UAE</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control AdjustmentGoodsImportedUAE - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustmentGoodsImportedUAE - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2835654386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 714901785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount13 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount13 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1131095159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2044522712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount13 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount13 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3577881311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 211145496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment13 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment13 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2957675588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Totals</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Totals - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotals - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3473351003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2627991636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Amount14 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAmount14 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1300004182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 938038501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control VATAmount14 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEVATAmount14 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3746790334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3399628581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control Adjustment14 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEAdjustment14 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 800857651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 125522748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT on Expenses and all other Inputs</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputGroup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3002846964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3081191345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 346359708 - Control 2382601019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard rated expenses</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control StandardRatedExp - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEStandardRatedExp - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 270983357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 473844534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAmount1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAmount1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2713226540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3945031467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputVATAmount1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputVATAmount1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3613929028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3711922107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAdjustment1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAdjustment1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1731476686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2787097349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supplies subject to the reverse charge provisions</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control ReverseChargeExpense - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEReverseChargeExpense - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3928254036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2855721979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAmount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3350923157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1563154022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputVATAmount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputVATAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 4251625645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1330044662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAdjustment2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAdjustment2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2586196056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3869826735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Totals</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputTotal - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputTotal - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3290557419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3493418596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAmount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3988619774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 925457405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputVATAmount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputVATAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 594354966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 692348045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputAdjustment3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputAdjustment3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1815769419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 2452579964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net Total Due</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control NetTotalDue - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAENetTotalDue - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3153020125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 4040996590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total value of due tax for the period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control OutputDue - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEOutputDue - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3687922897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1268969530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAmount1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAmount1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 231018720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3846515535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalVATAmount1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalVATAmount1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1528655000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3822109119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAdjustment1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAdjustment1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1961151958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 410075101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total value of recoverable tax for the period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control InputDue - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAEInputDue - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 3050226280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3650846975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAmount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 868715337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1464638090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalVATAmount2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalVATAmount2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2166351617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 1440231674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAdjustment2 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAdjustment2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1605935645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 3443672662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payable tax for the period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control NetDue - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAENetDue - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2412529663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 4288543592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAmount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 1506411954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 826941473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalVATAmount3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalVATAmount3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Control 2804048234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Control 802535057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control TotalAdjustment3 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Control UAETotalAdjustment3 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 1592581304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 1846649687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action Calculate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE Calculate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 1592581304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 1846649687 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Click to calculate the VAT return values</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action Calculate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE Calculate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 2639000676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Customer Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Customer Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF Customer Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 3164871307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 2639000676 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF audit file for Customer Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Customer Transaction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF Customer Transaction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 1581037739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 1711045348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Supplier Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Supplier Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF Supplier Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 1581037739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 1711045348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF audit file for supplier transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF Supplier Transaction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF Supplier Transaction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 972630994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 4014168905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF GL Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF GL Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF GL Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 346359708 - Action 972630994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 346359708 - Action 4014168905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF audit file for general ledger transactions</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action FAF GL Transaction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Return - Action UAE FAF GL Transaction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Customer Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period Start - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - Control Period Start - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period Start - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - Control Period Start - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period End - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - Control Period End - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - Control Period End - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - Control Period End - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType PeriodStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType PeriodStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType PeriodEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType PeriodEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 878538963" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 878538963" size-unit="char" translate="yes" xml:space="preserve">
           <source>CustomerName</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType CustomerNamelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType CustomerNamelbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 474197226" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 474197226" size-unit="char" translate="yes" xml:space="preserve">
           <source>CustomerTIN/TRN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType CustomerTRNlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType CustomerTRNlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType InvoiceDatelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType InvoiceDatelbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType InvoiceNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType InvoiceNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 3671866840" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 3671866840" size-unit="char" translate="yes" xml:space="preserve">
           <source>SuppDataStart</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType SuppDataStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType SuppDataStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 471845765" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 471845765" size-unit="char" translate="yes" xml:space="preserve">
           <source>SuppDataEnd</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType SuppDataEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType SuppDataEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 720846694" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 720846694" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType Countrylbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType Countrylbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
           <source>LineNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType LineNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType LineNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
           <source>ProductDescription</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType ProductDescriptionlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType ProductDescriptionlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 3683288296" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 3683288296" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplyValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType SupplyValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType SupplyValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType VATValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType VATValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
           <source>TaxCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType TaxCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType TaxCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
           <source>FCYCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType FCYCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType FCYCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1071130175" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1071130175" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplyFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType SupplyFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType SupplyFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType VATFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType VATFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1509300695" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1509300695" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplyTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType SupplyTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType SupplyTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType VATTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType VATTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 3164871307 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2639000676 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionTotalCount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Customer Transaction - NamedType TransactionTotalCountlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Customer Transaction - NamedType TransactionTotalCountlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF GL Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period Start - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - Control Period Start - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period Start - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - Control Period Start - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period End - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - Control Period End - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - Control Period End - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - Control Period End - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 1514742955" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 1514742955" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLDataStart</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType GLDataStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType GLDataStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 3099367430" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 3099367430" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TransactionDatelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TransactionDatelbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 2262046754" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 2262046754" size-unit="char" translate="yes" xml:space="preserve">
           <source>AccountID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType AccountIDlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType AccountIDlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 4183359992" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 4183359992" size-unit="char" translate="yes" xml:space="preserve">
           <source>AccountName</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType AccountNamelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType AccountNamelbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 1652347548" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 1652347548" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionDescription</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TransactionDescriptionlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TransactionDescriptionlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 1976605519" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 1976605519" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType Namelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType Namelbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 633976421" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 633976421" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TransactionIDlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TransactionIDlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 2674596655" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 2674596655" size-unit="char" translate="yes" xml:space="preserve">
           <source>SourceDocumentID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType SourceDocumentIDlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType SourceDocumentIDlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 767823425" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 767823425" size-unit="char" translate="yes" xml:space="preserve">
           <source>SourceType</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType SourceTypelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType SourceTypelbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 4281852984" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 4281852984" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debit</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType Debitlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType Debitlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 2187452521" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 2187452521" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType Creditlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType Creditlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 960122904" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 960122904" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balance</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType Balancelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType Balancelbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 1802982802" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 1802982802" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLDataEnd</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType GLDataEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType GLDataEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 3054436306" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 3054436306" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalDebit</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TotalDebitlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TotalDebitlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 2840260111" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 2840260111" size-unit="char" translate="yes" xml:space="preserve">
           <source>TotalCredit</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TotalCreditlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TotalCreditlbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 2032766545" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 2032766545" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionCountTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType TransactionCountTotallbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType TransactionCountTotallbl</note>
         </trans-unit>
-        <trans-unit id="Report 972630994 - NamedType 1097777974" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4014168905 - NamedType 1097777974" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLTCurrency</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF GL Transaction - NamedType GLTCurrencylbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF GL Transaction - NamedType GLTCurrencylbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Supplier Transaction</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period Start - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - Control Period Start - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period Start - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - Control Period Start - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period End - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - Control Period End - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - Control Period End - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - Control Period End - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PeriodStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PeriodStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PeriodEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PeriodEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplierName</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType SupplierNamelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType SupplierNamelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplierTIN/TRN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType SupplierTRNlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType SupplierTRNlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType InvoiceDatelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType InvoiceDatelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType InvoiceNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType InvoiceNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurcDataStart</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PurcDataStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PurcDataStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurcDataEnd</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PurcDataEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PurcDataEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
           <source>PermitNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PermitNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PermitNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
           <source>LineNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType LineNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType LineNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
           <source>ProductDescription</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType ProductDescriptionlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType ProductDescriptionlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PurchaseValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PurchaseValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType VATValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType VATValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
           <source>TaxCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType TaxCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType TaxCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
           <source>FCYCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType FCYCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType FCYCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PurchaseFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PurchaseFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType VATFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType VATFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType PurchaseTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType PurchaseTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType VATTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType VATTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1581037739 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1711045348 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionTotalCount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction - NamedType TransactionTotalCountlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction - NamedType TransactionTotalCountlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Supplier Transaction1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - Control 864109087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period Start - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - Control Period Start - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - Control 864109087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period Start - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - Control Period Start - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - Control 459019446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period End - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - Control Period End - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - Control 459019446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending date of VAT return filing period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - Control Period End - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - Control Period End - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 2165792001" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PeriodStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PeriodStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1440642204" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period End</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PeriodEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PeriodEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 2806321459" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplierName</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType SupplierNamelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType SupplierNamelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 884352266" size-unit="char" translate="yes" xml:space="preserve">
           <source>SupplierTIN/TRN</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType SupplierTRNlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType SupplierTRNlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1265005185" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType InvoiceDatelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType InvoiceDatelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 3939222902" size-unit="char" translate="yes" xml:space="preserve">
           <source>InvoiceNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType InvoiceNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType InvoiceNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 3560511762" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurcDataStart</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PurcDataStartlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PurcDataStartlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 2845091339" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurcDataEnd</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PurcDataEndlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PurcDataEndlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1326383824" size-unit="char" translate="yes" xml:space="preserve">
           <source>PermitNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PermitNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PermitNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 4167407183" size-unit="char" translate="yes" xml:space="preserve">
           <source>LineNo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType LineNolbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType LineNolbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1865311729" size-unit="char" translate="yes" xml:space="preserve">
           <source>ProductDescription</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType ProductDescriptionlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType ProductDescriptionlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 4032867184" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PurchaseValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PurchaseValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 941650512" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATValue</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType VATValueLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType VATValueLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 2209626486" size-unit="char" translate="yes" xml:space="preserve">
           <source>TaxCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType TaxCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType TaxCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 3495613285" size-unit="char" translate="yes" xml:space="preserve">
           <source>FCYCode</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType FCYCodelbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType FCYCodelbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 4176836423" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PurchaseFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PurchaseFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 3210025639" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATFCY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType VATFCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType VATFCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1748105935" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurchaseTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType PurchaseTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType PurchaseTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 1237909295" size-unit="char" translate="yes" xml:space="preserve">
           <source>VATTotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType VATTotalLCYlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType VATTotalLCYlbl</note>
         </trans-unit>
-        <trans-unit id="Report 1444711012 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2495572211 - NamedType 309873993" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionTotalCount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report FAF Supplier Transaction1 - NamedType TransactionTotalCountlbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report UAE FAF Supplier Transaction1 - NamedType TransactionTotalCountlbl</note>
         </trans-unit>
         <trans-unit id="Report 3219121094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Order</source>
@@ -4058,145 +4068,150 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report UAEVATLoc Sales - Invoice - NamedType PricePerLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 214128802 - Action 955384232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1689943857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UAE VAT Account Manager Role Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAEAccManRoleCenterVATLocExt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1689943857 - Action 955384232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Localization Reports</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action UAE VAT Localization Reports - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAEAccManRoleCenterVATLocExt - Action UAE VAT Localization Reports - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 214128802 - Action 346359708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1689943857 - Action 346359708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Return</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action UAE VAT Return - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAEAccManRoleCenterVATLocExt - Action UAE VAT Return - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 214128802 - Action 346359708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1689943857 - Action 346359708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT return report for submitting VAT to FTA</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension AccManRoleCenterVATLocExt - Action UAE VAT Return - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAEAccManRoleCenterVATLocExt - Action UAE VAT Return - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 4210385371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 4210385371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Localization</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control UAE VAT Localization - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE VAT Localization - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 872395810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 14148569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taxable Person Name En</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name En - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Taxable Person Name En - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 872395810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 14148569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the taxable person in English</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name En - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Taxable Person Name En - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 4233780266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 1217655201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taxable Person Name AR</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name AR - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Taxable Person Name AR - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 4233780266 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 1217655201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the taxable person in Arabic</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Taxable Person Name AR - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Taxable Person Name AR - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 897789303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 306299000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agency Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agency Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 897789303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 306299000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the Tax Agency in case the filing is done by a Tax Agency</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agency Name - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 3236902307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 3988388356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agency Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Number - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agency Number - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 3236902307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 3988388356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number of the Tax Agency in case the filing is done by a Tax Agency(TAN)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agency Number - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agency Number - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 1855851269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 711169118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agent Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agent Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 1855851269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 711169118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the Tax Agent in case the filing is done by a Tax Agent</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agent Name - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 1535282956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 2141733435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agent Approval Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Approval Number - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agent Approval Number - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 1535282956 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 2141733435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Agent Approval Number(TAAN)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control Tax Agent Approval Number - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE Tax Agent Approval Number - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 3709714800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 348365407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FAF Version No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control FAF Version No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE FAF Version No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 156412750 - Control 3709714800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1261056893 - Control 348365407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>FTA Audit File (FAF) version number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Control FAF Version No. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE Company Information Ext - Control UAE FAF Version No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3445070746 - Control 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1928745248 - Control 3291851260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Posting Setup Page Ext - Control VAT Group Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE VAT Posting Setup Ext - Control UAE VAT Group Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3445070746 - Control 2132783427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 1928745248 - Control 3291851260 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code is mandatory for UAE VAT Return report. Select the appropriate emirates</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Posting Setup Page Ext - Control VAT Group Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension UAE VAT Posting Setup Ext - Control UAE VAT Group Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 872395810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Taxable Person Name En</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Taxable Person Name En - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 4233780266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Taxable Person Name AR</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Taxable Person Name AR - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 897789303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Agency Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Tax Agency Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 3236902307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Agency Number</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Tax Agency Number - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 1855851269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Agent Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Tax Agent Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 1535282956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Agent Approval Number</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field Tax Agent Approval Number - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3595798924 - Field 3709714800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FAF Version No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Company Info Ext - Field FAF Version No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3373402357 - Field 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="TableExtension 1928745248 - Field 3291851260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Posting Setup Table Ext - Field VAT Group Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE VAT Posting Setup Ext - Field UAE VAT Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 14148569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name En</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Taxable Person Name En - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 1217655201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Person Name AR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Taxable Person Name AR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 306299000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Tax Agency Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 3988388356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agency Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Tax Agency Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 711169118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Tax Agent Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 2141733435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Agent Approval Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE Tax Agent Approval Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1351621107 - Field 348365407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FAF Version No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Field UAE FAF Version No. - Property Caption</note>
         </trans-unit>
       </group>
     </body>

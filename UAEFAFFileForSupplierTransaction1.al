@@ -1,7 +1,7 @@
-report 70140924 "FAF Supplier Transaction1"
+report 70140924 "UAE FAF Supplier Transaction1"
 {
     Caption = 'FAF Supplier Transaction1';
-    RDLCLayout = 'FAFFileForSuplierTransaction1.rdl';
+    RDLCLayout = 'UAEFAFFileForSuplierTransaction1.rdl';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     dataset

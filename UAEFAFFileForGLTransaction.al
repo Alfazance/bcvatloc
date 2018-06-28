@@ -1,8 +1,8 @@
-report 70140923 "FAF GL Transaction"
+report 70140923 "UAE FAF GL Transaction"
 {
     Caption = 'FAF GL Transaction';
     DefaultLayout = RDLC;
-    RDLCLayout = 'FAFFileForGLTransaction.rdl';
+    RDLCLayout = 'UAEFAFFileForGLTransaction.rdl';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     dataset
