@@ -1,4 +1,4 @@
-table 70140921 "VAT Group Code"
+table 70140921 "UAE VAT Group Code"
 {
     Caption = 'VAT Group Code';
     DataClassification = ToBeClassified;
@@ -52,11 +52,11 @@ table 70140921 "VAT Group Code"
     
 }
 
-page 70140921 "VAT Group Code List"
+page 70140921 "UAE VAT Group Code List"
 {
     
     PageType = List;
-    SourceTable = "VAT Group Code";
+    SourceTable = "UAE VAT Group Code";
     Caption = 'VAT Group Code List';
     UsageCategory = Lists;
     ApplicationArea = All;
@@ -66,19 +66,19 @@ page 70140921 "VAT Group Code List"
         {
             repeater(General)
             {
-                field(GroupCode; "Group Code")
+                field(UAEGroupCode; "Group Code")
                 {
                     ApplicationArea = All;
                     Caption = 'Group Code';
                     ToolTip = 'Group Code for VAT State wise';
                 }
-                field(Description;Description)
+                field(UAEDescription;Description)
                 {
                     ApplicationArea = All;
                     Caption = 'Description';
                     ToolTip = 'Description of VAT group';
                 }
-                field(SequenceNo ; "Sequence No.")
+                field(UAESequenceNo ; "Sequence No.")
                 {
                     ApplicationArea = All;
                     Caption = 'Sequence No.';

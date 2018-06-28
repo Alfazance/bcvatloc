@@ -3,60 +3,60 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="UAE VAT Localization">
     <body>
       <group id="body">
-        <trans-unit id="Table 2132783427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3291851260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UAE VAT Group Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2132783427 - Field 1663794414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3291851260 - Field 1663794414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Code - Field Group Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UAE VAT Group Code - Field Group Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2132783427 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3291851260 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Code - Field Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UAE VAT Group Code - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2132783427 - Field 3014885516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3291851260 - Field 3014885516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Code - Field Sequence No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table UAE VAT Group Code - Field Sequence No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Group Code List</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 3286576318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 829965325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control GroupCode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAEGroupCode - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 3286576318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 829965325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Group Code for VAT State wise</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control GroupCode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAEGroupCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 2752039945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAEDescription - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 2752039945 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description of VAT group</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAEDescription - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 2063862266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 2056856881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control SequenceNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAESequenceNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2254778861 - Control 2063862266 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3757303950 - Control 2056856881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence No. for VAT return report control</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Code List - Control SequenceNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Group Code List - Control UAESequenceNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 346359708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>UAE VAT Return</source>
