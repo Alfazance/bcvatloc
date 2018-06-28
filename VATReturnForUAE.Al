@@ -32,9 +32,10 @@ page 70140922 "UAE VAT Return"
                     GridLayout = Rows ;
                     Group(OutPut)
                     {
+                        Editable = false;
                         Group(SRSAbuDabhi)
                         {
-                            Caption = 'Standard Rated Supplies in AbuDabhi*';
+                            Caption = 'Standard Rated Supplies in Abu-Dhabi*';
                             grid("11")
                             {
                                 GridLayout = Rows;
@@ -324,6 +325,7 @@ page 70140922 "UAE VAT Return"
                     GridLayout = Rows ;
                     group(Input)
                     {
+                        Editable = false;
                         group("StandardRatedExp")
                         {
                             Caption = 'Standard rated expenses';
@@ -395,6 +397,7 @@ page 70140922 "UAE VAT Return"
                     GridLayout = Rows ;
                     group(NetTotal)
                     {
+                        Editable = false;
                         group(OutputDue)
                         {
                             Caption = 'Total value of due tax for the period';
@@ -482,8 +485,8 @@ page 70140922 "UAE VAT Return"
                 begin
                     IF (StartDate = 0D) or (EndDate = 0D) THEN 
                         Error('Start Date and End Date cannot be empty');
-                    IF StartDate < EndDate THEN
-                        Error('Start Date cannot be less then End Date');
+                    IF StartDate > EndDate THEN
+                        Error('Start Date cannot be greater then End Date');
                     CLEAR(Amount);
                     CLEAR(Amount);
                     CLEAR(VATAmount);
