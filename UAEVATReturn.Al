@@ -480,6 +480,7 @@ page 70140922 "UAE VAT Return"
                 trigger OnAction()
                 begin
                     CalculateAndDisplayAmounts(); 
+                    CurrPage.Update(False);                                
                     MESSAGE('Vat values have been updated');
                 end;
             }
@@ -737,13 +738,6 @@ page 70140922 "UAE VAT Return"
         TotalAdjustment[i] := InputAdjustment[3] + Adjustment[14];
         TotalAmount[i] := InputAmount[3] + Amount[14];
         TotalVATAmount[i] := InputVATAmount[3] + VATAmount[14];        
-    end;
-
-    procedure testVATForDateRange(FromDate:Date; ToDate : Date)
-    begin
-        StartDate := FromDate;
-        EndDate := ToDate;
-        calculateAndDisplayAmounts();
     end;
     
     var
