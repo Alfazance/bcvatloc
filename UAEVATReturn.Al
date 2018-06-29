@@ -478,121 +478,8 @@ page 70140922 "UAE VAT Return"
                 PromotedIsBig = true;
                 Image = Calculate;
                 trigger OnAction()
-                var 
-                    VATPostingSetup : Record "VAT Posting Setup";
-                    Type_G : Option  ,Purchase,Sale,Settlement;
-                    i : Integer;
-                    VATReturnGroupCode : Record "UAE VAT Group Code";
-                    VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax";
                 begin
-                    IF (StartDate = 0D) or (EndDate = 0D) THEN 
-                        Error('Start Date and End Date cannot be empty');
-                    IF StartDate > EndDate THEN
-                        Error('Start Date cannot be greater then End Date');
-                    CLEAR(Amount);
-                    CLEAR(Amount);
-                    CLEAR(VATAmount);
-                    CLEAR(Adjustment);
-                    CLEAR(InputAmount);
-                    CLEAR(InputAdjustment);
-                    CLEAR(InputVATAmount);
-                    CLEAR(TotalAdjustment);
-                    CLEAR(TotalAmount);
-                    CLEAR(TotalVATAmount);
-                    //------------------------------------**Sale**---------------------
-                    i := 0;
-                    //1A Calculation
-                    i := 1; 
-                    CalculateVATAmounts(Type_G::Sale,i,'AUH','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1b Calculation
-                    i := 2; 
-                    CalculateVATAmounts(Type_G::Sale,i,'DXB','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1c Calculation
-                    i := 3; 
-                    CalculateVATAmounts(Type_G::Sale,i,'SHJ','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1d Calculation
-                    i := 4; 
-                    CalculateVATAmounts(Type_G::Sale,i,'AJM','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1e Calculation
-                    i := 5; 
-                    CalculateVATAmounts(Type_G::Sale,i,'UAQ','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1f Calculation
-                    i := 6; 
-                    CalculateVATAmounts(Type_G::Sale,i,'RAK','SR');  
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //1g Calculation
-                    i := 7; 
-                    CalculateVATAmounts(Type_G::Sale,i,'FUJ','SR');
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    i := 8;   //TAX Refunds Tourist
-                    i := 9;   //Reverse Charge Provision VAT
-                    i := 10;  //ZeroRated
-                    CalculateVATAmounts(Type_G::Sale,i,'','ZR'); 
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    i := 11;  //Exempted
-                    CalculateVATAmounts(Type_G::Sale,i,'','');  
-                    Amount[14] += Amount[i];
-                    VATAmount[14] += VATAmount[i];
-                    Adjustment[14] += Adjustment[i];
-                    //----------------------**Purchase**-----------------------------\\
-
-                    i := 1; //Standard Rated
-                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Normal VAT");
-                    /*InputAdjustment[3] += InputAdjustment[i];
-                    InputAmount[3] += InputAmount[i];
-                    InputVATAmount[3] += InputVATAmount[i];
-                    */
-                    // For Full VAT
-                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Full VAT");
-                    InputAdjustment[3] += InputAdjustment[i];
-                    InputAmount[3] += InputAmount[i];
-                    InputVATAmount[3] += InputVATAmount[i];
-
-                    i := 2; //Reverse Charge             
-                    CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Reverse Charge VAT");
-                    //VAT total - Reverse charge removed  
-                    /*
-                    InputAdjustment[3] += InputAdjustment[i];
-                    InputAmount[3] += InputAmount[i];
-                    InputVATAmount[3] += InputVATAmount[i];
-                    */
-                    //----------------------------------------**Total**----------------------//
-                    i := 1;
-                    TotalAdjustment[i] := Adjustment[14];
-                    TotalAmount[i] := Amount[14];
-                    TotalVATAmount[i] := VATAmount[14];
-
-                    i := 2;
-                    TotalAdjustment[i] := InputAdjustment[3];
-                    TotalAmount[i] := InputAmount[3];
-                    TotalVATAmount[i] := InputVATAmount[3];
-
-                    i := 3;
-                    TotalAdjustment[i] := InputAdjustment[3] + Adjustment[14];
-                    TotalAmount[i] := InputAmount[3] + Amount[14];
-                    TotalVATAmount[i] := InputVATAmount[3] + VATAmount[14];
-    
+                    CalculateAndDisplayAmounts(); 
                     MESSAGE('Vat values have been updated');
                 end;
             }
@@ -734,6 +621,131 @@ page 70140922 "UAE VAT Return"
         InputVATAmount[i] += VATEntry.Amount;
         UNTIL VATPostingSetup_L.NEXT = 0;
     end;
+
+    local procedure calculateAndDisplayAmounts()
+    var 
+        VATPostingSetup : Record "VAT Posting Setup";
+        Type_G : Option  ,Purchase,Sale,Settlement;
+        i : Integer;
+        VATReturnGroupCode : Record "UAE VAT Group Code";
+        VATCalculationType : Option "Normal VAT","Reverse Charge VAT","Full VAT","Sales Tax";
+    begin
+        IF (StartDate = 0D) or (EndDate = 0D) THEN 
+            Error('Start Date and End Date cannot be empty');
+        IF StartDate > EndDate THEN
+            Error('Start Date cannot be greater then End Date');
+        CLEAR(Amount);
+        CLEAR(Amount);
+        CLEAR(VATAmount);
+        CLEAR(Adjustment);
+        CLEAR(InputAmount);
+        CLEAR(InputAdjustment);
+        CLEAR(InputVATAmount);
+        CLEAR(TotalAdjustment);
+        CLEAR(TotalAmount);
+        CLEAR(TotalVATAmount);
+        //------------------------------------**Sale**---------------------
+        i := 0;
+        //1A Calculation
+        i := 1; 
+        CalculateVATAmounts(Type_G::Sale,i,'AUH','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1b Calculation
+        i := 2; 
+        CalculateVATAmounts(Type_G::Sale,i,'DXB','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1c Calculation
+        i := 3; 
+        CalculateVATAmounts(Type_G::Sale,i,'SHJ','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1d Calculation
+        i := 4; 
+        CalculateVATAmounts(Type_G::Sale,i,'AJM','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1e Calculation
+        i := 5; 
+        CalculateVATAmounts(Type_G::Sale,i,'UAQ','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1f Calculation
+        i := 6; 
+        CalculateVATAmounts(Type_G::Sale,i,'RAK','SR');  
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //1g Calculation
+        i := 7; 
+        CalculateVATAmounts(Type_G::Sale,i,'FUJ','SR');
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        i := 8;   //TAX Refunds Tourist
+        i := 9;   //Reverse Charge Provision VAT
+        i := 10;  //ZeroRated
+        CalculateVATAmounts(Type_G::Sale,i,'','ZR'); 
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        i := 11;  //Exempted
+        CalculateVATAmounts(Type_G::Sale,i,'','');  
+        Amount[14] += Amount[i];
+        VATAmount[14] += VATAmount[i];
+        Adjustment[14] += Adjustment[i];
+        //----------------------**Purchase**-----------------------------\\
+
+        i := 1; //Standard Rated
+        CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Normal VAT");
+        /*InputAdjustment[3] += InputAdjustment[i];
+        InputAmount[3] += InputAmount[i];
+        InputVATAmount[3] += InputVATAmount[i];
+        */
+        // For Full VAT
+        CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Full VAT");
+        InputAdjustment[3] += InputAdjustment[i];
+        InputAmount[3] += InputAmount[i];
+        InputVATAmount[3] += InputVATAmount[i];
+
+        i := 2; //Reverse Charge             
+        CalculateVATAmountsInput(Type_G::Purchase,i,'','SR',VATCalculationType::"Reverse Charge VAT");
+        //VAT total - Reverse charge removed  
+        /*
+        InputAdjustment[3] += InputAdjustment[i];
+        InputAmount[3] += InputAmount[i];
+        InputVATAmount[3] += InputVATAmount[i];
+        */
+        //----------------------------------------**Total**----------------------//
+        i := 1;
+        TotalAdjustment[i] := Adjustment[14];
+        TotalAmount[i] := Amount[14];
+        TotalVATAmount[i] := VATAmount[14];
+
+        i := 2;
+        TotalAdjustment[i] := InputAdjustment[3];
+        TotalAmount[i] := InputAmount[3];
+        TotalVATAmount[i] := InputVATAmount[3];
+
+        i := 3;
+        TotalAdjustment[i] := InputAdjustment[3] + Adjustment[14];
+        TotalAmount[i] := InputAmount[3] + Amount[14];
+        TotalVATAmount[i] := InputVATAmount[3] + VATAmount[14];        
+    end;
+
+    procedure testVATForDateRange(FromDate:Date; ToDate : Date)
+    begin
+        StartDate := FromDate;
+        EndDate := ToDate;
+        calculateAndDisplayAmounts();
+    end;
+    
     var
         myInt: Text[50];
         StartDate : Date ;
