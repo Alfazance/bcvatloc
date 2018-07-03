@@ -619,7 +619,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_FUJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3247021842 - Control 2598542880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>4. VAT_ADU</source>
+          <source>4. VAT_AUD</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_ADU - Property Caption</note>
         </trans-unit>

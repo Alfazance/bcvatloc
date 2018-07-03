@@ -28,7 +28,7 @@ codeunit 70140924 UAEVATAssistedSetup
                 , 'VAT_0', 'VAT_5G', 'VAT_5S', 'VAT_EX');
 
             VATBusPostGroup.SetFilter(Code, '%1|%2|%3|%4|%5|%6|%7|%8|%9'
-                , 'VAT_DXB', 'VAT_SHJ', 'VAT_FUJ', 'VAT_ADU', 'VAT_RAK', 'VAT_AJM', 'VAT_UAQ','VAT_KSA','VAT_OTHERS');
+                , 'VAT_DXB', 'VAT_SHJ', 'VAT_FUJ', 'VAT_AUD', 'VAT_RAK', 'VAT_AJM', 'VAT_UAQ','VAT_KSA','VAT_OTHERS');
 
             UAEVATGroupCode.SetFilter("Group Code",'%1|%2|%3|%4|%5|%6|%7'
                 , 'AJM', 'AUD', 'DXB', 'FUJ', 'RAK', 'SHJ', 'UAQ');
