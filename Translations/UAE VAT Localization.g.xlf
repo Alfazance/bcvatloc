@@ -559,9 +559,179 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Welcome - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3247021842 - Control 3800514526 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Welcome to the VAT Setup wizard. This will take you through the process of creating the specific VAT business and product posting groups as required for FTA of UAE.</source>
+          <source>Welcome to the VAT Setup wizard.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Welcome - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1572708512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This wizard will take you through the process of creating the following VAT specific masters required for UAE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control MasterData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 3024071481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control line1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2208405232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1. VAT Business Posting Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Bus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 642131243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2. VAT Product Posting Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Prod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 260914651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3. VAT Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control UAE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2279239964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Business Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2279239964 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following VAT Business Posting Groups will be created:-</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step2 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 775889276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Posting Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VATBUSGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 610418350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1. VAT_DXB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_DXB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1970078455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2. VAT_SHJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_SHJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2453749255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3. VAT_FUJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_FUJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2598542880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>4. VAT_ADU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_ADU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2032674678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>5. VAT_AJM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_AJM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 3371904720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>6. VAT_RAK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_RAK - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2883387571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>7. VAT_UAQ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_UAQ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 365686069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>8. VAT_GCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_GCC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 607780637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>9. VAT_OTHERS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_OTHERS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1641543347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Product Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1641543347 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following VAT Product Posting Groups will be created:-</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step3 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1086239359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Product Posting Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VATPRODGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 3192368598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1. VAT_0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Zero - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 911214034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2. VAT_5G</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_5G - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1848789222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3. VAT_5S</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_5S - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 2401911955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>4. VAT_EX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VAT_EX - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1003846730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1003846730 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following VAT Groups will be created:-</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control Step4 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 179692209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control VATGroups - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 999779538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1. DXB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control DXB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 576575716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2. AUD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control AUD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 996760403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3. SHJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control SHJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 4176552970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>4. AJM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control AJM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 391884199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>5. UAQ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control UAQ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 1981025692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>6. RAK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control RAK - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247021842 - Control 4003724275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>7. FUJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page UAE VAT Setup Wizard - Control FUJ - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3247021842 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Back</source>
@@ -4207,11 +4377,6 @@
           <source>VAT Group Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE VAT Posting Setup Ext - Field UAE VAT Group Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1351621107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Company Info Ext</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension UAE Company Info Ext - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1351621107 - Field 14148569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taxable Person Name En</source>

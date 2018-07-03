@@ -1,4 +1,4 @@
-page 70140923 "UAE VAT Setup Wizard"
+page 70140924 "UAE VAT Setup Wizard"
 {
     PageType = NavigatePage;
     SourceTable = "Company Information";
@@ -27,25 +27,124 @@ page 70140923 "UAE VAT Setup Wizard"
                 group(Welcome)
                 {
                     Caption = 'Welcome';
-                    InstructionalText = 'Welcome to the VAT Setup wizard. This will take you through the process of creating the specific VAT business and product posting groups as required for FTA of UAE.';
+                    InstructionalText = 'Welcome to the VAT Setup wizard.';
+
+                    group(MasterData){
+                        Caption = 'This wizard will take you through the process of creating the following VAT specific masters required for UAE';
+
+                        label(line1){
+                            Caption = '';
+                        }
+                        label(Bus){
+                            Caption = '1. VAT Business Posting Groups';
+                        }                        
+                        label(Prod){
+                            Caption = '2. VAT Product Posting Groups';
+                        }
+                        label(UAE){
+                            Caption = '3. VAT Groups';
+                        }
+                    }
                 }
             }
             group(Step2)
             {
                 Visible = CurrentStep = 2;
+                Caption = 'VAT Business Posting Group';
+                InstructionalText = 'The following VAT Business Posting Groups will be created:-';
 
                 group(VATBUSGroup)
                 {
-                    field(Name;Name)
+                    Caption = 'Business Posting Groups';
+
+                    label(VAT_DXB)
                     {
-                        ApplicationArea = All;
+                        Caption = '1. VAT_DXB';
+                    }
+                    label(VAT_SHJ)
+                    {
+                        Caption = '2. VAT_SHJ';
+                    }
+                    label(VAT_FUJ)
+                    {
+                        Caption = '3. VAT_FUJ';
+                    }
+                    label(VAT_ADU)
+                    {
+                        Caption = '4. VAT_ADU';
+                    }
+                    label(VAT_AJM){
+                        Caption = '5. VAT_AJM';
+                    }
+                    label(VAT_RAK){
+                        Caption = '6. VAT_RAK';
+                    }
+                    label(VAT_UAQ){
+                        Caption = '7. VAT_UAQ';
+                    }
+                    label(VAT_GCC){
+                        Caption = '8. VAT_GCC';
+                    }
+                    label(VAT_OTHERS){
+                        Caption = '9. VAT_OTHERS';
                     }
                 }
             }
             Group (Step3)
             {
                 Visible = CurrentStep = 3;
+                Caption = 'VAT Product Posting Group';
+                InstructionalText = 'The following VAT Product Posting Groups will be created:-';
 
+                group(VATPRODGroup)
+                {
+                    Caption = 'Product Posting Groups';
+
+                    label(Zero){
+                        Caption = '1. VAT_0';
+                    }
+                    label(VAT_5G){
+                        Caption = '2. VAT_5G';
+                    }
+                    label(VAT_5S){
+                        Caption = '3. VAT_5S';
+                    }
+                    label(VAT_EX){
+                        Caption = '4. VAT_EX';
+                    }
+                }
+            }
+
+            group (Step4)
+            {
+                Visible = CurrentStep = 4;
+                Caption = 'VAT Groups';
+                InstructionalText = 'The following VAT Groups will be created:-';
+                group(VATGroups)
+                {
+                    Caption = 'VAT Groups';
+                    label(DXB){
+                        Caption = '1. DXB';
+                    }
+                    label(AUD){
+                        Caption = '2. AUD';
+                    }
+                    label(SHJ){
+                        Caption = '3. SHJ';
+                    }
+                    label(AJM){
+                        Caption = '4. AJM';
+                    }
+                    label(UAQ){
+                        Caption = '5. UAQ';
+                    }
+                    label(RAK){
+                        Caption = '6. RAK';
+                    }
+                    label(FUJ){
+                        Caption = '7. FUJ';
+                    }
+                }
             }
         }
     }
@@ -75,7 +174,7 @@ page 70140923 "UAE VAT Setup Wizard"
                 Caption = 'Next';
                 InFooterBar = true;
                 Image = NextRecord;
-                Enabled = ActionFinishAllowed;
+                Enabled = ActionNextAllowed;
                 
                 trigger OnAction()
                 begin
@@ -93,6 +192,165 @@ page 70140923 "UAE VAT Setup Wizard"
 
                 trigger OnAction()
                 begin
+                    //update the records into the desired tables
+                    IF VATBusPostGroup.Get('VAT_DXB') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_DXB';
+                        VATBusPostGroup.Description := 'VAT Group for Dubai';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_SHJ') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_SHJ';
+                        VATBusPostGroup.Description := 'VAT Group for Sharjah';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_FUJ') = false then 
+                    begin                    
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_FUJ';
+                        VATBusPostGroup.Description := 'VAT Group for Fujairah';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_ADU') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_ADU';
+                        VATBusPostGroup.Description := 'VAT Group for Abu Dhabi';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_RAK') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_RAK';
+                        VATBusPostGroup.Description := 'VAT Group for Ras Al Khaimah';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_AJM') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_AJM';
+                        VATBusPostGroup.Description := 'VAT Group for Ajman';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_UAQ') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_UAQ';
+                        VATBusPostGroup.Description := 'VAT Group for Umm Al Quwain';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_KSA') = false then 
+                    begin
+                       VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_KSA';
+                        VATBusPostGroup.Description := 'VAT Group for Saudi Arabia';
+                        VATBusPostGroup.Insert();
+                    end;
+
+                    IF VATBusPostGroup.Get('VAT_OTHERS') = false then 
+                    begin
+                        VATBusPostGroup.Init();
+                        VATBusPostGroup.Code := 'VAT_OTHERS';
+                        VATBusPostGroup.Description := 'VAT Group for others';
+                        VATBusPostGroup.Insert();
+                    end;
+
+
+
+                    If VATProdPostGroup.Get('VAT_0') = false then
+                    begin
+                        VATProdPostGroup.init;
+                        VATProdPostGroup.Code := 'VAT_0';
+                        VATProdPostGroup.Description := 'VAT 0%';
+                        VATProdPostGroup.Insert();
+                    end;
+
+                    if VATProdPostGroup.Get('VAT_5G') = false then 
+                    begin
+                        VATProdPostGroup.init;
+                        VATProdPostGroup.Code := 'VAT_5G';
+                        VATProdPostGroup.Description := 'VAT 5% Goods';
+                        VATProdPostGroup.Insert();
+                    end;
+
+                    if VATProdPostGroup.Get('VAT_5S') = false then 
+                    begin
+                        VATProdPostGroup.init;
+                        VATProdPostGroup.Code := 'VAT_5S';
+                        VATProdPostGroup.Description := 'VAT 5% Services';
+                        VATProdPostGroup.Insert();
+                    end;
+
+                    if VATProdPostGroup.Get('VAT_EX') = false then 
+                    begin
+                        VATProdPostGroup.init;
+                        VATProdPostGroup.Code := 'VAT_EX';
+                        VATProdPostGroup.Description := 'VAT Exempted';
+                        VATProdPostGroup.Insert();
+                    end;
+
+
+
+                    if VATGroupCodes.Get('AJM') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'AJM';
+                        VATGroupCodes.Description := 'Ajman';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('AUD') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'AUD';
+                        VATGroupCodes.Description := 'Abu Dhabi';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('DXB') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'DXB';
+                        VATGroupCodes.Description := 'Dubai';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('FUJ') = false  then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'FUJ';
+                        VATGroupCodes.Description := 'Fujairah';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('RAK') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'RAK';
+                        VATGroupCodes.Description := 'Ras Al Khaimah';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('SHJ') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'SHJ';
+                        VATGroupCodes.Description := 'Sharjah';
+                        VATGroupCodes.insert();
+                    end;
+                    if VATGroupCodes.Get('UAQ') = false then
+                    begin
+                        VATGroupCodes.init;
+                        VATGroupCodes."Group Code" := 'UAQ';
+                        VATGroupCodes.Description := 'Um Al Quwain';
+                        VATGroupCodes.insert();
+                    end;
+
                     CurrPage.Close();
                 end;
             }
@@ -125,8 +383,8 @@ page 70140923 "UAE VAT Setup Wizard"
     local procedure SetControls()
     begin 
         ActionBackAllowed := CurrentStep > 1;
-        ActionNextAllowed := CurrentStep < 3;
-        ActionFinishAllowed := CurrentStep = 3;
+        ActionNextAllowed := CurrentStep < 4;
+        ActionFinishAllowed := CurrentStep = 4;
     end;
 
     local procedure TakeStep(Step: Integer)
@@ -145,4 +403,7 @@ page 70140923 "UAE VAT Setup Wizard"
         MediaResourcesStandard : Record "Media Resources";
         MediaResourcesDone : Record "Media Resources";
         TopBannerVisible : Boolean;
+        VATBusPostGroup : Record "VAT Business Posting Group";
+        VATProdPostGroup : Record "VAT Product Posting Group";
+        VATGroupCodes : Record "UAE VAT Group Code";
 }
