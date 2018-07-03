@@ -6,7 +6,7 @@ tableextension 70140922  "UAE VAT Posting Setup Ext" extends "VAT Posting Setup"
         field(70140921; "UAE VAT Group Code" ; Code[10])
         {
             Caption = 'VAT Group Code';
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
             TableRelation = "UAE VAT Group Code"."Group Code";
         }
     }

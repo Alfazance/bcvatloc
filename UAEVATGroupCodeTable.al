@@ -1,21 +1,21 @@
 table 70140921 "UAE VAT Group Code"
 {
     Caption = 'VAT Group Code';
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
     
     fields
     {
         field(1;"Group Code"; Code[10])
         {
-            
+            DataClassification = CustomerContent;
         }
         field(2; Description; Text[50])
         {
-            
+            DataClassification = CustomerContent;
         }
         field(3;"Sequence No."; Integer)
         {
-            
+            DataClassification = CustomerContent;
         }
     }
     
