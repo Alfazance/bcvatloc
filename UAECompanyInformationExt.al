@@ -1,35 +1,44 @@
 tableextension 70140921 "UAE Company Info Ext" extends "Company Information"
 {
+    
+    Caption = 'Company Info Ext';
     fields
     {
         // Add changes to table fields here
         field(70140921; "UAE Taxable Person Name En"; Text[30])
         {
             Caption =   'Taxable Person Name En' ;
+            DataClassification = CustomerContent;
         }
         field(70140922; "UAE Taxable Person Name AR"; Text[30])
         {
             Caption =   'Taxable Person Name AR' ;
+            DataClassification = CustomerContent;
         }
         field(70140923; "UAE Tax Agency Name"; Text[30])
         {
             Caption =  'Tax Agency Name' ;
+            DataClassification = CustomerContent;
         }
         field(70140924; "UAE Tax Agency Number" ; Code[20])
         {
             Caption =  'Tax Agency Number' ;
+            DataClassification = CustomerContent;
         }
         field(70140925; "UAE Tax Agent Name" ; Text[30] )
         {
             Caption = 'Tax Agent Name' ;
+            DataClassification = CustomerContent;
         }
         field(70140926; "UAE Tax Agent Approval Number" ; Code[20])
         {
             Caption = 'Tax Agent Approval Number' ;
+            DataClassification = CustomerContent;
         }
         field(70140927; "UAE FAF Version No." ; Code[15])
         {
             Caption = 'FAF Version No.' ;
+            DataClassification = CustomerContent;
         }
     }
 }
