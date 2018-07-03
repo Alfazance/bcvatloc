@@ -481,7 +481,7 @@ page 70140922 "UAE VAT Return"
                 begin
                     CalculateAndDisplayAmounts(); 
                     CurrPage.Update(False);                                
-                    MESSAGE('Vat values have been updated');
+                    //MESSAGE('Vat values have been updated');
                 end;
             }
             action("UAE FAF Customer Transaction")
