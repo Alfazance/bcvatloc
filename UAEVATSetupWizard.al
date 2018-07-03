@@ -71,7 +71,7 @@ page 70140924 "UAE VAT Setup Wizard"
                     }
                     label(VAT_ADU)
                     {
-                        Caption = '4. VAT_ADU';
+                        Caption = '4. VAT_AUD';
                     }
                     label(VAT_AJM){
                         Caption = '5. VAT_AJM';
@@ -217,10 +217,10 @@ page 70140924 "UAE VAT Setup Wizard"
                         VATBusPostGroup.Insert();
                     end;
 
-                    IF VATBusPostGroup.Get('VAT_ADU') = false then 
+                    IF VATBusPostGroup.Get('VAT_AUD') = false then 
                     begin
                         VATBusPostGroup.Init();
-                        VATBusPostGroup.Code := 'VAT_ADU';
+                        VATBusPostGroup.Code := 'VAT_AUD';
                         VATBusPostGroup.Description := 'VAT Group for Abu Dhabi';
                         VATBusPostGroup.Insert();
                     end;

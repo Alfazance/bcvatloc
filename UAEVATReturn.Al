@@ -649,7 +649,7 @@ page 70140922 "UAE VAT Return"
         i := 0;
         //1A Calculation
         i := 1; 
-        CalculateVATAmounts(Type_G::Sale,i,'AUH','SR');
+        CalculateVATAmounts(Type_G::Sale,i,'AUD','SR');
         Amount[14] += Amount[i];
         VATAmount[14] += VATAmount[i];
         Adjustment[14] += Adjustment[i];
