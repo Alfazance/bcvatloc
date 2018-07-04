@@ -1,7 +1,7 @@
 tableextension 70140921 "UAE Company Info Ext" extends "Company Information"
 {
     
-    Caption = 'Company Info Ext';
+    
     fields
     {
         // Add changes to table fields here
