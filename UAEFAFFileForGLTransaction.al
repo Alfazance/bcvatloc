@@ -1,6 +1,6 @@
 report 70140923 "UAE FAF GL Transaction"
 {
-    Caption = 'FAF GL Transaction';
+    Caption = 'UAE FAF GL Transaction';
     DefaultLayout = RDLC;
     RDLCLayout = 'UAEFAFFileForGLTransaction.rdl';
     UsageCategory = ReportsAndAnalysis;
@@ -164,11 +164,13 @@ report 70140923 "UAE FAF GL Transaction"
                     {
                         Caption = 'Period Start';
                         ToolTip = 'Starting date of VAT return filing period';
+                        ApplicationArea = All;
                     }
                     field("Period End"; PeriodEnd)
                     {
                         Caption = 'Period End';
                         ToolTip = 'Ending date of VAT return filing period';
+                        ApplicationArea = All;
                     }
                 }
             }

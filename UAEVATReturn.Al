@@ -17,12 +17,14 @@ page 70140922 "UAE VAT Return"
                 Caption = 'Start Date';
                 ToolTip = 'Start date of VAT return period';
                 Width = 10;
+                ApplicationArea = All;
             }
             field(UAEEndDate; EndDate)
             {
                 Caption = 'End Date';
                 ToolTip = 'Closing date of VAT return period';
                 Width = 5;
+                ApplicationArea = All;
             }
             group(UAEOutputGroup)
             {
@@ -43,15 +45,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount; ABS(Amount[1]))
                                 {
                                     Caption = 'Amount';
-                                    
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount; ABS(VATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment; ABS(Adjustment[1]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }    
@@ -64,14 +68,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount2; ABS(Amount[2]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount2; ABS(VATAmount[2]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment2; ABS(Adjustment[2]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -84,14 +91,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount3; ABS(Amount[3]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount3; ABS(VATAmount[3]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment3; ABS(Adjustment[3]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -104,14 +114,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount4; ABS(Amount[4]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount4; ABS(VATAmount[4]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment4; ABS(Adjustment[4]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -124,14 +137,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount5; ABS(Amount[5]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount5; ABS(VATAmount[5]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment5; ABS(Adjustment[5]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -144,14 +160,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount6; ABS(Amount[6]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount6; ABS(VATAmount[6]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment6; ABS(Adjustment[6]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -164,14 +183,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount7; ABS(Amount[7]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount7; ABS(VATAmount[7]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment7; ABS(Adjustment[7]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -184,14 +206,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount8; ABS(Amount[8]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount8; ABS(VATAmount[8]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment8; ABS(Adjustment[8]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -204,14 +229,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount9; ABS(Amount[9]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount9; ABS(VATAmount[9]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment9; ABS(Adjustment[9]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -224,14 +252,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount10; ABS(Amount[10]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount10; ABS(VATAmount[10]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment10; ABS(Adjustment[10]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -244,14 +275,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount11; ABS(Amount[11]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount11; ABS(VATAmount[11]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment11; ABS(Adjustment[11]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -264,14 +298,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount12; ABS(Amount[12]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount12; ABS(VATAmount[12]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment12; ABS(Adjustment[12]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -284,14 +321,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount13; ABS(Amount[13]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount13; ABS(VATAmount[13]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment13; ABS(Adjustment[13]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -304,14 +344,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEAmount14; ABS(Amount[14]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEVATAmount14; ABS(VATAmount[14]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEAdjustment14; ABS(Adjustment[14]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }    
                         }
@@ -337,14 +380,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEInputAmount1;InputAmount[1])
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputVATAmount1;InputVATAmount[1])
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputAdjustment1;Adjustment[1])
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }
                         }
@@ -357,14 +403,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEInputAmount2;InputAmount[2])
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputVATAmount2;InputVATAmount[2])
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputAdjustment2;InputAdjustment[2])
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }
                         }
@@ -377,14 +426,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAEInputAmount3;InputAmount[3])
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputVATAmount3;InputVATAmount[3])
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAEInputAdjustment3;InputAdjustment[3])
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }    
                             }
                         }
@@ -409,14 +461,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAETotalAmount1;ABS(TotalAmount[1]))
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalVATAmount1;ABS(TotalVATAmount[1]))
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalAdjustment1;ABS(TotalAdjustment[1]))
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }
                         }
@@ -429,14 +484,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAETotalAmount2;TotalAmount[2])
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalVATAmount2;TotalVATAmount[2])
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalAdjustment2;TotalAdjustment[2])
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }
                             }
                         }
@@ -449,14 +507,17 @@ page 70140922 "UAE VAT Return"
                                 field(UAETotalAmount3;TotalAmount[3])
                                 {
                                     Caption = 'Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalVATAmount3;TotalVATAmount[3])
                                 {
                                     Caption = 'VAT Amount';
+                                    ApplicationArea = All;
                                 }
                                 field(UAETotalAdjustment3;TotalAdjustment[3])
                                 {
                                     Caption = 'Adjustment';
+                                    ApplicationArea = All;
                                 }    
                             }
                         }
@@ -477,6 +538,7 @@ page 70140922 "UAE VAT Return"
                 Promoted = TRUE;
                 PromotedIsBig = true;
                 Image = Calculate;
+                ApplicationArea = All;
                 trigger OnAction()
                 begin
                     CalculateAndDisplayAmounts(); 
@@ -491,7 +553,7 @@ page 70140922 "UAE VAT Return"
                 Promoted = TRUE;
                 PromotedIsBig = true;
                 Image = ExportFile;
-                
+                ApplicationArea = All;
                 trigger OnAction()
                 var 
                     FAFCustomerTransaction : Report "UAE FAF Customer Transaction";
@@ -518,6 +580,7 @@ page 70140922 "UAE VAT Return"
                     Promoted = TRUE;
                     PromotedIsBig = true;
                     Image = ExportFile;
+                    ApplicationArea = All;
                     trigger OnAction()
                     var
                         FAFSupplierTransaction : Report "UAE FAF Supplier Transaction";
@@ -545,6 +608,7 @@ page 70140922 "UAE VAT Return"
                     Promoted = TRUE;
                     PromotedIsBig = true;
                     Image = ExportFile;
+                    ApplicationArea = All;
                     trigger OnAction()
                     var
                         FAFGLTransaction : Report "UAE FAF GL Transaction";
