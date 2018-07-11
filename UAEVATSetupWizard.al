@@ -157,10 +157,10 @@ page 70140924 "UAE VAT Setup Wizard"
                         ApplicationArea = All;
                         Caption = '1. DXB';
                     }
-                    label(AUD)
+                    label(AUH)
                     {
                         ApplicationArea = All;
-                        Caption = '2. AUD';
+                        Caption = '2. AUH';
                     }
                     label(SHJ)
                     {
@@ -296,7 +296,7 @@ page 70140924 "UAE VAT Setup Wizard"
                     begin
                        VATBusPostGroup.Init();
                         VATBusPostGroup.Code := 'VAT_KSA';
-                        VATBusPostGroup.Description := 'VAT Group for Saudi Arabia';
+                        VATBusPostGroup.Description := 'VAT Group for SAUHi Arabia';
                         VATBusPostGroup.Insert();
                     end;
 
@@ -351,10 +351,10 @@ page 70140924 "UAE VAT Setup Wizard"
                         VATGroupCodes.Description := 'Ajman';
                         VATGroupCodes.insert();
                     end;
-                    if VATGroupCodes.Get('AUD') = false then
+                    if VATGroupCodes.Get('AUH') = false then
                     begin
                         VATGroupCodes.init;
-                        VATGroupCodes."Group Code" := 'AUD';
+                        VATGroupCodes."Group Code" := 'AUH';
                         VATGroupCodes.Description := 'Abu Dhabi';
                         VATGroupCodes.insert();
                     end;
