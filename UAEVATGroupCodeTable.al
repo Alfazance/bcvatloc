@@ -52,12 +52,12 @@ table 70140921 "UAE VAT Group Code"
     
 }
 
-page 70140921 "UAE VAT Group Code List"
+page 70140921 "UAE VAT Group Code"
 {
     
     PageType = List;
     SourceTable = "UAE VAT Group Code";
-    Caption = 'VAT Group Code List';
+    Caption = 'UAE VAT Group Code';
     UsageCategory = Lists;
     ApplicationArea = All;
     layout

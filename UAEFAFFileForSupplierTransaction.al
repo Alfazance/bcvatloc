@@ -1,6 +1,6 @@
 report 70140921 "UAE FAF Supplier Transaction"
 {
-    Caption = 'FAF Supplier Transaction';
+    Caption = 'UAE FAF Supplier Transaction';
     RDLCLayout = 'UAEFAFFileForSuplierTransaction.rdl';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -264,11 +264,13 @@ report 70140921 "UAE FAF Supplier Transaction"
                     {
                         Caption = 'Period Start';
                         ToolTip = 'Starting date of VAT return filing period';
+                        ApplicationArea = All;
                     }
                     field("Period End"; PeriodEnd)
                     {
                         Caption = 'Period End';
                         ToolTip = 'Ending date of VAT return filing period';
+                        ApplicationArea = All;
                     }
                 }
             }
