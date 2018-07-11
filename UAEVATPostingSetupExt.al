@@ -23,6 +23,7 @@ pageextension 70140922 "UAE VAT Posting Setup Ext" extends "VAT Posting Setup"
             {
                 Caption = 'VAT Group Code';
                 ToolTip = 'VAT Group Code is mandatory for UAE VAT Return report. Select the appropriate emirates';
+                ApplicationArea = All;
             }
         }
     }

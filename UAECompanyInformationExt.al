@@ -1,5 +1,7 @@
 tableextension 70140921 "UAE Company Info Ext" extends "Company Information"
-{    
+{
+    
+    
     fields
     {
         // Add changes to table fields here
@@ -55,36 +57,43 @@ pageextension 70140921 "UAE Company Information Ext" extends "Company Informatio
                 {
                     Caption = 'Taxable Person Name En';
                     ToolTip = 'Name of the taxable person in English';
+                    ApplicationArea = All;
                 }
                 Field("UAE Taxable Person Name AR" ; "UAE Taxable Person Name AR" )
                 {
                   Caption = 'Taxable Person Name AR' ;
                   ToolTip = 'Name of the taxable person in Arabic';
+                  ApplicationArea = All;
                 }
                 Field("UAE Tax Agency Name" ; "UAE Tax Agency Name" )
                 {
                   Caption = 'Tax Agency Name' ;
                   ToolTip = 'Name of the Tax Agency in case the filing is done by a Tax Agency';
+                  ApplicationArea = All;
                 }
                 Field("UAE Tax Agency Number" ; "UAE Tax Agency Number" )
                 {
                   Caption = 'Tax Agency Number' ;   
                   ToolTip = 'Number of the Tax Agency in case the filing is done by a Tax Agency(TAN)';
+                  ApplicationArea = All;
                 }
                 Field("UAE Tax Agent Name"; "UAE Tax Agent Name" )
                 {
                   Caption = 'Tax Agent Name' ;
                   ToolTip = 'Name of the Tax Agent in case the filing is done by a Tax Agent';
+                  ApplicationArea = All;
                 }
                 Field("UAE Tax Agent Approval Number";"UAE Tax Agent Approval Number"  )
                 {
                   Caption = 'Tax Agent Approval Number' ;
                   ToolTip = 'Tax Agent Approval Number(TAAN)';   
+                  ApplicationArea = All;
                 }
                 Field("UAE FAF Version No.";"UAE FAF Version No."  )
                 {
                   Caption = 'FAF Version No.' ;
                   ToolTip = 'FTA Audit File (FAF) version number';
+                  ApplicationArea = All;
                 }
             }
         }

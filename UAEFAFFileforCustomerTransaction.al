@@ -1,6 +1,6 @@
 report 70140922 "UAE FAF Customer Transaction"
 {
-    Caption = 'FAF Customer Transaction';
+    Caption = 'UAE FAF Customer Transaction';
     DefaultLayout = RDLC;
     RDLCLayout = 'UAEFAFFileForCustomerTransaction.rdl';
     UsageCategory = ReportsAndAnalysis;
@@ -255,6 +255,7 @@ report 70140922 "UAE FAF Customer Transaction"
     requestpage
     {
         SaveValues = true;
+        
         layout
         {
             area(Content)
@@ -265,11 +266,14 @@ report 70140922 "UAE FAF Customer Transaction"
                     {
                         Caption = 'Period Start';
                         ToolTip = 'Starting date of VAT return filing period';
+                        ApplicationArea = All;
+
                     }
                     field("Period End"; PeriodEnd)
                     {
                         Caption = 'Period End';
                         ToolTip = 'Ending date of VAT return filing period';
+                        ApplicationArea = All;
                     }
                 }
             }
