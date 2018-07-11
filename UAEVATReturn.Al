@@ -563,8 +563,10 @@ page 70140922 "UAE VAT Return"
                     ExportFileName : Text;
                     Tempblob : Record TempBlob temporary;
                 begin
+                    
                     XMLParameter := FAFCustomerTransaction.RunRequestPage();
                     IF XMLParameter <> '' THEN begin
+                        clear(FAFCustomerTransaction);
                         Tempblob.Blob.CreateInStream(ExportFile);
                         Tempblob.Blob.CreateOutStream(ExportStream);
                         FAFCustomerTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);                        
@@ -590,9 +592,10 @@ page 70140922 "UAE VAT Return"
                         ExportFileName : Text;
                         Tempblob : REcord TempBlob temporary;
                     begin
-                                                
+                                         
                         XMLParameter := FAFSupplierTransaction.RunRequestPage();
                         IF XMLParameter <> '' THEN BEGIN
+                            clear(FAFSupplierTransaction); 
                             Tempblob.Blob.CreateInStream(ExportFile);
                             Tempblob.Blob.CreateOutStream(ExportStream);
                             FAFSupplierTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);                        
@@ -618,8 +621,10 @@ page 70140922 "UAE VAT Return"
                         ExportFileName : Text;
                         Tempblob : Record TempBlob temporary;
                     begin
+                        
                         XMLParameter := FAFGLTransaction.RunRequestPage();
                         IF XMLParameter <> '' THEN BEGIN
+                            clear(FAFGLTransaction);
                             Tempblob.Blob.CreateInStream(ExportFile);
                             Tempblob.Blob.CreateOutStream(ExportStream);
                             FAFGLTransaction.SaveAs(XMLParameter, ReportFormat::Excel, ExportStream);

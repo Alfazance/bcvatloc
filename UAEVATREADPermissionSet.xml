@@ -1,5 +1,5 @@
 <PermissionSets>
-  <PermissionSet RoleID="VAT-UAE LOC READ" RoleName="Read VAT Localization for UAE">
+  <PermissionSet RoleID="UAE VAT READ" RoleName="UAE VAT Read">
     <Permission>
       <ObjectType>3</ObjectType>
       <ObjectID>70140921</ObjectID>
