@@ -17,7 +17,6 @@ pageextension 70140923 UAEAccManRoleCenterVATLocExt extends "Accounting Manager 
                     ToolTip = 'VAT return report for submitting VAT to FTA';
                     ApplicationArea = All;
                     RunObject = page "UAE VAT Return" ;
-                    
                 }
             }
         }

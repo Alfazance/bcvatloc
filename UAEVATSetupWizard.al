@@ -3,6 +3,8 @@ page 70140924 "UAE VAT Setup Wizard"
     PageType = NavigatePage;
     SourceTable = "Company Information";
     Caption = 'UAE VAT Setup';
+    UsageCategory = Administration;
+    ApplicationArea = All;
 
     layout
     {
@@ -32,16 +34,21 @@ page 70140924 "UAE VAT Setup Wizard"
                     group(MasterData){
                         Caption = 'This wizard will take you through the process of creating the following VAT specific masters required for UAE';
 
-                        label(line1){
+                        label(line1)
+                        {
+                            ApplicationArea = All;
                             Caption = '';
                         }
                         label(Bus){
+                            ApplicationArea = All;
                             Caption = '1. VAT Business Posting Groups';
                         }                        
                         label(Prod){
+                            ApplicationArea = All;
                             Caption = '2. VAT Product Posting Groups';
                         }
                         label(UAE){
+                            ApplicationArea = All;
                             Caption = '3. VAT Groups';
                         }
                     }
@@ -59,33 +66,47 @@ page 70140924 "UAE VAT Setup Wizard"
 
                     label(VAT_DXB)
                     {
+                        ApplicationArea = All;
                         Caption = '1. VAT_DXB';
                     }
                     label(VAT_SHJ)
                     {
+                        ApplicationArea = All;
                         Caption = '2. VAT_SHJ';
                     }
                     label(VAT_FUJ)
                     {
+                        ApplicationArea = All;
                         Caption = '3. VAT_FUJ';
                     }
-                    label(VAT_ADU)
+                    label(VAT_AUH)
                     {
-                        Caption = '4. VAT_AUD';
+                        ApplicationArea = All;
+                        Caption = '4. VAT_AUH';
                     }
-                    label(VAT_AJM){
+                    label(VAT_AJM)
+                    {
+                        ApplicationArea = All;
                         Caption = '5. VAT_AJM';
                     }
-                    label(VAT_RAK){
+                    label(VAT_RAK)
+                    {
+                        ApplicationArea = All;
                         Caption = '6. VAT_RAK';
                     }
-                    label(VAT_UAQ){
+                    label(VAT_UAQ)
+                    {
+                        ApplicationArea = All;
                         Caption = '7. VAT_UAQ';
                     }
-                    label(VAT_GCC){
+                    label(VAT_GCC)
+                    {
+                        ApplicationArea = All;
                         Caption = '8. VAT_GCC';
                     }
-                    label(VAT_OTHERS){
+                    label(VAT_OTHERS)
+                    {
+                        ApplicationArea = All;
                         Caption = '9. VAT_OTHERS';
                     }
                 }
@@ -100,16 +121,24 @@ page 70140924 "UAE VAT Setup Wizard"
                 {
                     Caption = 'Product Posting Groups';
 
-                    label(Zero){
+                    label(Zero)
+                    {
+                        ApplicationArea = All;
                         Caption = '1. VAT_0';
                     }
-                    label(VAT_5G){
+                    label(VAT_5G)
+                    {
+                        ApplicationArea = All;
                         Caption = '2. VAT_5G';
                     }
-                    label(VAT_5S){
+                    label(VAT_5S)
+                    {
+                        ApplicationArea = All;
                         Caption = '3. VAT_5S';
                     }
-                    label(VAT_EX){
+                    label(VAT_EX)
+                    {
+                        ApplicationArea = All;
                         Caption = '4. VAT_EX';
                     }
                 }
@@ -123,25 +152,39 @@ page 70140924 "UAE VAT Setup Wizard"
                 group(VATGroups)
                 {
                     Caption = 'VAT Groups';
-                    label(DXB){
+                    label(DXB)
+                    {
+                        ApplicationArea = All;
                         Caption = '1. DXB';
                     }
-                    label(AUD){
+                    label(AUD)
+                    {
+                        ApplicationArea = All;
                         Caption = '2. AUD';
                     }
-                    label(SHJ){
+                    label(SHJ)
+                    {
+                        ApplicationArea = All;
                         Caption = '3. SHJ';
                     }
-                    label(AJM){
+                    label(AJM)
+                    {
+                        ApplicationArea = All;
                         Caption = '4. AJM';
                     }
-                    label(UAQ){
+                    label(UAQ)
+                    {
+                        ApplicationArea = All;
                         Caption = '5. UAQ';
                     }
-                    label(RAK){
+                    label(RAK)
+                    {
+                        ApplicationArea = All;
                         Caption = '6. RAK';
                     }
-                    label(FUJ){
+                    label(FUJ)
+                    {
+                        ApplicationArea = All;
                         Caption = '7. FUJ';
                     }
                 }
@@ -217,10 +260,10 @@ page 70140924 "UAE VAT Setup Wizard"
                         VATBusPostGroup.Insert();
                     end;
 
-                    IF VATBusPostGroup.Get('VAT_AUD') = false then 
+                    IF VATBusPostGroup.Get('VAT_AUH') = false then 
                     begin
                         VATBusPostGroup.Init();
-                        VATBusPostGroup.Code := 'VAT_AUD';
+                        VATBusPostGroup.Code := 'VAT_AUH';
                         VATBusPostGroup.Description := 'VAT Group for Abu Dhabi';
                         VATBusPostGroup.Insert();
                     end;
